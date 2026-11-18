@@ -1,0 +1,1394 @@
+[
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 0,
+    "name": "p17_unmasked_nested_fractional_mode_00",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 0,
+    "name": "p17_unmasked_boundary_controls_mode_00",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 1,
+    "name": "p17_unmasked_nested_fractional_mode_01",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 1,
+    "name": "p17_unmasked_boundary_controls_mode_01",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 2,
+    "name": "p17_unmasked_nested_fractional_mode_02",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 2,
+    "name": "p17_unmasked_boundary_controls_mode_02",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 3,
+    "name": "p17_unmasked_nested_fractional_mode_03",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 3,
+    "name": "p17_unmasked_boundary_controls_mode_03",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 4,
+    "name": "p17_unmasked_nested_fractional_mode_04",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 4,
+    "name": "p17_unmasked_boundary_controls_mode_04",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 5,
+    "name": "p17_unmasked_nested_fractional_mode_05",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 5,
+    "name": "p17_unmasked_boundary_controls_mode_05",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 6,
+    "name": "p17_unmasked_nested_fractional_mode_06",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 6,
+    "name": "p17_unmasked_boundary_controls_mode_06",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 7,
+    "name": "p17_unmasked_nested_fractional_mode_07",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 7,
+    "name": "p17_unmasked_boundary_controls_mode_07",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 8,
+    "name": "p17_unmasked_nested_fractional_mode_08",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 8,
+    "name": "p17_unmasked_boundary_controls_mode_08",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 9,
+    "name": "p17_unmasked_nested_fractional_mode_09",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 9,
+    "name": "p17_unmasked_boundary_controls_mode_09",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 10,
+    "name": "p17_unmasked_nested_fractional_mode_10",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 10,
+    "name": "p17_unmasked_boundary_controls_mode_10",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 11,
+    "name": "p17_unmasked_nested_fractional_mode_11",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 11,
+    "name": "p17_unmasked_boundary_controls_mode_11",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 12,
+    "name": "p17_unmasked_nested_fractional_mode_12",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 12,
+    "name": "p17_unmasked_boundary_controls_mode_12",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 13,
+    "name": "p17_unmasked_nested_fractional_mode_13",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 13,
+    "name": "p17_unmasked_boundary_controls_mode_13",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 14,
+    "name": "p17_unmasked_nested_fractional_mode_14",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 14,
+    "name": "p17_unmasked_boundary_controls_mode_14",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 15,
+    "name": "p17_unmasked_nested_fractional_mode_15",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 15,
+    "name": "p17_unmasked_boundary_controls_mode_15",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 16,
+    "name": "p17_unmasked_nested_fractional_mode_16",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 16,
+    "name": "p17_unmasked_boundary_controls_mode_16",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 17,
+    "name": "p17_unmasked_nested_fractional_mode_17",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 17,
+    "name": "p17_unmasked_boundary_controls_mode_17",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 18,
+    "name": "p17_unmasked_nested_fractional_mode_18",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 18,
+    "name": "p17_unmasked_boundary_controls_mode_18",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 19,
+    "name": "p17_unmasked_nested_fractional_mode_19",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 19,
+    "name": "p17_unmasked_boundary_controls_mode_19",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 20,
+    "name": "p17_unmasked_nested_fractional_mode_20",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 20,
+    "name": "p17_unmasked_boundary_controls_mode_20",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 21,
+    "name": "p17_unmasked_nested_fractional_mode_21",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 21,
+    "name": "p17_unmasked_boundary_controls_mode_21",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 22,
+    "name": "p17_unmasked_nested_fractional_mode_22",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 22,
+    "name": "p17_unmasked_boundary_controls_mode_22",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "nested_fractional",
+    "groupModeRestriction": "Normal only",
+    "mode": 23,
+    "name": "p17_unmasked_nested_fractional_mode_23",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "desktopVisibleDFSLeaves": [
+      0,
+      3,
+      6,
+      7,
+      5,
+      2,
+      10
+    ],
+    "family": "boundary_controls",
+    "groupModeRestriction": "Normal only",
+    "mode": 23,
+    "name": "p17_unmasked_boundary_controls_mode_23",
+    "selectedLeaf": 6,
+    "storageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+]

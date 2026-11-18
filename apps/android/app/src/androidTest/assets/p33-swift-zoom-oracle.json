@@ -1,0 +1,660 @@
+{
+  "cases" : [
+    {
+      "anchor" : [
+        183,
+        267
+      ],
+      "backingScale" : 1,
+      "initialAnchorDocumentPixel" : [
+        396.80000000000001,
+        441.19999999999999
+      ],
+      "initialPan" : [
+        37,
+        -22
+      ],
+      "initialZoom" : 1.25,
+      "samples" : [
+        {
+          "actualZoom" : 2.5,
+          "anchorDocumentPixel" : [
+            396.80000000000001,
+            441.19999999999999
+          ],
+          "followsFit" : false,
+          "label" : "up100",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            291,
+            -11
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "2.5",
+          "risePoints" : 100
+        },
+        {
+          "actualZoom" : 2.1763764082403103,
+          "anchorDocumentPixel" : [
+            396.80000000000001,
+            441.19999999999999
+          ],
+          "followsFit" : false,
+          "label" : "reverseAboveStart80",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            225.23968615443107,
+            -13.847887607485291
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "2.1763764082403103",
+          "risePoints" : 80
+        },
+        {
+          "actualZoom" : 2.1763764082403103,
+          "anchorDocumentPixel" : [
+            396.80000000000001,
+            441.19999999999999
+          ],
+          "followsFit" : false,
+          "label" : "sameY80",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            225.23968615443107,
+            -13.847887607485291
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "2.1763764082403103",
+          "risePoints" : 80
+        },
+        {
+          "actualZoom" : 1.25,
+          "anchorDocumentPixel" : [
+            396.80000000000001,
+            441.19999999999999
+          ],
+          "followsFit" : false,
+          "label" : "returnStart",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            37,
+            -22
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1.25",
+          "risePoints" : 0
+        },
+        {
+          "actualZoom" : 0.625,
+          "anchorDocumentPixel" : [
+            396.80000000000001,
+            441.19999999999999
+          ],
+          "followsFit" : false,
+          "label" : "down100",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            -90,
+            -27.5
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "0.625",
+          "risePoints" : -100
+        },
+        {
+          "actualZoom" : 0.7179364718731468,
+          "anchorDocumentPixel" : [
+            396.80000000000007,
+            441.19999999999999
+          ],
+          "followsFit" : false,
+          "label" : "reverseBelowStart80",
+          "maxAnchorDocumentPixelError" : 5.6843418860808015e-14,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            -71.115308915376602,
+            -26.682159047516279
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "0.7179364718731468",
+          "risePoints" : -80
+        },
+        {
+          "actualZoom" : 32,
+          "anchorDocumentPixel" : [
+            396.80000000000007,
+            441.19999999999999
+          ],
+          "followsFit" : false,
+          "label" : "upperClamp",
+          "maxAnchorDocumentPixelError" : 5.6843418860808015e-14,
+          "maxAnchorViewPointError" : 1.8189894035458565e-12,
+          "originalPixelViewPosition" : [
+            182.99999999999818,
+            267
+          ],
+          "pan" : [
+            6285.3999999999987,
+            248.59999999999968
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1310720",
+          "risePoints" : 2000
+        },
+        {
+          "actualZoom" : 2.5,
+          "anchorDocumentPixel" : [
+            396.80000000000001,
+            441.19999999999999
+          ],
+          "followsFit" : false,
+          "label" : "upperRecovery",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            291,
+            -11
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "2.5",
+          "risePoints" : 100
+        },
+        {
+          "actualZoom" : 0.001,
+          "anchorDocumentPixel" : [
+            396.79999999998472,
+            441.19999999998072
+          ],
+          "followsFit" : false,
+          "label" : "lowerClamp",
+          "maxAnchorDocumentPixelError" : 1.9269918993813917e-11,
+          "maxAnchorViewPointError" : 2.8421709430404007e-14,
+          "originalPixelViewPosition" : [
+            183.00000000000003,
+            267
+          ],
+          "pan" : [
+            -216.79679999999996,
+            -32.991199999999992
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1.1920928955078125e-06",
+          "risePoints" : -2000
+        },
+        {
+          "actualZoom" : 0.625,
+          "anchorDocumentPixel" : [
+            396.79999999998472,
+            441.19999999998072
+          ],
+          "followsFit" : false,
+          "label" : "lowerRecovery",
+          "maxAnchorDocumentPixelError" : 1.9269918993813917e-11,
+          "maxAnchorViewPointError" : 1.2050804798491299e-11,
+          "originalPixelViewPosition" : [
+            183.00000000000955,
+            267.00000000001205
+          ],
+          "pan" : [
+            -89.99999999999045,
+            -27.499999999987949
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "0.625",
+          "risePoints" : -100
+        },
+        {
+          "actualZoom" : 0.625,
+          "anchorDocumentPixel" : [
+            396.79999999998472,
+            441.19999999998072
+          ],
+          "followsFit" : false,
+          "label" : "overflowTargetIgnored",
+          "maxAnchorDocumentPixelError" : 1.9269918993813917e-11,
+          "maxAnchorViewPointError" : 1.2050804798491299e-11,
+          "originalPixelViewPosition" : [
+            183.00000000000955,
+            267.00000000001205
+          ],
+          "pan" : [
+            -89.99999999999045,
+            -27.499999999987949
+          ],
+          "requestedFinite" : false,
+          "requestedZoom" : "infinity",
+          "risePoints" : 200000
+        },
+        {
+          "actualZoom" : 1.7677669529663689,
+          "anchorDocumentPixel" : [
+            396.79999999998472,
+            441.19999999998072
+          ],
+          "followsFit" : false,
+          "label" : "recoverAfterOverflow",
+          "maxAnchorDocumentPixelError" : 1.9269918993813917e-11,
+          "maxAnchorViewPointError" : 3.4106051316484809e-11,
+          "originalPixelViewPosition" : [
+            183.00000000002706,
+            267.00000000003411
+          ],
+          "pan" : [
+            142.21024484279303,
+            -17.443650813861836
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1.7677669529663689",
+          "risePoints" : 50
+        },
+        {
+          "actualZoom" : 0.001,
+          "anchorDocumentPixel" : [
+            396.79999999998472,
+            441.19999999998072
+          ],
+          "followsFit" : false,
+          "label" : "underflowTargetClamped",
+          "maxAnchorDocumentPixelError" : 1.9269918993813917e-11,
+          "maxAnchorViewPointError" : 2.8421709430404007e-14,
+          "originalPixelViewPosition" : [
+            183.00000000000003,
+            267
+          ],
+          "pan" : [
+            -216.79679999999996,
+            -32.991199999999992
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "0",
+          "risePoints" : -200000
+        },
+        {
+          "actualZoom" : 1.25,
+          "anchorDocumentPixel" : [
+            396.79999999998472,
+            441.19999999998072
+          ],
+          "followsFit" : false,
+          "label" : "recoverAfterUnderflow",
+          "maxAnchorDocumentPixelError" : 1.9269918993813917e-11,
+          "maxAnchorViewPointError" : 2.4101609596982598e-11,
+          "originalPixelViewPosition" : [
+            183.0000000000191,
+            267.0000000000241
+          ],
+          "pan" : [
+            37.000000000019099,
+            -21.999999999975898
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1.25",
+          "risePoints" : 0
+        }
+      ]
+    },
+    {
+      "anchor" : [
+        183,
+        267
+      ],
+      "backingScale" : 2,
+      "initialAnchorDocumentPixel" : [
+        193.59999999999999,
+        432.39999999999998
+      ],
+      "initialPan" : [
+        37,
+        -22
+      ],
+      "initialZoom" : 1.25,
+      "samples" : [
+        {
+          "actualZoom" : 2.5,
+          "anchorDocumentPixel" : [
+            193.59999999999999,
+            432.39999999999998
+          ],
+          "followsFit" : false,
+          "label" : "up100",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            291,
+            -11
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "2.5",
+          "risePoints" : 100
+        },
+        {
+          "actualZoom" : 2.1763764082403103,
+          "anchorDocumentPixel" : [
+            193.59999999999999,
+            432.39999999999998
+          ],
+          "followsFit" : false,
+          "label" : "reverseAboveStart80",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            225.23968615443107,
+            -13.847887607485291
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "2.1763764082403103",
+          "risePoints" : 80
+        },
+        {
+          "actualZoom" : 2.1763764082403103,
+          "anchorDocumentPixel" : [
+            193.59999999999999,
+            432.39999999999998
+          ],
+          "followsFit" : false,
+          "label" : "sameY80",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            225.23968615443107,
+            -13.847887607485291
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "2.1763764082403103",
+          "risePoints" : 80
+        },
+        {
+          "actualZoom" : 1.25,
+          "anchorDocumentPixel" : [
+            193.59999999999999,
+            432.39999999999998
+          ],
+          "followsFit" : false,
+          "label" : "returnStart",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            37,
+            -22
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1.25",
+          "risePoints" : 0
+        },
+        {
+          "actualZoom" : 0.625,
+          "anchorDocumentPixel" : [
+            193.59999999999999,
+            432.39999999999998
+          ],
+          "followsFit" : false,
+          "label" : "down100",
+          "maxAnchorDocumentPixelError" : 0,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            -90,
+            -27.5
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "0.625",
+          "risePoints" : -100
+        },
+        {
+          "actualZoom" : 0.7179364718731468,
+          "anchorDocumentPixel" : [
+            193.60000000000002,
+            432.39999999999992
+          ],
+          "followsFit" : false,
+          "label" : "reverseBelowStart80",
+          "maxAnchorDocumentPixelError" : 5.6843418860808015e-14,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            -71.115308915376573,
+            -26.682159047516279
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "0.7179364718731468",
+          "risePoints" : -80
+        },
+        {
+          "actualZoom" : 32,
+          "anchorDocumentPixel" : [
+            193.60000000000008,
+            432.39999999999992
+          ],
+          "followsFit" : false,
+          "label" : "upperClamp",
+          "maxAnchorDocumentPixelError" : 8.5265128291212022e-14,
+          "maxAnchorViewPointError" : 1.3642420526593924e-12,
+          "originalPixelViewPosition" : [
+            182.99999999999864,
+            267.00000000000091
+          ],
+          "pan" : [
+            6285.3999999999987,
+            248.6000000000015
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1310720",
+          "risePoints" : 2000
+        },
+        {
+          "actualZoom" : 2.5,
+          "anchorDocumentPixel" : [
+            193.59999999999999,
+            432.39999999999992
+          ],
+          "followsFit" : false,
+          "label" : "upperRecovery",
+          "maxAnchorDocumentPixelError" : 5.6843418860808015e-14,
+          "maxAnchorViewPointError" : 1.1368683772161603e-13,
+          "originalPixelViewPosition" : [
+            183,
+            267.00000000000011
+          ],
+          "pan" : [
+            291,
+            -10.999999999999886
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "2.5",
+          "risePoints" : 100
+        },
+        {
+          "actualZoom" : 0.001,
+          "anchorDocumentPixel" : [
+            193.60000000017408,
+            432.40000000002965
+          ],
+          "followsFit" : false,
+          "label" : "lowerClamp",
+          "maxAnchorDocumentPixelError" : 1.7408297026122455e-10,
+          "maxAnchorViewPointError" : 8.5265128291212022e-14,
+          "originalPixelViewPosition" : [
+            182.99999999999991,
+            267
+          ],
+          "pan" : [
+            -216.79680000000008,
+            -32.991199999999992
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1.1920928955078125e-06",
+          "risePoints" : -2000
+        },
+        {
+          "actualZoom" : 0.625,
+          "anchorDocumentPixel" : [
+            193.60000000017408,
+            432.40000000002965
+          ],
+          "followsFit" : false,
+          "label" : "lowerRecovery",
+          "maxAnchorDocumentPixelError" : 1.7408297026122455e-10,
+          "maxAnchorViewPointError" : 5.439915184979327e-11,
+          "originalPixelViewPosition" : [
+            182.9999999999456,
+            266.99999999999073
+          ],
+          "pan" : [
+            -90.000000000054399,
+            -27.500000000009265
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "0.625",
+          "risePoints" : -100
+        },
+        {
+          "actualZoom" : 0.625,
+          "anchorDocumentPixel" : [
+            193.60000000017408,
+            432.40000000002965
+          ],
+          "followsFit" : false,
+          "label" : "overflowTargetIgnored",
+          "maxAnchorDocumentPixelError" : 1.7408297026122455e-10,
+          "maxAnchorViewPointError" : 5.439915184979327e-11,
+          "originalPixelViewPosition" : [
+            182.9999999999456,
+            266.99999999999073
+          ],
+          "pan" : [
+            -90.000000000054399,
+            -27.500000000009265
+          ],
+          "requestedFinite" : false,
+          "requestedZoom" : "infinity",
+          "risePoints" : 200000
+        },
+        {
+          "actualZoom" : 1.7677669529663689,
+          "anchorDocumentPixel" : [
+            193.60000000017408,
+            432.40000000002965
+          ],
+          "followsFit" : false,
+          "label" : "recoverAfterOverflow",
+          "maxAnchorDocumentPixelError" : 1.7408297026122455e-10,
+          "maxAnchorViewPointError" : 1.538751348562073e-10,
+          "originalPixelViewPosition" : [
+            182.99999999984612,
+            266.9999999999738
+          ],
+          "pan" : [
+            142.21024484261224,
+            -17.443650813922147
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1.7677669529663689",
+          "risePoints" : 50
+        },
+        {
+          "actualZoom" : 0.001,
+          "anchorDocumentPixel" : [
+            193.60000000000355,
+            432.40000000002965
+          ],
+          "followsFit" : false,
+          "label" : "underflowTargetClamped",
+          "maxAnchorDocumentPixelError" : 2.9672264645341784e-11,
+          "maxAnchorViewPointError" : 0,
+          "originalPixelViewPosition" : [
+            183,
+            267
+          ],
+          "pan" : [
+            -216.79679999999999,
+            -32.991199999999992
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "0",
+          "risePoints" : -200000
+        },
+        {
+          "actualZoom" : 1.25,
+          "anchorDocumentPixel" : [
+            193.60000000000355,
+            432.40000000002965
+          ],
+          "followsFit" : false,
+          "label" : "recoverAfterUnderflow",
+          "maxAnchorDocumentPixelError" : 2.9672264645341784e-11,
+          "maxAnchorViewPointError" : 1.8530954548623413e-11,
+          "originalPixelViewPosition" : [
+            182.99999999999778,
+            266.99999999998147
+          ],
+          "pan" : [
+            36.999999999997783,
+            -22.000000000018531
+          ],
+          "requestedFinite" : true,
+          "requestedZoom" : "1.25",
+          "risePoints" : 0
+        }
+      ]
+    }
+  ],
+  "formula" : "startZoom * pow(2, risePoints \/ 100)",
+  "passed" : true,
+  "scope" : "Actual host Swift value-type oracle only; no Mac app, Android or physical mouse runtime",
+  "source" : "Frozen unmodified accepted Mac CanvasViewport.swift"
+}

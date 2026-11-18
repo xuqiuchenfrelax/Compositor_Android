@@ -1,0 +1,135 @@
+{
+  "activeLayerID" : "A2000000-0000-4000-8000-000000000004",
+  "colorSpace" : "sRGB",
+  "documentID" : "A2000000-0000-4000-8000-000000000001",
+  "format" : "com.compositor.project",
+  "guides" : [
+    {
+      "axis" : "horizontal",
+      "id" : "A2000000-0000-4000-8000-000000000006",
+      "position" : 2.123456789012345
+    },
+    {
+      "axis" : "vertical",
+      "id" : "A2000000-0000-4000-8000-000000000007",
+      "position" : -3.987654321098765
+    }
+  ],
+  "height" : 8,
+  "layers" : [
+    {
+      "blendMode" : "Normal",
+      "id" : "A2000000-0000-4000-8000-000000000002",
+      "isGroup" : true,
+      "isVisible" : true,
+      "name" : "组合 🎨",
+      "opacity" : 0.7312345678901234,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          0
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "A2000000-0000-4000-8000-000000000003",
+      "imageFile" : "A2000000-0000-4000-8000-000000000003.png",
+      "isVisible" : true,
+      "maskEnabled" : true,
+      "maskFile" : "A2000000-0000-4000-8000-000000000003.mask.png",
+      "maskLinked" : true,
+      "name" : "原像素",
+      "opacity" : 0.8123456789012345,
+      "parentID" : "A2000000-0000-4000-8000-000000000002",
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          0
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "A2000000-0000-4000-8000-000000000004",
+      "imageFile" : "A2000000-0000-4000-8000-000000000004.png",
+      "isVisible" : false,
+      "maskEnabled" : false,
+      "maskFile" : "A2000000-0000-4000-8000-000000000004.mask.png",
+      "maskLinked" : false,
+      "maskPlacement" : {
+        "flipX" : false,
+        "flipY" : true,
+        "origin" : [
+          5.123456789012345,
+          -1.987654321098765
+        ],
+        "rotation" : 180,
+        "sampling" : "Nearest",
+        "size" : [
+          3,
+          2
+        ]
+      },
+      "maskSourceID" : "A2000000-0000-4000-8000-000000000003",
+      "name" : "独立蒙版",
+      "opacity" : 0.6123456789012345,
+      "parentID" : "A2000000-0000-4000-8000-000000000002",
+      "transform" : {
+        "flipX" : true,
+        "flipY" : false,
+        "origin" : [
+          4.123456789012345,
+          2.987654321098765
+        ],
+        "rotation" : 360000000090,
+        "sampling" : "Nearest",
+        "size" : [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "A2000000-0000-4000-8000-000000000005",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "无资产空白",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          0
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          8,
+          8
+        ]
+      }
+    }
+  ],
+  "resolution" : 300.1234567890123,
+  "version" : 14,
+  "width" : 8
+}

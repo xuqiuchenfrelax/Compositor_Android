@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_levels_sample">取样</string>
+    <string name="ui_levels_sample_black">黑场</string>
+    <string name="ui_levels_sample_gray">灰场</string>
+    <string name="ui_levels_sample_white">白场</string>
+    <string name="ui_levels_sample_help">轻点原始画布设置%1$s。再次轻点同一吸管停止取样。</string>
+    <string name="ui_levels_sample_picker">取样%1$s</string>
+</resources>

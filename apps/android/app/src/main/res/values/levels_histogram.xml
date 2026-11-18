@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_levels_auto">Auto</string>
+    <string name="ui_levels_auto_contrast">Contrast</string>
+    <string name="ui_levels_auto_color">Color</string>
+    <string name="ui_levels_auto_neutral">Color + neutral midtones</string>
+    <string name="ui_levels_histogram_channel">Underlying %1$s histogram</string>
+    <string name="ui_levels_histogram_source">Underlying pixels · alpha-weighted histogram</string>
+    <string name="ui_levels_histogram_loading">Loading histogram…</string>
+    <string name="ui_levels_histogram_failed">Histogram unavailable. Manual editing is still available.</string>
+    <string name="ui_levels_histogram_empty">Empty histogram</string>
+    <string name="ui_levels_histogram_ready">Histogram ready</string>
+    <string name="ui_levels_histogram_retry">Retry histogram</string>
+</resources>

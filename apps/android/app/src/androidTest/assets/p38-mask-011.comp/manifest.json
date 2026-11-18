@@ -1,0 +1,53 @@
+{
+  "format": "com.compositor.project",
+  "version": 13,
+  "documentID": "FA4CBCCB-B219-5E7A-900D-6E8F21140B59",
+  "width": 1,
+  "height": 1,
+  "resolution": 72,
+  "colorSpace": "sRGB",
+  "activeLayerID": "D2B20332-C79A-5D37-8462-328E6EB49E69",
+  "guides": [],
+  "layers": [
+    {
+      "id": "D2B20332-C79A-5D37-8462-328E6EB49E69",
+      "name": "fresh_2__random3",
+      "isVisible": true,
+      "opacity": 1,
+      "blendMode": "Normal",
+      "isGroup": false,
+      "imageFile": "D2B20332-C79A-5D37-8462-328E6EB49E69.png",
+      "transform": {
+        "origin": [
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Nearest"
+      },
+      "maskFile": "D2B20332-C79A-5D37-8462-328E6EB49E69.mask.png",
+      "maskEnabled": true,
+      "maskLinked": false,
+      "maskPlacement": {
+        "origin": [
+          -31.289875990938864,
+          -15.813223425671039
+        ],
+        "size": [
+          29.353057599001424,
+          23.390196104064326
+        ],
+        "rotation": -23.447903060731164,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Nearest"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_levels_input_handles">Input level handles</string>
+    <string name="ui_levels_output_handles">Output level handles</string>
+    <string name="ui_levels_handle_black">Input black handle</string>
+    <string name="ui_levels_handle_gamma">Gamma handle</string>
+    <string name="ui_levels_handle_white">Input white handle</string>
+    <string name="ui_levels_handle_output_black">Output black handle</string>
+    <string name="ui_levels_handle_output_white">Output white handle</string>
+</resources>

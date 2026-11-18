@@ -1,0 +1,1147 @@
+{
+  "editablePackage": {
+    "activeLayerUUID": "A2000000-0000-4000-8000-000000000004",
+    "assetlessUUIDs": [
+      "A2000000-0000-4000-8000-000000000002",
+      "A2000000-0000-4000-8000-000000000005"
+    ],
+    "explicitMaskPlacementUUID": "A2000000-0000-4000-8000-000000000004",
+    "fileSHA256": {
+      "nearest-editable.comp/images/A2000000-0000-4000-8000-000000000003.mask.png": "13e3d7b710d993c88c91c5ab2a025497ad607b88f7cc3b717e2a0c0c5a8f1777",
+      "nearest-editable.comp/images/A2000000-0000-4000-8000-000000000003.png": "08417db1c1e70db1733cdf236cc98ffbfea23a0274ebccaffecc96e98f3a217a",
+      "nearest-editable.comp/images/A2000000-0000-4000-8000-000000000004.mask.png": "13e3d7b710d993c88c91c5ab2a025497ad607b88f7cc3b717e2a0c0c5a8f1777",
+      "nearest-editable.comp/images/A2000000-0000-4000-8000-000000000004.png": "08417db1c1e70db1733cdf236cc98ffbfea23a0274ebccaffecc96e98f3a217a",
+      "nearest-editable.comp/manifest.json": "831aa731947b64a367d1b8d0e711b3895a80a96ff2602a45bf5414465012330e"
+    },
+    "imageGoldenFixture": "srgb_rgba8",
+    "layerUUIDOrder": [
+      "A2000000-0000-4000-8000-000000000002",
+      "A2000000-0000-4000-8000-000000000003",
+      "A2000000-0000-4000-8000-000000000004",
+      "A2000000-0000-4000-8000-000000000005"
+    ],
+    "maskGoldenFixture": "gray8_mask",
+    "metadata": {
+      "activeLayerID": "A2000000-0000-4000-8000-000000000004",
+      "colorSpace": "sRGB",
+      "documentID": "A2000000-0000-4000-8000-000000000001",
+      "format": "com.compositor.project",
+      "guides": [
+        {
+          "axis": "horizontal",
+          "id": "A2000000-0000-4000-8000-000000000006",
+          "position": 2.123456789012345
+        },
+        {
+          "axis": "vertical",
+          "id": "A2000000-0000-4000-8000-000000000007",
+          "position": -3.987654321098765
+        }
+      ],
+      "height": 8,
+      "layers": [
+        {
+          "blendMode": "Normal",
+          "id": "A2000000-0000-4000-8000-000000000002",
+          "isGroup": true,
+          "isVisible": true,
+          "name": "组合 🎨",
+          "opacity": 0.7312345678901234,
+          "transform": {
+            "flipX": false,
+            "flipY": false,
+            "origin": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "sampling": "Nearest",
+            "size": [
+              8,
+              8
+            ]
+          }
+        },
+        {
+          "blendMode": "Normal",
+          "id": "A2000000-0000-4000-8000-000000000003",
+          "imageFile": "A2000000-0000-4000-8000-000000000003.png",
+          "isVisible": true,
+          "maskEnabled": true,
+          "maskFile": "A2000000-0000-4000-8000-000000000003.mask.png",
+          "maskLinked": true,
+          "name": "原像素",
+          "opacity": 0.8123456789012345,
+          "parentID": "A2000000-0000-4000-8000-000000000002",
+          "transform": {
+            "flipX": false,
+            "flipY": false,
+            "origin": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "sampling": "Nearest",
+            "size": [
+              3,
+              2
+            ]
+          }
+        },
+        {
+          "blendMode": "Normal",
+          "id": "A2000000-0000-4000-8000-000000000004",
+          "imageFile": "A2000000-0000-4000-8000-000000000004.png",
+          "isVisible": false,
+          "maskEnabled": false,
+          "maskFile": "A2000000-0000-4000-8000-000000000004.mask.png",
+          "maskLinked": false,
+          "maskPlacement": {
+            "flipX": false,
+            "flipY": true,
+            "origin": [
+              5.123456789012345,
+              -1.987654321098765
+            ],
+            "rotation": 180,
+            "sampling": "Nearest",
+            "size": [
+              3,
+              2
+            ]
+          },
+          "maskSourceID": "A2000000-0000-4000-8000-000000000003",
+          "name": "独立蒙版",
+          "opacity": 0.6123456789012345,
+          "parentID": "A2000000-0000-4000-8000-000000000002",
+          "transform": {
+            "flipX": true,
+            "flipY": false,
+            "origin": [
+              4.123456789012345,
+              2.987654321098765
+            ],
+            "rotation": 360000000090,
+            "sampling": "Nearest",
+            "size": [
+              3,
+              2
+            ]
+          }
+        },
+        {
+          "blendMode": "Normal",
+          "id": "A2000000-0000-4000-8000-000000000005",
+          "isGroup": false,
+          "isVisible": true,
+          "name": "无资产空白",
+          "opacity": 1,
+          "transform": {
+            "flipX": false,
+            "flipY": false,
+            "origin": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "sampling": "Nearest",
+            "size": [
+              8,
+              8
+            ]
+          }
+        }
+      ],
+      "resolution": 300.1234567890123,
+      "version": 13,
+      "width": 8
+    },
+    "nilMaskPlacementUUID": "A2000000-0000-4000-8000-000000000003",
+    "path": "nearest-editable.comp",
+    "renderedGolden": "rendered-project.json",
+    "renderedGoldenSHA256": "44b9ee9772ed5a4ed4e6db0578645243829ad0500e4bdb863f786ba61e06b838",
+    "sharedLimitedBuilderExpectation": "load/edit/recover"
+  },
+  "fixtures": [
+    {
+      "chunks": [
+        {
+          "length": 13,
+          "type": "IHDR"
+        },
+        {
+          "length": 1,
+          "type": "sRGB"
+        },
+        {
+          "length": 68,
+          "type": "eXIf"
+        },
+        {
+          "length": 32,
+          "type": "IDAT"
+        },
+        {
+          "length": 0,
+          "type": "IEND"
+        }
+      ],
+      "decodedBitsPerComponent": 8,
+      "decodedColorSpace": "kCGColorSpaceSRGB",
+      "encodedSHA256": "08417db1c1e70db1733cdf236cc98ffbfea23a0274ebccaffecc96e98f3a217a",
+      "expectedLayout": "sRGB premultiplied RGBA8, top-left rows",
+      "expectedPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "file": "assets/srgb_rgba8.png",
+      "height": 2,
+      "iccProfiles": [],
+      "inputLayout": "premultiplied RGBA8",
+      "inputPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "mask": false,
+      "name": "srgb_rgba8",
+      "pngHeader": {
+        "bitDepth": 8,
+        "colorType": 6,
+        "compression": 0,
+        "filter": 0,
+        "height": 2,
+        "interlace": 0,
+        "width": 3
+      },
+      "provenance": "ProjectStore 8-bit image PNG encoder, named sRGB",
+      "sharedLimitedCodecExpectation": "decode",
+      "srgbRenderingIntent": 0,
+      "width": 3
+    },
+    {
+      "chunks": [
+        {
+          "length": 13,
+          "type": "IHDR"
+        },
+        {
+          "length": 1,
+          "type": "sRGB"
+        },
+        {
+          "length": 56,
+          "type": "eXIf"
+        },
+        {
+          "length": 32,
+          "type": "IDAT"
+        },
+        {
+          "length": 0,
+          "type": "IEND"
+        }
+      ],
+      "decodedBitsPerComponent": 8,
+      "decodedColorSpace": "kCGColorSpaceSRGB",
+      "encodedSHA256": "32f4a5135e644fc65ee4578fcf20d93e0990104f9e735450f005ae19fb746419",
+      "expectedLayout": "sRGB premultiplied RGBA8, top-left rows",
+      "expectedPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "file": "assets/device_rgb.png",
+      "height": 2,
+      "iccProfiles": [],
+      "inputLayout": "premultiplied RGBA8",
+      "inputPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "mask": false,
+      "name": "device_rgb",
+      "pngHeader": {
+        "bitDepth": 8,
+        "colorType": 6,
+        "compression": 0,
+        "filter": 0,
+        "height": 2,
+        "interlace": 0,
+        "width": 3
+      },
+      "provenance": "ProjectStore encoder, DeviceRGB",
+      "sharedLimitedCodecExpectation": "decode",
+      "srgbRenderingIntent": 0,
+      "width": 3
+    },
+    {
+      "chunks": [
+        {
+          "length": 13,
+          "type": "IHDR"
+        },
+        {
+          "length": 68,
+          "type": "eXIf"
+        },
+        {
+          "length": 32,
+          "type": "IDAT"
+        },
+        {
+          "length": 0,
+          "type": "IEND"
+        }
+      ],
+      "decodedBitsPerComponent": 8,
+      "decodedColorSpace": "kCGColorSpaceSRGB",
+      "encodedSHA256": "725831a3d9f51b92c0d0cad84111defdcf73da5e5e060f8eb9945f20966f01c1",
+      "expectedLayout": "sRGB premultiplied RGBA8, top-left rows",
+      "expectedPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "file": "assets/untagged_rgba8.png",
+      "height": 2,
+      "iccProfiles": [],
+      "inputLayout": "premultiplied RGBA8",
+      "inputPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "mask": false,
+      "name": "untagged_rgba8",
+      "pngHeader": {
+        "bitDepth": 8,
+        "colorType": 6,
+        "compression": 0,
+        "filter": 0,
+        "height": 2,
+        "interlace": 0,
+        "width": 3
+      },
+      "provenance": "ImageIO sRGB PNG with only color tags removed; original IDAT retained",
+      "sharedLimitedCodecExpectation": "decode",
+      "width": 3
+    },
+    {
+      "chunks": [
+        {
+          "length": 13,
+          "type": "IHDR"
+        },
+        {
+          "length": 355,
+          "type": "iCCP"
+        },
+        {
+          "length": 4,
+          "type": "cICP"
+        },
+        {
+          "length": 56,
+          "type": "eXIf"
+        },
+        {
+          "length": 32,
+          "type": "IDAT"
+        },
+        {
+          "length": 0,
+          "type": "IEND"
+        }
+      ],
+      "cicp": {
+        "bytes": [
+          12,
+          13,
+          0,
+          1
+        ],
+        "colorPrimaries": 12,
+        "matrixCoefficients": 0,
+        "transferCharacteristics": 13,
+        "videoFullRangeFlag": 1
+      },
+      "decodedBitsPerComponent": 8,
+      "decodedColorSpace": "kCGColorSpaceDisplayP3",
+      "encodedSHA256": "e8d971d48a3b86498e14067035e957ce29f6ae285264ab26577f51a685046c68",
+      "expectedLayout": "sRGB premultiplied RGBA8, top-left rows",
+      "expectedPixels": [
+        255,
+        0,
+        0,
+        255,
+        69,
+        30,
+        11,
+        128,
+        0,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        255,
+        13,
+        22,
+        2,
+        32
+      ],
+      "file": "assets/display_p3_rgba8.png",
+      "height": 2,
+      "iccProfiles": [
+        {
+          "bytes": 536,
+          "dataColorSpace": "RGB ",
+          "name": "kCGColorSpaceDisplayP3",
+          "pcs": "XYZ ",
+          "sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0"
+        }
+      ],
+      "inputLayout": "premultiplied RGBA8",
+      "inputPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "mask": false,
+      "name": "display_p3_rgba8",
+      "pngHeader": {
+        "bitDepth": 8,
+        "colorType": 6,
+        "compression": 0,
+        "filter": 0,
+        "height": 2,
+        "interlace": 0,
+        "width": 3
+      },
+      "provenance": "ProjectStore encoder, named Display P3",
+      "sharedLimitedCodecExpectation": "decode",
+      "width": 3
+    },
+    {
+      "chunks": [
+        {
+          "length": 13,
+          "type": "IHDR"
+        },
+        {
+          "length": 355,
+          "type": "iCCP"
+        },
+        {
+          "length": 4,
+          "type": "cICP"
+        },
+        {
+          "length": 56,
+          "type": "eXIf"
+        },
+        {
+          "length": 32,
+          "type": "IDAT"
+        },
+        {
+          "length": 0,
+          "type": "IEND"
+        }
+      ],
+      "cicp": {
+        "bytes": [
+          12,
+          13,
+          0,
+          1
+        ],
+        "colorPrimaries": 12,
+        "matrixCoefficients": 0,
+        "transferCharacteristics": 13,
+        "videoFullRangeFlag": 1
+      },
+      "decodedBitsPerComponent": 8,
+      "decodedColorSpace": "kCGColorSpaceDisplayP3",
+      "encodedSHA256": "e8d971d48a3b86498e14067035e957ce29f6ae285264ab26577f51a685046c68",
+      "expectedLayout": "sRGB premultiplied RGBA8, top-left rows",
+      "expectedPixels": [
+        255,
+        0,
+        0,
+        255,
+        69,
+        30,
+        11,
+        128,
+        0,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        255,
+        13,
+        22,
+        2,
+        32
+      ],
+      "file": "assets/embedded_p3_icc_rgba8.png",
+      "height": 2,
+      "iccProfiles": [
+        {
+          "bytes": 536,
+          "dataColorSpace": "RGB ",
+          "name": "kCGColorSpaceDisplayP3",
+          "pcs": "XYZ ",
+          "sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0"
+        }
+      ],
+      "inputLayout": "premultiplied RGBA8",
+      "inputPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "mask": false,
+      "name": "embedded_p3_icc_rgba8",
+      "pngHeader": {
+        "bitDepth": 8,
+        "colorType": 6,
+        "compression": 0,
+        "filter": 0,
+        "height": 2,
+        "interlace": 0,
+        "width": 3
+      },
+      "provenance": "ProjectStore encoder, ICC-created Display P3 color space",
+      "sharedLimitedCodecExpectation": "decode",
+      "width": 3
+    },
+    {
+      "chunks": [
+        {
+          "length": 13,
+          "type": "IHDR"
+        },
+        {
+          "length": 4,
+          "type": "cICP"
+        },
+        {
+          "length": 56,
+          "type": "eXIf"
+        },
+        {
+          "length": 32,
+          "type": "IDAT"
+        },
+        {
+          "length": 0,
+          "type": "IEND"
+        }
+      ],
+      "cicp": {
+        "bytes": [
+          12,
+          13,
+          0,
+          1
+        ],
+        "colorPrimaries": 12,
+        "matrixCoefficients": 0,
+        "transferCharacteristics": 13,
+        "videoFullRangeFlag": 1
+      },
+      "decodedBitsPerComponent": 8,
+      "decodedColorSpace": "kCGColorSpaceDisplayP3",
+      "encodedSHA256": "3317fa00dc4d6c370b2f72dd852f9551e1bc49fb4adfcf15f6f43bfa57a1877e",
+      "expectedLayout": "sRGB premultiplied RGBA8, top-left rows",
+      "expectedPixels": [
+        255,
+        0,
+        0,
+        255,
+        69,
+        30,
+        11,
+        128,
+        0,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        255,
+        13,
+        22,
+        2,
+        32
+      ],
+      "file": "assets/p3_cicp_without_icc_rgba8.png",
+      "height": 2,
+      "iccProfiles": [],
+      "inputLayout": "premultiplied RGBA8",
+      "inputPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "mask": false,
+      "name": "p3_cicp_without_icc_rgba8",
+      "pngHeader": {
+        "bitDepth": 8,
+        "colorType": 6,
+        "compression": 0,
+        "filter": 0,
+        "height": 2,
+        "interlace": 0,
+        "width": 3
+      },
+      "provenance": "Actual Apple Display P3 PNG with only iCCP removed; cICP/IDAT retained. Shared limited codec must reject unsupported cICP-only color metadata",
+      "sharedLimitedCodecExpectation": "CP_UNSUPPORTED",
+      "width": 3
+    },
+    {
+      "chunks": [
+        {
+          "length": 13,
+          "type": "IHDR"
+        },
+        {
+          "length": 56,
+          "type": "eXIf"
+        },
+        {
+          "length": 16,
+          "type": "IDAT"
+        },
+        {
+          "length": 0,
+          "type": "IEND"
+        }
+      ],
+      "decodedBitsPerComponent": 8,
+      "decodedColorSpace": "kCGColorSpaceGenericGrayGamma2_2",
+      "encodedSHA256": "13e3d7b710d993c88c91c5ab2a025497ad607b88f7cc3b717e2a0c0c5a8f1777",
+      "expectedLayout": "GRAY8 coverage, original values",
+      "expectedPixels": [
+        0,
+        1,
+        17,
+        63,
+        128,
+        255
+      ],
+      "file": "assets/gray8_mask.png",
+      "height": 2,
+      "iccProfiles": [],
+      "inputLayout": "GRAY8 coverage",
+      "inputPixels": [
+        0,
+        1,
+        17,
+        63,
+        128,
+        255
+      ],
+      "mask": true,
+      "name": "gray8_mask",
+      "pngHeader": {
+        "bitDepth": 8,
+        "colorType": 0,
+        "compression": 0,
+        "filter": 0,
+        "height": 2,
+        "interlace": 0,
+        "width": 3
+      },
+      "provenance": "ProjectStore mask PNG encoder, DeviceGray/no alpha",
+      "sharedLimitedCodecExpectation": "decode",
+      "width": 3
+    },
+    {
+      "chunks": [
+        {
+          "length": 13,
+          "type": "IHDR"
+        },
+        {
+          "length": 1,
+          "type": "sRGB"
+        },
+        {
+          "length": 68,
+          "type": "eXIf"
+        },
+        {
+          "length": 34,
+          "type": "IDAT"
+        },
+        {
+          "length": 0,
+          "type": "IEND"
+        }
+      ],
+      "decodedBitsPerComponent": 8,
+      "decodedColorSpace": "kCGColorSpaceSRGB",
+      "encodedSHA256": "882c313dd6fb5bf80023cea51cb94a6a53b0e573cdb39f4c1fa527f95f4b4cad",
+      "expectedLayout": "sRGB premultiplied RGBA8, top-left rows",
+      "expectedPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "file": "assets/srgb_interlaced_rgba8.png",
+      "height": 2,
+      "iccProfiles": [],
+      "inputLayout": "premultiplied RGBA8",
+      "inputPixels": [
+        255,
+        0,
+        0,
+        255,
+        64,
+        32,
+        16,
+        128,
+        1,
+        2,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        64,
+        255,
+        15,
+        22,
+        7,
+        32
+      ],
+      "mask": false,
+      "name": "srgb_interlaced_rgba8",
+      "pngHeader": {
+        "bitDepth": 8,
+        "colorType": 6,
+        "compression": 0,
+        "filter": 0,
+        "height": 2,
+        "interlace": 1,
+        "width": 3
+      },
+      "provenance": "ImageIO PNG interlace option 1; actual IHDR must be inspected",
+      "sharedLimitedCodecExpectation": "decode",
+      "srgbRenderingIntent": 0,
+      "width": 3
+    }
+  ],
+  "generator": "Apple ImageIO/Core Graphics + extracted desktop Codable/BrushRaster/PNG encode path",
+  "operatingSystem": "Version 26.6.2 (Build 25G83)",
+  "package": {
+    "activeLayerUUID": "A2000000-0000-4000-8000-000000000004",
+    "assetlessUUIDs": [
+      "A2000000-0000-4000-8000-000000000002",
+      "A2000000-0000-4000-8000-000000000005"
+    ],
+    "explicitMaskPlacementUUID": "A2000000-0000-4000-8000-000000000004",
+    "fileSHA256": {
+      "nearest-metadata.comp/images/A2000000-0000-4000-8000-000000000003.mask.png": "13e3d7b710d993c88c91c5ab2a025497ad607b88f7cc3b717e2a0c0c5a8f1777",
+      "nearest-metadata.comp/images/A2000000-0000-4000-8000-000000000003.png": "08417db1c1e70db1733cdf236cc98ffbfea23a0274ebccaffecc96e98f3a217a",
+      "nearest-metadata.comp/images/A2000000-0000-4000-8000-000000000004.mask.png": "13e3d7b710d993c88c91c5ab2a025497ad607b88f7cc3b717e2a0c0c5a8f1777",
+      "nearest-metadata.comp/images/A2000000-0000-4000-8000-000000000004.png": "08417db1c1e70db1733cdf236cc98ffbfea23a0274ebccaffecc96e98f3a217a",
+      "nearest-metadata.comp/manifest.json": "54f72643145dc61b2c5dc09ee8ebbf7a0829232f80827bd873e281e95062fcb4"
+    },
+    "imageGoldenFixture": "srgb_rgba8",
+    "layerUUIDOrder": [
+      "A2000000-0000-4000-8000-000000000002",
+      "A2000000-0000-4000-8000-000000000003",
+      "A2000000-0000-4000-8000-000000000004",
+      "A2000000-0000-4000-8000-000000000005"
+    ],
+    "maskGoldenFixture": "gray8_mask",
+    "metadata": {
+      "activeLayerID": "A2000000-0000-4000-8000-000000000004",
+      "colorSpace": "sRGB",
+      "documentID": "A2000000-0000-4000-8000-000000000001",
+      "format": "com.compositor.project",
+      "guides": [
+        {
+          "axis": "horizontal",
+          "id": "A2000000-0000-4000-8000-000000000006",
+          "position": 2.123456789012345
+        },
+        {
+          "axis": "vertical",
+          "id": "A2000000-0000-4000-8000-000000000007",
+          "position": -3.987654321098765
+        }
+      ],
+      "height": 8,
+      "layers": [
+        {
+          "blendMode": "Normal",
+          "id": "A2000000-0000-4000-8000-000000000002",
+          "isGroup": true,
+          "isVisible": true,
+          "name": "组合 🎨",
+          "opacity": 0.7312345678901234,
+          "transform": {
+            "flipX": false,
+            "flipY": false,
+            "origin": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "sampling": "Nearest",
+            "size": [
+              8,
+              8
+            ]
+          }
+        },
+        {
+          "blendMode": "Normal",
+          "id": "A2000000-0000-4000-8000-000000000003",
+          "imageFile": "A2000000-0000-4000-8000-000000000003.png",
+          "isVisible": true,
+          "maskEnabled": true,
+          "maskFile": "A2000000-0000-4000-8000-000000000003.mask.png",
+          "maskLinked": true,
+          "name": "原像素",
+          "opacity": 0.8123456789012345,
+          "parentID": "A2000000-0000-4000-8000-000000000002",
+          "transform": {
+            "flipX": false,
+            "flipY": false,
+            "origin": [
+              0,
+              0
+            ],
+            "rotation": 0,
+            "sampling": "Nearest",
+            "size": [
+              3,
+              2
+            ]
+          }
+        },
+        {
+          "blendMode": "Normal",
+          "id": "A2000000-0000-4000-8000-000000000004",
+          "imageFile": "A2000000-0000-4000-8000-000000000004.png",
+          "isVisible": false,
+          "maskEnabled": false,
+          "maskFile": "A2000000-0000-4000-8000-000000000004.mask.png",
+          "maskLinked": false,
+          "maskPlacement": {
+            "flipX": false,
+            "flipY": true,
+            "origin": [
+              5.123456789012345,
+              -1.987654321098765
+            ],
+            "rotation": 180,
+            "sampling": "Nearest",
+            "size": [
+              3,
+              2
+            ]
+          },
+          "maskSourceID": "A2000000-0000-4000-8000-000000000003",
+          "name": "独立蒙版",
+          "opacity": 0.6123456789012345,
+          "parentID": "A2000000-0000-4000-8000-000000000002",
+          "transform": {
+            "flipX": true,
+            "flipY": false,
+            "origin": [
+              4.123456789012345,
+              2.987654321098765
+            ],
+            "rotation": 360000000090,
+            "sampling": "Nearest",
+            "size": [
+              3,
+              2
+            ]
+          }
+        },
+        {
+          "blendMode": "Normal",
+          "id": "A2000000-0000-4000-8000-000000000005",
+          "isGroup": false,
+          "isVisible": true,
+          "name": "无资产空白",
+          "opacity": 1,
+          "transform": {
+            "flipX": false,
+            "flipY": false,
+            "origin": [
+              28000.123456789,
+              10000.987654321
+            ],
+            "rotation": 0,
+            "sampling": "Nearest",
+            "size": [
+              300000,
+              300000
+            ]
+          }
+        }
+      ],
+      "resolution": 300.1234567890123,
+      "version": 13,
+      "width": 8
+    },
+    "nilMaskPlacementUUID": "A2000000-0000-4000-8000-000000000003",
+    "path": "nearest-metadata.comp",
+    "scope": "Valid nearest desktop package with exact metadata; this is not a full-app save/load or rendered-project parity test",
+    "sharedLimitedBuilderExpectation": "CP_UNSUPPORTED: assetless transform extent exceeds initial builder 30000-side limit"
+  },
+  "sourceSHA256": {
+    "Compositor/Document/BrushStroke.swift": "b81ab6c403ca786728ed57a5713c067740996d82fe18f6851b4d2fca926a095e",
+    "Compositor/Document/Guides.swift": "13422d63e9c1e48b92534261a89d31a7ad2e6312cd42fb439e3d208203af40f1",
+    "Compositor/Document/LayerAppearance.swift": "d98787c21e20a859c13cee3d4e65461b0250e5177298fdb6f9dceaf556dd04ef",
+    "Compositor/Document/LayerMask.swift": "81ad2c21a83b91c03a8c8919deabc40c56c397c90fcb77d034cc1175d9f140b3",
+    "Compositor/Document/LayerTransform.swift": "29575d7da881c6ca74097c6a0333b8ea78d58c9e8a8a02cacad017ff949e93bb",
+    "Compositor/IO/ProjectStore.swift": "00cb2e50bbb178f0a2dcd8b7142f3c4569aa927826ad72429575ee2299a4607c",
+    "compatibility/project_codec/DesktopExtracted.swift": "5d2c5d06ec4e14c5a3420829ebf45cc488c229c545ba734e0e0fef6a6f450a2b",
+    "compatibility/project_codec/generate.sh": "4d1ed7bc74dc74dc3707a7529449e4ff4cbd154b4614f748464506a909385920",
+    "compatibility/project_codec/inspect.py": "f3bc14f8e265beb73dcc8b3de97b12618091f856ef7c6a04b2f185582c103f5a",
+    "compatibility/project_codec/main.swift": "4c6ede1f66907babebc8defd17e49a3a881a572b0731472828c85781c01ac9ad",
+    "compatibility/project_codec/render_inputs.py": "ada01031e046ca3d37b4719964511565a1a7f988c10a0067acd6e65fcce3200f"
+  }
+}

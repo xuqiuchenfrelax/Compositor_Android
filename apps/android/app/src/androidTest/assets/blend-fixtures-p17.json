@@ -1,0 +1,10365 @@
+{
+  "colorSpace" : "sRGB",
+  "format" : "premultiplied RGBA8",
+  "observations" : [
+    {
+      "expected" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        127,
+        114,
+        128,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        98,
+        70,
+        78,
+        209
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        107,
+        125,
+        155,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        46,
+        71,
+        103,
+        187
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "mode" : 0,
+      "modeName" : "Normal",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        51,
+        77,
+        26,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        102,
+        102,
+        102,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        51,
+        114,
+        128,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        44,
+        70,
+        78,
+        209
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        51,
+        125,
+        155,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        26,
+        71,
+        103,
+        187
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        128,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        32,
+        32,
+        32,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        255,
+        255
+      ],
+      "mode" : 1,
+      "modeName" : "Darken",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        41,
+        46,
+        23,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        82,
+        82,
+        82,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        46,
+        99,
+        126,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        43,
+        58,
+        76,
+        209
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        47,
+        113,
+        154,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        25,
+        67,
+        103,
+        187
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        64,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        29,
+        29,
+        29,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        255,
+        255
+      ],
+      "mode" : 2,
+      "modeName" : "Multiply",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        10,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        64,
+        64,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        25,
+        76,
+        119,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        37,
+        50,
+        70,
+        209
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        32,
+        97,
+        153,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        23,
+        64,
+        101,
+        187
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        2,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        8,
+        8,
+        8,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        255,
+        255
+      ],
+      "mode" : 3,
+      "modeName" : "Color Burn",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        1,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        51,
+        51,
+        51,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        25,
+        76,
+        115,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        37,
+        50,
+        70,
+        209
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        32,
+        97,
+        146,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        23,
+        64,
+        101,
+        187
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        1,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        7,
+        7,
+        7,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        255,
+        255
+      ],
+      "mode" : 4,
+      "modeName" : "Linear Burn",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        204,
+        153,
+        230,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        127,
+        153,
+        230,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        98,
+        82,
+        123,
+        209
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        107,
+        153,
+        230,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        46,
+        76,
+        120,
+        187
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        128,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 5,
+      "modeName" : "Lighten",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        214,
+        184,
+        233,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        224,
+        224,
+        224,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        133,
+        168,
+        231,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        100,
+        94,
+        125,
+        209
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        111,
+        164,
+        231,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        46,
+        80,
+        121,
+        187
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        192,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        233,
+        233,
+        233,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 6,
+      "modeName" : "Screen",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        219,
+        255,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        151,
+        185,
+        243,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        70,
+        93,
+        129,
+        209
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        125,
+        177,
+        239,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        35,
+        80,
+        122,
+        187
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        255,
+        255
+      ],
+      "mode" : 7,
+      "modeName" : "Color Dodge",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        230,
+        255,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        153,
+        191,
+        243,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        105,
+        102,
+        131,
+        209
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        126,
+        181,
+        239,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        48,
+        83,
+        123,
+        187
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 8,
+      "modeName" : "Linear Dodge (Add)",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        82,
+        113,
+        210,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        163,
+        163,
+        163,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        128,
+        255,
+        255,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        1,
+        129,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        66,
+        132,
+        220,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        48,
+        67,
+        104,
+        209
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        62,
+        138,
+        223,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        27,
+        70,
+        113,
+        187
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        128,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        58,
+        58,
+        58,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        255,
+        255
+      ],
+      "mode" : 9,
+      "modeName" : "Overlay",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        89,
+        129,
+        212,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        138,
+        138,
+        138,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        128,
+        181,
+        221,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        16,
+        64,
+        145,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        70,
+        141,
+        221,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        52,
+        73,
+        110,
+        209
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        65,
+        144,
+        223,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        29,
+        72,
+        115,
+        187
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        128,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        77,
+        77,
+        77,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        255,
+        255
+      ],
+      "mode" : 10,
+      "modeName" : "Soft Light",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        92,
+        47,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        194,
+        194,
+        194,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        182,
+        255,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        91,
+        0,
+        191,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        112,
+        122,
+        138,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        85,
+        67,
+        81,
+        209
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        96,
+        130,
+        163,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        40,
+        70,
+        104,
+        187
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        129,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        211,
+        211,
+        211,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "mode" : 11,
+      "modeName" : "Hard Light",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        128,
+        86,
+        132,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        88,
+        118,
+        181,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        54,
+        50,
+        70,
+        209
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        79,
+        127,
+        196,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        29,
+        64,
+        101,
+        187
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        129,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        163,
+        163,
+        163,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        255,
+        255
+      ],
+      "mode" : 12,
+      "modeName" : "Vivid Light",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        204,
+        52,
+        27,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        182,
+        255,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        91,
+        0,
+        191,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        127,
+        101,
+        128,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        89,
+        50,
+        70,
+        209
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        107,
+        115,
+        156,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        42,
+        64,
+        101,
+        187
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        129,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        237,
+        237,
+        237,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "mode" : 13,
+      "modeName" : "Linear Light",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        153,
+        153,
+        52,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        153,
+        153,
+        153,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        182,
+        255,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        91,
+        0,
+        191,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        101,
+        152,
+        141,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        83,
+        82,
+        86,
+        209
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        88,
+        153,
+        165,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        39,
+        76,
+        106,
+        187
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        205,
+        205,
+        205,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "mode" : 14,
+      "modeName" : "Pin Light",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        255,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        25,
+        76,
+        243,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        37,
+        50,
+        70,
+        209
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        32,
+        97,
+        239,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        23,
+        64,
+        101,
+        187
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        255,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        255,
+        255
+      ],
+      "mode" : 15,
+      "modeName" : "Hard Mix",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        153,
+        76,
+        204,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        102,
+        102,
+        102,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        191,
+        127,
+        63,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        82,
+        164,
+        32,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        102,
+        115,
+        217,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        92,
+        61,
+        115,
+        209
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        88,
+        125,
+        220,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        43,
+        68,
+        118,
+        187
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        0,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        198,
+        198,
+        198,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        0,
+        255
+      ],
+      "mode" : 16,
+      "modeName" : "Difference",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        138,
+        209,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        143,
+        143,
+        143,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        191,
+        127,
+        63,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        82,
+        164,
+        32,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        112,
+        145,
+        220,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        94,
+        85,
+        120,
+        209
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        96,
+        147,
+        222,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        44,
+        77,
+        119,
+        187
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        127,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        0,
+        255
+      ],
+      "mode" : 17,
+      "modeName" : "Exclusion",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        76,
+        204,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        82,
+        164,
+        32,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        25,
+        115,
+        217,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        37,
+        61,
+        115,
+        209
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        32,
+        125,
+        220,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        23,
+        68,
+        118,
+        187
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        0,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        0,
+        255
+      ],
+      "mode" : 18,
+      "modeName" : "Subtract",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        255,
+        255,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        204,
+        77,
+        26,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        128,
+        128,
+        128,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        64,
+        128,
+        192,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        173,
+        91,
+        223,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        58,
+        204,
+        243,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        102,
+        38,
+        13,
+        128
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        46,
+        126,
+        147,
+        209
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        90,
+        30,
+        12,
+        113
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        56,
+        191,
+        239,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        75,
+        28,
+        10,
+        94
+      ],
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        26,
+        92,
+        129,
+        187
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        0,
+        255,
+        128,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        35,
+        35,
+        35,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        255,
+        255
+      ],
+      "mode" : 19,
+      "modeName" : "Divide",
+      "opacitySurface" : [
+        255,
+        0,
+        255,
+        255
+      ],
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        226,
+        98,
+        47,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        102,
+        102,
+        102,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        116,
+        116,
+        116,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        116,
+        116,
+        116,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        138,
+        125,
+        139,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        90,
+        67,
+        77,
+        209
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        116,
+        133,
+        163,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        43,
+        70,
+        103,
+        187
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        140,
+        70,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        32,
+        32,
+        32,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        126,
+        255,
+        255
+      ],
+      "mode" : 20,
+      "modeName" : "Hue",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        52,
+        153,
+        230,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        102,
+        102,
+        102,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        116,
+        116,
+        116,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        116,
+        116,
+        116,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        51,
+        153,
+        230,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        41,
+        83,
+        127,
+        209
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        52,
+        153,
+        230,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        24,
+        76,
+        121,
+        187
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        0,
+        128,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        32,
+        32,
+        32,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        255,
+        255,
+        255
+      ],
+      "mode" : 21,
+      "modeName" : "Saturation",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        225,
+        98,
+        47,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        102,
+        102,
+        102,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        116,
+        116,
+        116,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        116,
+        116,
+        116,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        138,
+        125,
+        139,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        94,
+        66,
+        74,
+        209
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        115,
+        133,
+        163,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        44,
+        70,
+        103,
+        187
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        140,
+        70,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        32,
+        32,
+        32,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        126,
+        255,
+        255
+      ],
+      "mode" : 22,
+      "modeName" : "Color",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        30,
+        132,
+        209,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "opaque_color",
+        "opacity" : 1,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        204,
+        204,
+        204,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          102,
+          102,
+          102,
+          255
+        ],
+        "name" : "opaque_gray",
+        "opacity" : 1,
+        "source" : [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        255,
+        255,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_white",
+        "opacity" : 1,
+        "source" : [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        0,
+        0,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          64,
+          128,
+          192,
+          255
+        ],
+        "name" : "source_black",
+        "opacity" : 1,
+        "source" : [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        130,
+        130,
+        130,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          255,
+          255,
+          255,
+          255
+        ],
+        "name" : "destination_white",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        130,
+        130,
+        130,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          255
+        ],
+        "name" : "destination_black",
+        "opacity" : 1,
+        "source" : [
+          173,
+          91,
+          223,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        40,
+        142,
+        219,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "fractional_source",
+        "opacity" : 1,
+        "source" : [
+          102,
+          38,
+          13,
+          128
+        ]
+      }
+    },
+    {
+      "expected" : [
+        48,
+        86,
+        127,
+        209
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_both",
+        "opacity" : 1,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        43,
+        145,
+        222,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          51,
+          153,
+          230,
+          255
+        ],
+        "name" : "layer_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          204,
+          77,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        26,
+        77,
+        122,
+        187
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "fractional_opacity_037",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        15,
+        72,
+        119,
+        173
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          15,
+          72,
+          119,
+          173
+        ],
+        "name" : "transparent_source",
+        "opacity" : 0.37,
+        "source" : [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "expected" : [
+        33,
+        11,
+        4,
+        42
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          0,
+          0,
+          0,
+          0
+        ],
+        "name" : "transparent_destination",
+        "opacity" : 0.37,
+        "source" : [
+          90,
+          30,
+          12,
+          113
+        ]
+      }
+    },
+    {
+      "expected" : [
+        255,
+        115,
+        185,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          255,
+          0,
+          128,
+          255
+        ],
+        "name" : "boundary_mix",
+        "opacity" : 1,
+        "source" : [
+          0,
+          255,
+          128,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        230,
+        230,
+        230,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          32,
+          32,
+          32,
+          255
+        ],
+        "name" : "softlight_low",
+        "opacity" : 1,
+        "source" : [
+          230,
+          230,
+          230,
+          255
+        ]
+      }
+    },
+    {
+      "expected" : [
+        0,
+        149,
+        149,
+        255
+      ],
+      "mode" : 23,
+      "modeName" : "Luminosity",
+      "sample" : {
+        "destination" : [
+          0,
+          255,
+          255,
+          255
+        ],
+        "name" : "dodge_boundary",
+        "opacity" : 1,
+        "source" : [
+          255,
+          0,
+          255,
+          255
+        ]
+      }
+    }
+  ],
+  "oracle" : "Compositor desktop export: LayerBlendMode + SeparableBlend.draw",
+  "osVersion" : "Version 26.6.2 (Build 25G83)",
+  "quantizationTolerance" : 2,
+  "schema" : 1,
+  "sourceRevision" : "f5ae5bad0b25b32dda9f254e62d2f07f59478698",
+  "sourceSHA256" : {
+    "Compositor\/Document\/LayerAppearance.swift" : "d98787c21e20a859c13cee3d4e65461b0250e5177298fdb6f9dceaf556dd04ef",
+    "Compositor\/Rendering\/SeparableBlend.swift" : "54e8599ee0bb11a7d0217aa132f193d13f0cb25de8329ce79f018397e096357c"
+  }
+}

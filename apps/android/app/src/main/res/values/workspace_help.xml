@@ -1,0 +1,12 @@
+<resources>
+    <string name="ui_help_healing">Drag over a blemish on the selected image layer · Two fingers to pan</string>
+    <string name="ui_help_smear">Drag to smear the selected image layer · Two fingers to pan</string>
+    <string name="ui_help_move">Drag the selected layer · Enable Auto Select to pick a layer on the canvas</string>
+    <string name="ui_help_crop">Drag the crop edges, then tap Apply Crop</string>
+    <string name="ui_help_shape">Drag to draw a shape</string>
+    <string name="ui_help_gradient">Drag to preview a gradient, then tap Apply</string>
+    <string name="ui_help_selection">Drag to select an area · Fill, cut or clear from the tool bar</string>
+    <string name="ui_help_magic">Tap a color to select a region · Adjust tolerance in the tool bar</string>
+    <string name="ui_help_sample">Touch the canvas to sample a color</string>
+    <string name="ui_help_text">Choose New Text or Edit Selected Text in the tool bar</string>
+</resources>

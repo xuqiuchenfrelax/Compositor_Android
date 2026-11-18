@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "groups": {
+    "imageAdjustments": [
+      "Curves",
+      "Levels",
+      "Hue/Saturation",
+      "Black & White",
+      "Color Balance",
+      "Exposure",
+      "Gradient Map",
+      "Grain",
+      "Invert"
+    ],
+    "filters": [
+      "Add Noise",
+      "Vignette"
+    ]
+  },
+  "nonEditable": [
+    "Invert"
+  ],
+  "supportedKinds": 11,
+  "scope": "Actual PC enum groups restricted to implemented Android kinds; no algorithm or live-preview claim",
+  "sources": {
+    "Compositor/Document/LayerAdjustment.swift": "4292bb855eef15931b9756397be9cf67d5ee151a580c77cf2887bf45cd1cc44e",
+    "apps/android/app/src/main/java/com/pojia/compositor/mobile/AdjustmentLayerModel.kt": "0c508220931b89ac4b5f70092f48c17ca599e7efd67a0cedafbf6dc186ae8f82"
+  }
+}

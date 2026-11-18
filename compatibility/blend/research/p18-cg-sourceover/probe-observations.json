@@ -1,0 +1,8882 @@
+[
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        14,
+        16,
+        17
+      ],
+      "name" : "discovery_000",
+      "opacity" : 0,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      0,
+      14,
+      16,
+      17
+    ],
+    "normalRaw" : [
+      0,
+      14,
+      16,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      0,
+      14,
+      16,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      1,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        155,
+        74,
+        218,
+        255
+      ],
+      "name" : "discovery_001",
+      "opacity" : 1,
+      "source" : [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      155,
+      75,
+      218,
+      255
+    ],
+    "normalRaw" : [
+      155,
+      75,
+      218,
+      255
+    ],
+    "normalSurface" : [
+      1,
+      1,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      155,
+      75,
+      218,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      1,
+      2
+    ],
+    "input" : {
+      "destination" : [
+        11,
+        50,
+        68,
+        128
+      ],
+      "name" : "discovery_002",
+      "opacity" : 0.79,
+      "source" : [
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    "normalCopied" : [
+      11,
+      50,
+      68,
+      129
+    ],
+    "normalRaw" : [
+      11,
+      50,
+      68,
+      129
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      1,
+      2
+    ],
+    "stagedNormal" : [
+      11,
+      50,
+      68,
+      129
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      4,
+      3,
+      12
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        2,
+        0,
+        2
+      ],
+      "name" : "discovery_003",
+      "opacity" : 0.71,
+      "source" : [
+        0,
+        5,
+        4,
+        17
+      ]
+    },
+    "normalCopied" : [
+      0,
+      6,
+      3,
+      14
+    ],
+    "normalRaw" : [
+      0,
+      6,
+      3,
+      14
+    ],
+    "normalSurface" : [
+      0,
+      4,
+      3,
+      12
+    ],
+    "stagedNormal" : [
+      0,
+      6,
+      3,
+      14
+    ]
+  },
+  {
+    "copySurface" : [
+      36,
+      1,
+      3,
+      40
+    ],
+    "input" : {
+      "destination" : [
+        125,
+        51,
+        172,
+        254
+      ],
+      "name" : "discovery_004",
+      "opacity" : 0.63,
+      "source" : [
+        57,
+        1,
+        5,
+        64
+      ]
+    },
+    "normalCopied" : [
+      141,
+      44,
+      148,
+      254
+    ],
+    "normalRaw" : [
+      141,
+      44,
+      148,
+      254
+    ],
+    "normalSurface" : [
+      36,
+      1,
+      3,
+      40
+    ],
+    "stagedNormal" : [
+      141,
+      44,
+      148,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      91,
+      89,
+      45,
+      106
+    ],
+    "input" : {
+      "destination" : [
+        107,
+        25,
+        101,
+        127
+      ],
+      "name" : "discovery_005",
+      "opacity" : 0.83,
+      "source" : [
+        110,
+        107,
+        54,
+        127
+      ]
+    },
+    "normalCopied" : [
+      154,
+      104,
+      104,
+      180
+    ],
+    "normalRaw" : [
+      154,
+      104,
+      104,
+      180
+    ],
+    "normalSurface" : [
+      91,
+      89,
+      45,
+      106
+    ],
+    "stagedNormal" : [
+      154,
+      104,
+      104,
+      180
+    ]
+  },
+  {
+    "copySurface" : [
+      36,
+      33,
+      47,
+      48
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        1,
+        1,
+        1
+      ],
+      "name" : "discovery_006",
+      "opacity" : 0.371259,
+      "source" : [
+        96,
+        88,
+        125,
+        128
+      ]
+    },
+    "normalCopied" : [
+      36,
+      34,
+      48,
+      49
+    ],
+    "normalRaw" : [
+      36,
+      34,
+      48,
+      49
+    ],
+    "normalSurface" : [
+      36,
+      33,
+      47,
+      48
+    ],
+    "stagedNormal" : [
+      36,
+      34,
+      48,
+      49
+    ]
+  },
+  {
+    "copySurface" : [
+      64,
+      99,
+      39,
+      107
+    ],
+    "input" : {
+      "destination" : [
+        174,
+        19,
+        131,
+        201
+      ],
+      "name" : "discovery_007",
+      "opacity" : 0.5609,
+      "source" : [
+        114,
+        176,
+        70,
+        191
+      ]
+    },
+    "normalCopied" : [
+      165,
+      110,
+      115,
+      224
+    ],
+    "normalRaw" : [
+      165,
+      110,
+      115,
+      224
+    ],
+    "normalSurface" : [
+      64,
+      99,
+      39,
+      107
+    ],
+    "stagedNormal" : [
+      165,
+      110,
+      115,
+      224
+    ]
+  },
+  {
+    "copySurface" : [
+      65,
+      150,
+      39,
+      163
+    ],
+    "input" : {
+      "destination" : [
+        35,
+        12,
+        45,
+        64
+      ],
+      "name" : "discovery_008",
+      "opacity" : 0.81,
+      "source" : [
+        80,
+        185,
+        48,
+        201
+      ]
+    },
+    "normalCopied" : [
+      78,
+      154,
+      55,
+      186
+    ],
+    "normalRaw" : [
+      78,
+      154,
+      55,
+      186
+    ],
+    "normalSurface" : [
+      65,
+      150,
+      39,
+      163
+    ],
+    "stagedNormal" : [
+      78,
+      154,
+      55,
+      186
+    ]
+  },
+  {
+    "copySurface" : [
+      41,
+      4,
+      83,
+      120
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_009",
+      "opacity" : 0.47,
+      "source" : [
+        87,
+        9,
+        176,
+        254
+      ]
+    },
+    "normalCopied" : [
+      41,
+      4,
+      83,
+      120
+    ],
+    "normalRaw" : [
+      41,
+      4,
+      83,
+      120
+    ],
+    "normalSurface" : [
+      41,
+      4,
+      83,
+      120
+    ],
+    "stagedNormal" : [
+      41,
+      4,
+      83,
+      120
+    ]
+  },
+  {
+    "copySurface" : [
+      20,
+      50,
+      63,
+      135
+    ],
+    "input" : {
+      "destination" : [
+        8,
+        178,
+        112,
+        191
+      ],
+      "name" : "discovery_010",
+      "opacity" : 0.53,
+      "source" : [
+        37,
+        94,
+        119,
+        255
+      ]
+    },
+    "normalCopied" : [
+      24,
+      134,
+      116,
+      225
+    ],
+    "normalRaw" : [
+      24,
+      134,
+      116,
+      225
+    ],
+    "normalSurface" : [
+      20,
+      50,
+      63,
+      135
+    ],
+    "stagedNormal" : [
+      24,
+      134,
+      116,
+      225
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        15,
+        11,
+        17
+      ],
+      "name" : "discovery_011",
+      "opacity" : 0.9,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      0,
+      15,
+      11,
+      17
+    ],
+    "normalRaw" : [
+      0,
+      15,
+      11,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      0,
+      15,
+      11,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        133,
+        74,
+        109,
+        255
+      ],
+      "name" : "discovery_012",
+      "opacity" : 0.0039215686274509795,
+      "source" : [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "normalCopied" : [
+      133,
+      74,
+      109,
+      255
+    ],
+    "normalRaw" : [
+      133,
+      74,
+      109,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      133,
+      74,
+      109,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        87,
+        53,
+        38,
+        128
+      ],
+      "name" : "discovery_013",
+      "opacity" : 0.00392156862745098,
+      "source" : [
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    "normalCopied" : [
+      87,
+      53,
+      38,
+      128
+    ],
+    "normalRaw" : [
+      87,
+      53,
+      38,
+      128
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      87,
+      53,
+      38,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        2,
+        0,
+        2
+      ],
+      "name" : "discovery_014",
+      "opacity" : 0.003921568627450981,
+      "source" : [
+        13,
+        5,
+        7,
+        17
+      ]
+    },
+    "normalCopied" : [
+      0,
+      2,
+      0,
+      2
+    ],
+    "normalRaw" : [
+      0,
+      2,
+      0,
+      2
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      0,
+      2,
+      0,
+      2
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      1,
+      3,
+      4
+    ],
+    "input" : {
+      "destination" : [
+        109,
+        22,
+        99,
+        254
+      ],
+      "name" : "discovery_015",
+      "opacity" : 0.06666666666666665,
+      "source" : [
+        10,
+        11,
+        40,
+        64
+      ]
+    },
+    "normalCopied" : [
+      108,
+      23,
+      100,
+      254
+    ],
+    "normalRaw" : [
+      108,
+      23,
+      100,
+      254
+    ],
+    "normalSurface" : [
+      1,
+      1,
+      3,
+      4
+    ],
+    "stagedNormal" : [
+      108,
+      23,
+      100,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      7,
+      7,
+      7,
+      8
+    ],
+    "input" : {
+      "destination" : [
+        98,
+        64,
+        32,
+        127
+      ],
+      "name" : "discovery_016",
+      "opacity" : 0.06666666666666667,
+      "source" : [
+        101,
+        102,
+        112,
+        127
+      ]
+    },
+    "normalCopied" : [
+      102,
+      69,
+      38,
+      131
+    ],
+    "normalRaw" : [
+      102,
+      69,
+      38,
+      131
+    ],
+    "normalSurface" : [
+      7,
+      7,
+      7,
+      8
+    ],
+    "stagedNormal" : [
+      102,
+      69,
+      38,
+      131
+    ]
+  },
+  {
+    "copySurface" : [
+      5,
+      1,
+      3,
+      9
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        0,
+        1,
+        1
+      ],
+      "name" : "discovery_017",
+      "opacity" : 0.06666666666666668,
+      "source" : [
+        76,
+        18,
+        38,
+        128
+      ]
+    },
+    "normalCopied" : [
+      6,
+      1,
+      4,
+      10
+    ],
+    "normalRaw" : [
+      6,
+      1,
+      4,
+      10
+    ],
+    "normalSurface" : [
+      5,
+      1,
+      3,
+      9
+    ],
+    "stagedNormal" : [
+      6,
+      1,
+      4,
+      10
+    ]
+  },
+  {
+    "copySurface" : [
+      13,
+      2,
+      18,
+      47
+    ],
+    "input" : {
+      "destination" : [
+        158,
+        17,
+        165,
+        201
+      ],
+      "name" : "discovery_018",
+      "opacity" : 0.24705882352941175,
+      "source" : [
+        53,
+        7,
+        74,
+        191
+      ]
+    },
+    "normalCopied" : [
+      142,
+      16,
+      153,
+      211
+    ],
+    "normalRaw" : [
+      142,
+      16,
+      153,
+      211
+    ],
+    "normalSurface" : [
+      13,
+      2,
+      18,
+      47
+    ],
+    "stagedNormal" : [
+      142,
+      16,
+      153,
+      211
+    ]
+  },
+  {
+    "copySurface" : [
+      18,
+      22,
+      10,
+      50
+    ],
+    "input" : {
+      "destination" : [
+        9,
+        26,
+        31,
+        64
+      ],
+      "name" : "discovery_019",
+      "opacity" : 0.24705882352941178,
+      "source" : [
+        73,
+        90,
+        40,
+        201
+      ]
+    },
+    "normalCopied" : [
+      25,
+      43,
+      35,
+      101
+    ],
+    "normalRaw" : [
+      25,
+      43,
+      35,
+      101
+    ],
+    "normalSurface" : [
+      18,
+      22,
+      10,
+      50
+    ],
+    "stagedNormal" : [
+      25,
+      43,
+      35,
+      101
+    ]
+  },
+  {
+    "copySurface" : [
+      33,
+      39,
+      38,
+      63
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_020",
+      "opacity" : 0.2470588235294118,
+      "source" : [
+        132,
+        156,
+        152,
+        254
+      ]
+    },
+    "normalCopied" : [
+      33,
+      39,
+      38,
+      63
+    ],
+    "normalRaw" : [
+      33,
+      39,
+      38,
+      63
+    ],
+    "normalSurface" : [
+      33,
+      39,
+      38,
+      63
+    ],
+    "stagedNormal" : [
+      33,
+      39,
+      38,
+      63
+    ]
+  },
+  {
+    "copySurface" : [
+      77,
+      76,
+      4,
+      127
+    ],
+    "input" : {
+      "destination" : [
+        14,
+        68,
+        133,
+        191
+      ],
+      "name" : "discovery_021",
+      "opacity" : 0.49803921568627446,
+      "source" : [
+        155,
+        152,
+        9,
+        255
+      ]
+    },
+    "normalCopied" : [
+      84,
+      110,
+      71,
+      223
+    ],
+    "normalRaw" : [
+      84,
+      110,
+      71,
+      223
+    ],
+    "normalSurface" : [
+      77,
+      76,
+      4,
+      127
+    ],
+    "stagedNormal" : [
+      84,
+      110,
+      71,
+      223
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        8,
+        9,
+        1,
+        17
+      ],
+      "name" : "discovery_022",
+      "opacity" : 0.4980392156862745,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      8,
+      9,
+      1,
+      17
+    ],
+    "normalRaw" : [
+      8,
+      9,
+      1,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      8,
+      9,
+      1,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        40,
+        108,
+        193,
+        255
+      ],
+      "name" : "discovery_023",
+      "opacity" : 0.4980392156862746,
+      "source" : [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "normalCopied" : [
+      40,
+      108,
+      193,
+      255
+    ],
+    "normalRaw" : [
+      40,
+      108,
+      193,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      40,
+      108,
+      193,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      0,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        74,
+        61,
+        96,
+        128
+      ],
+      "name" : "discovery_024",
+      "opacity" : 0.7490196078431371,
+      "source" : [
+        2,
+        0,
+        1,
+        2
+      ]
+    },
+    "normalCopied" : [
+      75,
+      61,
+      97,
+      128
+    ],
+    "normalRaw" : [
+      75,
+      61,
+      97,
+      128
+    ],
+    "normalSurface" : [
+      1,
+      0,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      75,
+      61,
+      97,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      10,
+      13,
+      4,
+      13
+    ],
+    "input" : {
+      "destination" : [
+        2,
+        0,
+        2,
+        2
+      ],
+      "name" : "discovery_025",
+      "opacity" : 0.7490196078431373,
+      "source" : [
+        14,
+        17,
+        6,
+        17
+      ]
+    },
+    "normalCopied" : [
+      12,
+      13,
+      6,
+      15
+    ],
+    "normalRaw" : [
+      12,
+      13,
+      6,
+      15
+    ],
+    "normalSurface" : [
+      10,
+      13,
+      4,
+      13
+    ],
+    "stagedNormal" : [
+      12,
+      13,
+      6,
+      15
+    ]
+  },
+  {
+    "copySurface" : [
+      40,
+      39,
+      7,
+      48
+    ],
+    "input" : {
+      "destination" : [
+        244,
+        41,
+        81,
+        254
+      ],
+      "name" : "discovery_026",
+      "opacity" : 0.7490196078431374,
+      "source" : [
+        54,
+        52,
+        9,
+        64
+      ]
+    },
+    "normalCopied" : [
+      238,
+      72,
+      73,
+      254
+    ],
+    "normalRaw" : [
+      238,
+      72,
+      73,
+      254
+    ],
+    "normalSurface" : [
+      40,
+      39,
+      7,
+      48
+    ],
+    "stagedNormal" : [
+      238,
+      72,
+      73,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      22,
+      84,
+      36,
+      127
+    ],
+    "input" : {
+      "destination" : [
+        77,
+        121,
+        115,
+        127
+      ],
+      "name" : "discovery_027",
+      "opacity" : 0.9960784313725489,
+      "source" : [
+        22,
+        84,
+        36,
+        127
+      ]
+    },
+    "normalCopied" : [
+      61,
+      145,
+      94,
+      191
+    ],
+    "normalRaw" : [
+      61,
+      145,
+      94,
+      191
+    ],
+    "normalSurface" : [
+      22,
+      84,
+      36,
+      127
+    ],
+    "stagedNormal" : [
+      61,
+      145,
+      94,
+      191
+    ]
+  },
+  {
+    "copySurface" : [
+      124,
+      80,
+      53,
+      127
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        0,
+        1,
+        1
+      ],
+      "name" : "discovery_028",
+      "opacity" : 0.996078431372549,
+      "source" : [
+        124,
+        80,
+        53,
+        128
+      ]
+    },
+    "normalCopied" : [
+      125,
+      80,
+      54,
+      128
+    ],
+    "normalRaw" : [
+      125,
+      80,
+      54,
+      128
+    ],
+    "normalSurface" : [
+      124,
+      80,
+      53,
+      127
+    ],
+    "stagedNormal" : [
+      125,
+      80,
+      54,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      121,
+      83,
+      188,
+      190
+    ],
+    "input" : {
+      "destination" : [
+        89,
+        162,
+        87,
+        201
+      ],
+      "name" : "discovery_029",
+      "opacity" : 0.9960784313725491,
+      "source" : [
+        121,
+        83,
+        189,
+        191
+      ]
+    },
+    "normalCopied" : [
+      144,
+      124,
+      210,
+      241
+    ],
+    "normalRaw" : [
+      144,
+      124,
+      210,
+      241
+    ],
+    "normalSurface" : [
+      121,
+      83,
+      188,
+      190
+    ],
+    "stagedNormal" : [
+      144,
+      124,
+      210,
+      241
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        36,
+        8,
+        31,
+        64
+      ],
+      "name" : "discovery_030",
+      "opacity" : 0,
+      "source" : [
+        148,
+        173,
+        79,
+        201
+      ]
+    },
+    "normalCopied" : [
+      36,
+      8,
+      31,
+      64
+    ],
+    "normalRaw" : [
+      36,
+      8,
+      31,
+      64
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      36,
+      8,
+      31,
+      64
+    ]
+  },
+  {
+    "copySurface" : [
+      100,
+      96,
+      237,
+      254
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_031",
+      "opacity" : 1,
+      "source" : [
+        100,
+        96,
+        237,
+        254
+      ]
+    },
+    "normalCopied" : [
+      100,
+      96,
+      237,
+      254
+    ],
+    "normalRaw" : [
+      100,
+      96,
+      237,
+      254
+    ],
+    "normalSurface" : [
+      100,
+      96,
+      237,
+      254
+    ],
+    "stagedNormal" : [
+      100,
+      96,
+      237,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      54,
+      181,
+      3,
+      201
+    ],
+    "input" : {
+      "destination" : [
+        58,
+        36,
+        86,
+        191
+      ],
+      "name" : "discovery_032",
+      "opacity" : 0.79,
+      "source" : [
+        68,
+        230,
+        4,
+        255
+      ]
+    },
+    "normalCopied" : [
+      66,
+      189,
+      21,
+      241
+    ],
+    "normalRaw" : [
+      66,
+      189,
+      21,
+      241
+    ],
+    "normalSurface" : [
+      54,
+      181,
+      3,
+      201
+    ],
+    "stagedNormal" : [
+      66,
+      189,
+      21,
+      241
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        15,
+        6,
+        11,
+        17
+      ],
+      "name" : "discovery_033",
+      "opacity" : 0.71,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      15,
+      6,
+      11,
+      17
+    ],
+    "normalRaw" : [
+      15,
+      6,
+      11,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      15,
+      6,
+      11,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        180,
+        212,
+        252,
+        255
+      ],
+      "name" : "discovery_034",
+      "opacity" : 0.63,
+      "source" : [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "normalCopied" : [
+      179,
+      212,
+      251,
+      255
+    ],
+    "normalRaw" : [
+      179,
+      212,
+      251,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      179,
+      212,
+      251,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      2,
+      2,
+      0,
+      2
+    ],
+    "input" : {
+      "destination" : [
+        11,
+        112,
+        99,
+        128
+      ],
+      "name" : "discovery_035",
+      "opacity" : 0.83,
+      "source" : [
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    "normalCopied" : [
+      13,
+      113,
+      98,
+      129
+    ],
+    "normalRaw" : [
+      13,
+      113,
+      98,
+      129
+    ],
+    "normalSurface" : [
+      2,
+      2,
+      0,
+      2
+    ],
+    "stagedNormal" : [
+      13,
+      113,
+      98,
+      129
+    ]
+  },
+  {
+    "copySurface" : [
+      5,
+      2,
+      3,
+      6
+    ],
+    "input" : {
+      "destination" : [
+        2,
+        1,
+        2,
+        2
+      ],
+      "name" : "discovery_036",
+      "opacity" : 0.371259,
+      "source" : [
+        13,
+        5,
+        9,
+        17
+      ]
+    },
+    "normalCopied" : [
+      7,
+      3,
+      5,
+      8
+    ],
+    "normalRaw" : [
+      7,
+      3,
+      5,
+      8
+    ],
+    "normalSurface" : [
+      5,
+      2,
+      3,
+      6
+    ],
+    "stagedNormal" : [
+      7,
+      3,
+      5,
+      8
+    ]
+  },
+  {
+    "copySurface" : [
+      18,
+      2,
+      27,
+      36
+    ],
+    "input" : {
+      "destination" : [
+        159,
+        95,
+        134,
+        254
+      ],
+      "name" : "discovery_037",
+      "opacity" : 0.5609,
+      "source" : [
+        32,
+        3,
+        48,
+        64
+      ]
+    },
+    "normalCopied" : [
+      155,
+      84,
+      142,
+      254
+    ],
+    "normalRaw" : [
+      155,
+      84,
+      142,
+      254
+    ],
+    "normalSurface" : [
+      18,
+      2,
+      27,
+      36
+    ],
+    "stagedNormal" : [
+      155,
+      84,
+      142,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      50,
+      64,
+      75,
+      103
+    ],
+    "input" : {
+      "destination" : [
+        114,
+        55,
+        112,
+        127
+      ],
+      "name" : "discovery_038",
+      "opacity" : 0.81,
+      "source" : [
+        61,
+        79,
+        92,
+        127
+      ]
+    },
+    "normalCopied" : [
+      118,
+      97,
+      142,
+      179
+    ],
+    "normalRaw" : [
+      118,
+      97,
+      142,
+      179
+    ],
+    "normalSurface" : [
+      50,
+      64,
+      75,
+      103
+    ],
+    "stagedNormal" : [
+      118,
+      97,
+      142,
+      179
+    ]
+  },
+  {
+    "copySurface" : [
+      59,
+      38,
+      22,
+      60
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        1
+      ],
+      "name" : "discovery_039",
+      "opacity" : 0.47,
+      "source" : [
+        125,
+        81,
+        46,
+        128
+      ]
+    },
+    "normalCopied" : [
+      59,
+      38,
+      22,
+      61
+    ],
+    "normalRaw" : [
+      59,
+      38,
+      22,
+      61
+    ],
+    "normalSurface" : [
+      59,
+      38,
+      22,
+      60
+    ],
+    "stagedNormal" : [
+      59,
+      38,
+      22,
+      61
+    ]
+  },
+  {
+    "copySurface" : [
+      73,
+      61,
+      99,
+      101
+    ],
+    "input" : {
+      "destination" : [
+        199,
+        162,
+        79,
+        201
+      ],
+      "name" : "discovery_040",
+      "opacity" : 0.53,
+      "source" : [
+        138,
+        116,
+        187,
+        191
+      ]
+    },
+    "normalCopied" : [
+      193,
+      159,
+      147,
+      222
+    ],
+    "normalRaw" : [
+      193,
+      159,
+      147,
+      222
+    ],
+    "normalSurface" : [
+      73,
+      61,
+      99,
+      101
+    ],
+    "stagedNormal" : [
+      193,
+      159,
+      147,
+      222
+    ]
+  },
+  {
+    "copySurface" : [
+      31,
+      13,
+      10,
+      181
+    ],
+    "input" : {
+      "destination" : [
+        3,
+        6,
+        63,
+        64
+      ],
+      "name" : "discovery_041",
+      "opacity" : 0.9,
+      "source" : [
+        34,
+        14,
+        11,
+        201
+      ]
+    },
+    "normalCopied" : [
+      32,
+      15,
+      28,
+      200
+    ],
+    "normalRaw" : [
+      32,
+      15,
+      28,
+      200
+    ],
+    "normalSurface" : [
+      31,
+      13,
+      10,
+      181
+    ],
+    "stagedNormal" : [
+      32,
+      15,
+      28,
+      200
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_042",
+      "opacity" : 0.0039215686274509795,
+      "source" : [
+        51,
+        177,
+        123,
+        254
+      ]
+    },
+    "normalCopied" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "normalRaw" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "normalSurface" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      1,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        131,
+        93,
+        23,
+        191
+      ],
+      "name" : "discovery_043",
+      "opacity" : 0.00392156862745098,
+      "source" : [
+        172,
+        241,
+        101,
+        255
+      ]
+    },
+    "normalCopied" : [
+      131,
+      94,
+      23,
+      191
+    ],
+    "normalRaw" : [
+      131,
+      94,
+      23,
+      191
+    ],
+    "normalSurface" : [
+      1,
+      1,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      131,
+      94,
+      23,
+      191
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        8,
+        12,
+        17,
+        17
+      ],
+      "name" : "discovery_044",
+      "opacity" : 0.003921568627450981,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      8,
+      12,
+      17,
+      17
+    ],
+    "normalRaw" : [
+      8,
+      12,
+      17,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      8,
+      12,
+      17,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        45,
+        173,
+        150,
+        255
+      ],
+      "name" : "discovery_045",
+      "opacity" : 0.06666666666666665,
+      "source" : [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      45,
+      173,
+      150,
+      255
+    ],
+    "normalRaw" : [
+      45,
+      173,
+      150,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      45,
+      173,
+      150,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        55,
+        91,
+        84,
+        128
+      ],
+      "name" : "discovery_046",
+      "opacity" : 0.06666666666666667,
+      "source" : [
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    "normalCopied" : [
+      55,
+      91,
+      84,
+      128
+    ],
+    "normalRaw" : [
+      55,
+      91,
+      84,
+      128
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      55,
+      91,
+      84,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        1,
+        1,
+        2
+      ],
+      "name" : "discovery_047",
+      "opacity" : 0.06666666666666668,
+      "source" : [
+        6,
+        3,
+        8,
+        17
+      ]
+    },
+    "normalCopied" : [
+      1,
+      1,
+      2,
+      3
+    ],
+    "normalRaw" : [
+      1,
+      1,
+      2,
+      3
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      1,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "copySurface" : [
+      15,
+      6,
+      3,
+      16
+    ],
+    "input" : {
+      "destination" : [
+        31,
+        116,
+        212,
+        254
+      ],
+      "name" : "discovery_048",
+      "opacity" : 0.24705882352941175,
+      "source" : [
+        59,
+        25,
+        13,
+        64
+      ]
+    },
+    "normalCopied" : [
+      44,
+      115,
+      202,
+      254
+    ],
+    "normalRaw" : [
+      44,
+      115,
+      202,
+      254
+    ],
+    "normalSurface" : [
+      15,
+      6,
+      3,
+      16
+    ],
+    "stagedNormal" : [
+      44,
+      115,
+      202,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      28,
+      3,
+      10,
+      31
+    ],
+    "input" : {
+      "destination" : [
+        75,
+        25,
+        61,
+        127
+      ],
+      "name" : "discovery_049",
+      "opacity" : 0.24705882352941178,
+      "source" : [
+        112,
+        11,
+        39,
+        127
+      ]
+    },
+    "normalCopied" : [
+      94,
+      25,
+      64,
+      143
+    ],
+    "normalRaw" : [
+      94,
+      25,
+      64,
+      143
+    ],
+    "normalSurface" : [
+      28,
+      3,
+      10,
+      31
+    ],
+    "stagedNormal" : [
+      94,
+      25,
+      64,
+      143
+    ]
+  },
+  {
+    "copySurface" : [
+      10,
+      7,
+      0,
+      32
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        1,
+        1
+      ],
+      "name" : "discovery_050",
+      "opacity" : 0.2470588235294118,
+      "source" : [
+        39,
+        28,
+        2,
+        128
+      ]
+    },
+    "normalCopied" : [
+      10,
+      7,
+      1,
+      33
+    ],
+    "normalRaw" : [
+      10,
+      7,
+      1,
+      33
+    ],
+    "normalSurface" : [
+      10,
+      7,
+      0,
+      32
+    ],
+    "stagedNormal" : [
+      10,
+      7,
+      1,
+      33
+    ]
+  },
+  {
+    "copySurface" : [
+      81,
+      8,
+      28,
+      95
+    ],
+    "input" : {
+      "destination" : [
+        171,
+        102,
+        142,
+        201
+      ],
+      "name" : "discovery_051",
+      "opacity" : 0.49803921568627446,
+      "source" : [
+        163,
+        16,
+        56,
+        191
+      ]
+    },
+    "normalCopied" : [
+      188,
+      72,
+      117,
+      221
+    ],
+    "normalRaw" : [
+      188,
+      72,
+      117,
+      221
+    ],
+    "normalSurface" : [
+      81,
+      8,
+      28,
+      95
+    ],
+    "stagedNormal" : [
+      188,
+      72,
+      117,
+      221
+    ]
+  },
+  {
+    "copySurface" : [
+      76,
+      19,
+      4,
+      100
+    ],
+    "input" : {
+      "destination" : [
+        58,
+        19,
+        38,
+        64
+      ],
+      "name" : "discovery_052",
+      "opacity" : 0.4980392156862745,
+      "source" : [
+        153,
+        39,
+        9,
+        201
+      ]
+    },
+    "normalCopied" : [
+      111,
+      31,
+      27,
+      139
+    ],
+    "normalRaw" : [
+      111,
+      31,
+      27,
+      139
+    ],
+    "normalSurface" : [
+      76,
+      19,
+      4,
+      100
+    ],
+    "stagedNormal" : [
+      111,
+      31,
+      27,
+      139
+    ]
+  },
+  {
+    "copySurface" : [
+      31,
+      42,
+      73,
+      127
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_053",
+      "opacity" : 0.4980392156862746,
+      "source" : [
+        63,
+        85,
+        146,
+        254
+      ]
+    },
+    "normalCopied" : [
+      31,
+      42,
+      73,
+      127
+    ],
+    "normalRaw" : [
+      31,
+      42,
+      73,
+      127
+    ],
+    "normalSurface" : [
+      31,
+      42,
+      73,
+      127
+    ],
+    "stagedNormal" : [
+      31,
+      42,
+      73,
+      127
+    ]
+  },
+  {
+    "copySurface" : [
+      22,
+      101,
+      121,
+      191
+    ],
+    "input" : {
+      "destination" : [
+        21,
+        60,
+        114,
+        191
+      ],
+      "name" : "discovery_054",
+      "opacity" : 0.7490196078431371,
+      "source" : [
+        30,
+        135,
+        161,
+        255
+      ]
+    },
+    "normalCopied" : [
+      27,
+      116,
+      150,
+      239
+    ],
+    "normalRaw" : [
+      27,
+      116,
+      150,
+      239
+    ],
+    "normalSurface" : [
+      22,
+      101,
+      121,
+      191
+    ],
+    "stagedNormal" : [
+      27,
+      116,
+      150,
+      239
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        5,
+        8,
+        17
+      ],
+      "name" : "discovery_055",
+      "opacity" : 0.7490196078431373,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      0,
+      5,
+      8,
+      17
+    ],
+    "normalRaw" : [
+      0,
+      5,
+      8,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      0,
+      5,
+      8,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      0,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        72,
+        45,
+        118,
+        255
+      ],
+      "name" : "discovery_056",
+      "opacity" : 0.7490196078431374,
+      "source" : [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      73,
+      45,
+      119,
+      255
+    ],
+    "normalRaw" : [
+      73,
+      45,
+      119,
+      255
+    ],
+    "normalSurface" : [
+      1,
+      0,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      73,
+      45,
+      119,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      2,
+      2,
+      0,
+      2
+    ],
+    "input" : {
+      "destination" : [
+        117,
+        10,
+        44,
+        128
+      ],
+      "name" : "discovery_057",
+      "opacity" : 0.9960784313725489,
+      "source" : [
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    "normalCopied" : [
+      118,
+      12,
+      44,
+      129
+    ],
+    "normalRaw" : [
+      118,
+      12,
+      44,
+      129
+    ],
+    "normalSurface" : [
+      2,
+      2,
+      0,
+      2
+    ],
+    "stagedNormal" : [
+      118,
+      12,
+      44,
+      129
+    ]
+  },
+  {
+    "copySurface" : [
+      17,
+      12,
+      8,
+      17
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        1,
+        1,
+        2
+      ],
+      "name" : "discovery_058",
+      "opacity" : 0.996078431372549,
+      "source" : [
+        17,
+        12,
+        8,
+        17
+      ]
+    },
+    "normalCopied" : [
+      17,
+      13,
+      9,
+      19
+    ],
+    "normalRaw" : [
+      17,
+      13,
+      9,
+      19
+    ],
+    "normalSurface" : [
+      17,
+      12,
+      8,
+      17
+    ],
+    "stagedNormal" : [
+      17,
+      13,
+      9,
+      19
+    ]
+  },
+  {
+    "copySurface" : [
+      55,
+      37,
+      45,
+      64
+    ],
+    "input" : {
+      "destination" : [
+        15,
+        19,
+        60,
+        254
+      ],
+      "name" : "discovery_059",
+      "opacity" : 0.9960784313725491,
+      "source" : [
+        55,
+        37,
+        45,
+        64
+      ]
+    },
+    "normalCopied" : [
+      66,
+      51,
+      90,
+      254
+    ],
+    "normalRaw" : [
+      66,
+      51,
+      90,
+      254
+    ],
+    "normalSurface" : [
+      55,
+      37,
+      45,
+      64
+    ],
+    "stagedNormal" : [
+      66,
+      51,
+      90,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        102,
+        115,
+        54,
+        127
+      ],
+      "name" : "discovery_060",
+      "opacity" : 0,
+      "source" : [
+        57,
+        68,
+        84,
+        127
+      ]
+    },
+    "normalCopied" : [
+      102,
+      115,
+      54,
+      127
+    ],
+    "normalRaw" : [
+      102,
+      115,
+      54,
+      127
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      102,
+      115,
+      54,
+      127
+    ]
+  },
+  {
+    "copySurface" : [
+      19,
+      98,
+      7,
+      128
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "name" : "discovery_061",
+      "opacity" : 1,
+      "source" : [
+        19,
+        98,
+        7,
+        128
+      ]
+    },
+    "normalCopied" : [
+      19,
+      98,
+      7,
+      128
+    ],
+    "normalRaw" : [
+      19,
+      98,
+      7,
+      128
+    ],
+    "normalSurface" : [
+      19,
+      98,
+      7,
+      128
+    ],
+    "stagedNormal" : [
+      19,
+      98,
+      7,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      56,
+      8,
+      108,
+      151
+    ],
+    "input" : {
+      "destination" : [
+        148,
+        188,
+        60,
+        201
+      ],
+      "name" : "discovery_062",
+      "opacity" : 0.79,
+      "source" : [
+        71,
+        10,
+        137,
+        191
+      ]
+    },
+    "normalCopied" : [
+      116,
+      85,
+      132,
+      233
+    ],
+    "normalRaw" : [
+      116,
+      85,
+      132,
+      233
+    ],
+    "normalSurface" : [
+      56,
+      8,
+      108,
+      151
+    ],
+    "stagedNormal" : [
+      116,
+      85,
+      132,
+      233
+    ]
+  },
+  {
+    "copySurface" : [
+      135,
+      5,
+      134,
+      143
+    ],
+    "input" : {
+      "destination" : [
+        54,
+        16,
+        59,
+        64
+      ],
+      "name" : "discovery_063",
+      "opacity" : 0.71,
+      "source" : [
+        190,
+        7,
+        189,
+        201
+      ]
+    },
+    "normalCopied" : [
+      159,
+      12,
+      160,
+      171
+    ],
+    "normalRaw" : [
+      159,
+      12,
+      160,
+      171
+    ],
+    "normalSurface" : [
+      135,
+      5,
+      134,
+      143
+    ],
+    "stagedNormal" : [
+      159,
+      12,
+      160,
+      171
+    ]
+  },
+  {
+    "copySurface" : [
+      104,
+      18,
+      116,
+      160
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_064",
+      "opacity" : 0.63,
+      "source" : [
+        164,
+        28,
+        184,
+        254
+      ]
+    },
+    "normalCopied" : [
+      104,
+      18,
+      116,
+      160
+    ],
+    "normalRaw" : [
+      104,
+      18,
+      116,
+      160
+    ],
+    "normalSurface" : [
+      104,
+      18,
+      116,
+      160
+    ],
+    "stagedNormal" : [
+      104,
+      18,
+      116,
+      160
+    ]
+  },
+  {
+    "copySurface" : [
+      114,
+      78,
+      200,
+      212
+    ],
+    "input" : {
+      "destination" : [
+        167,
+        174,
+        79,
+        191
+      ],
+      "name" : "discovery_065",
+      "opacity" : 0.83,
+      "source" : [
+        137,
+        94,
+        241,
+        255
+      ]
+    },
+    "normalCopied" : [
+      142,
+      107,
+      213,
+      244
+    ],
+    "normalRaw" : [
+      142,
+      107,
+      213,
+      244
+    ],
+    "normalSurface" : [
+      114,
+      78,
+      200,
+      212
+    ],
+    "stagedNormal" : [
+      142,
+      107,
+      213,
+      244
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        9,
+        13,
+        8,
+        17
+      ],
+      "name" : "discovery_066",
+      "opacity" : 0.371259,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      9,
+      13,
+      8,
+      17
+    ],
+    "normalRaw" : [
+      9,
+      13,
+      8,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      9,
+      13,
+      8,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        226,
+        217,
+        181,
+        255
+      ],
+      "name" : "discovery_067",
+      "opacity" : 0.5609,
+      "source" : [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "normalCopied" : [
+      225,
+      216,
+      180,
+      255
+    ],
+    "normalRaw" : [
+      225,
+      216,
+      180,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      225,
+      216,
+      180,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      1,
+      2
+    ],
+    "input" : {
+      "destination" : [
+        117,
+        55,
+        37,
+        128
+      ],
+      "name" : "discovery_068",
+      "opacity" : 0.81,
+      "source" : [
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    "normalCopied" : [
+      116,
+      55,
+      38,
+      129
+    ],
+    "normalRaw" : [
+      116,
+      55,
+      38,
+      129
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      1,
+      2
+    ],
+    "stagedNormal" : [
+      116,
+      55,
+      38,
+      129
+    ]
+  },
+  {
+    "copySurface" : [
+      3,
+      3,
+      5,
+      8
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        2,
+        0,
+        2
+      ],
+      "name" : "discovery_069",
+      "opacity" : 0.47,
+      "source" : [
+        6,
+        6,
+        10,
+        17
+      ]
+    },
+    "normalCopied" : [
+      4,
+      5,
+      5,
+      10
+    ],
+    "normalRaw" : [
+      4,
+      5,
+      5,
+      10
+    ],
+    "normalSurface" : [
+      3,
+      3,
+      5,
+      8
+    ],
+    "stagedNormal" : [
+      4,
+      5,
+      5,
+      10
+    ]
+  },
+  {
+    "copySurface" : [
+      25,
+      32,
+      17,
+      34
+    ],
+    "input" : {
+      "destination" : [
+        213,
+        186,
+        8,
+        254
+      ],
+      "name" : "discovery_070",
+      "opacity" : 0.53,
+      "source" : [
+        47,
+        60,
+        33,
+        64
+      ]
+    },
+    "normalCopied" : [
+      210,
+      193,
+      24,
+      254
+    ],
+    "normalRaw" : [
+      210,
+      193,
+      24,
+      254
+    ],
+    "normalSurface" : [
+      25,
+      32,
+      17,
+      34
+    ],
+    "stagedNormal" : [
+      210,
+      193,
+      24,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      70,
+      28,
+      95,
+      115
+    ],
+    "input" : {
+      "destination" : [
+        13,
+        28,
+        10,
+        127
+      ],
+      "name" : "discovery_071",
+      "opacity" : 0.9,
+      "source" : [
+        78,
+        31,
+        105,
+        127
+      ]
+    },
+    "normalCopied" : [
+      77,
+      43,
+      100,
+      185
+    ],
+    "normalRaw" : [
+      77,
+      43,
+      100,
+      185
+    ],
+    "normalSurface" : [
+      70,
+      28,
+      95,
+      115
+    ],
+    "stagedNormal" : [
+      77,
+      43,
+      100,
+      185
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "name" : "discovery_072",
+      "opacity" : 0.0039215686274509795,
+      "source" : [
+        100,
+        56,
+        107,
+        128
+      ]
+    },
+    "normalCopied" : [
+      1,
+      1,
+      1,
+      2
+    ],
+    "normalRaw" : [
+      1,
+      1,
+      1,
+      2
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        117,
+        133,
+        117,
+        201
+      ],
+      "name" : "discovery_073",
+      "opacity" : 0.00392156862745098,
+      "source" : [
+        59,
+        16,
+        100,
+        191
+      ]
+    },
+    "normalCopied" : [
+      117,
+      132,
+      117,
+      201
+    ],
+    "normalRaw" : [
+      117,
+      132,
+      117,
+      201
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      117,
+      132,
+      117,
+      201
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      0,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        61,
+        22,
+        56,
+        64
+      ],
+      "name" : "discovery_074",
+      "opacity" : 0.003921568627450981,
+      "source" : [
+        200,
+        85,
+        150,
+        201
+      ]
+    },
+    "normalCopied" : [
+      62,
+      22,
+      57,
+      65
+    ],
+    "normalRaw" : [
+      62,
+      22,
+      57,
+      65
+    ],
+    "normalSurface" : [
+      1,
+      0,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      62,
+      22,
+      57,
+      65
+    ]
+  },
+  {
+    "copySurface" : [
+      8,
+      15,
+      15,
+      17
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_075",
+      "opacity" : 0.06666666666666665,
+      "source" : [
+        114,
+        220,
+        231,
+        254
+      ]
+    },
+    "normalCopied" : [
+      8,
+      15,
+      15,
+      17
+    ],
+    "normalRaw" : [
+      8,
+      15,
+      15,
+      17
+    ],
+    "normalSurface" : [
+      8,
+      15,
+      15,
+      17
+    ],
+    "stagedNormal" : [
+      8,
+      15,
+      15,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      9,
+      9,
+      4,
+      17
+    ],
+    "input" : {
+      "destination" : [
+        166,
+        17,
+        67,
+        191
+      ],
+      "name" : "discovery_076",
+      "opacity" : 0.06666666666666667,
+      "source" : [
+        140,
+        139,
+        67,
+        255
+      ]
+    },
+    "normalCopied" : [
+      164,
+      25,
+      67,
+      195
+    ],
+    "normalRaw" : [
+      164,
+      25,
+      67,
+      195
+    ],
+    "normalSurface" : [
+      9,
+      9,
+      4,
+      17
+    ],
+    "stagedNormal" : [
+      164,
+      25,
+      67,
+      195
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        9,
+        16,
+        6,
+        17
+      ],
+      "name" : "discovery_077",
+      "opacity" : 0.06666666666666668,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      9,
+      16,
+      6,
+      17
+    ],
+    "normalRaw" : [
+      9,
+      16,
+      6,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      9,
+      16,
+      6,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        164,
+        210,
+        240,
+        255
+      ],
+      "name" : "discovery_078",
+      "opacity" : 0.24705882352941175,
+      "source" : [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      164,
+      210,
+      240,
+      255
+    ],
+    "normalRaw" : [
+      164,
+      210,
+      240,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      164,
+      210,
+      240,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        26,
+        104,
+        63,
+        128
+      ],
+      "name" : "discovery_079",
+      "opacity" : 0.24705882352941178,
+      "source" : [
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    "normalCopied" : [
+      26,
+      104,
+      63,
+      128
+    ],
+    "normalRaw" : [
+      26,
+      104,
+      63,
+      128
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      26,
+      104,
+      63,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      2,
+      3,
+      0,
+      4
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        0,
+        1,
+        2
+      ],
+      "name" : "discovery_080",
+      "opacity" : 0.2470588235294118,
+      "source" : [
+        7,
+        11,
+        1,
+        17
+      ]
+    },
+    "normalCopied" : [
+      3,
+      3,
+      1,
+      6
+    ],
+    "normalRaw" : [
+      3,
+      3,
+      1,
+      6
+    ],
+    "normalSurface" : [
+      2,
+      3,
+      0,
+      4
+    ],
+    "stagedNormal" : [
+      3,
+      3,
+      1,
+      6
+    ]
+  },
+  {
+    "copySurface" : [
+      11,
+      22,
+      19,
+      32
+    ],
+    "input" : {
+      "destination" : [
+        88,
+        199,
+        184,
+        254
+      ],
+      "name" : "discovery_081",
+      "opacity" : 0.49803921568627446,
+      "source" : [
+        23,
+        45,
+        39,
+        64
+      ]
+    },
+    "normalCopied" : [
+      88,
+      196,
+      180,
+      254
+    ],
+    "normalRaw" : [
+      88,
+      196,
+      180,
+      254
+    ],
+    "normalSurface" : [
+      11,
+      22,
+      19,
+      32
+    ],
+    "stagedNormal" : [
+      88,
+      196,
+      180,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      2,
+      5,
+      16,
+      63
+    ],
+    "input" : {
+      "destination" : [
+        87,
+        66,
+        108,
+        127
+      ],
+      "name" : "discovery_082",
+      "opacity" : 0.4980392156862745,
+      "source" : [
+        5,
+        11,
+        33,
+        127
+      ]
+    },
+    "normalCopied" : [
+      68,
+      55,
+      97,
+      159
+    ],
+    "normalRaw" : [
+      68,
+      55,
+      97,
+      159
+    ],
+    "normalSurface" : [
+      2,
+      5,
+      16,
+      63
+    ],
+    "stagedNormal" : [
+      68,
+      55,
+      97,
+      159
+    ]
+  },
+  {
+    "copySurface" : [
+      19,
+      33,
+      48,
+      64
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        0,
+        1,
+        1
+      ],
+      "name" : "discovery_083",
+      "opacity" : 0.4980392156862746,
+      "source" : [
+        38,
+        67,
+        96,
+        128
+      ]
+    },
+    "normalCopied" : [
+      20,
+      33,
+      49,
+      65
+    ],
+    "normalRaw" : [
+      20,
+      33,
+      49,
+      65
+    ],
+    "normalSurface" : [
+      19,
+      33,
+      48,
+      64
+    ],
+    "stagedNormal" : [
+      20,
+      33,
+      49,
+      65
+    ]
+  },
+  {
+    "copySurface" : [
+      49,
+      43,
+      133,
+      143
+    ],
+    "input" : {
+      "destination" : [
+        112,
+        33,
+        79,
+        201
+      ],
+      "name" : "discovery_084",
+      "opacity" : 0.7490196078431371,
+      "source" : [
+        65,
+        58,
+        177,
+        191
+      ]
+    },
+    "normalCopied" : [
+      98,
+      57,
+      168,
+      231
+    ],
+    "normalRaw" : [
+      98,
+      57,
+      168,
+      231
+    ],
+    "normalSurface" : [
+      49,
+      43,
+      133,
+      143
+    ],
+    "stagedNormal" : [
+      98,
+      57,
+      168,
+      231
+    ]
+  },
+  {
+    "copySurface" : [
+      44,
+      133,
+      119,
+      151
+    ],
+    "input" : {
+      "destination" : [
+        4,
+        38,
+        49,
+        64
+      ],
+      "name" : "discovery_085",
+      "opacity" : 0.7490196078431373,
+      "source" : [
+        59,
+        177,
+        159,
+        201
+      ]
+    },
+    "normalCopied" : [
+      46,
+      148,
+      139,
+      177
+    ],
+    "normalRaw" : [
+      46,
+      148,
+      139,
+      177
+    ],
+    "normalSurface" : [
+      44,
+      133,
+      119,
+      151
+    ],
+    "stagedNormal" : [
+      46,
+      148,
+      139,
+      177
+    ]
+  },
+  {
+    "copySurface" : [
+      33,
+      40,
+      40,
+      190
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_086",
+      "opacity" : 0.7490196078431374,
+      "source" : [
+        44,
+        53,
+        53,
+        254
+      ]
+    },
+    "normalCopied" : [
+      33,
+      40,
+      40,
+      190
+    ],
+    "normalRaw" : [
+      33,
+      40,
+      40,
+      190
+    ],
+    "normalSurface" : [
+      33,
+      40,
+      40,
+      190
+    ],
+    "stagedNormal" : [
+      33,
+      40,
+      40,
+      190
+    ]
+  },
+  {
+    "copySurface" : [
+      112,
+      201,
+      221,
+      254
+    ],
+    "input" : {
+      "destination" : [
+        101,
+        109,
+        61,
+        191
+      ],
+      "name" : "discovery_087",
+      "opacity" : 0.9960784313725489,
+      "source" : [
+        112,
+        202,
+        222,
+        255
+      ]
+    },
+    "normalCopied" : [
+      112,
+      201,
+      221,
+      255
+    ],
+    "normalRaw" : [
+      112,
+      201,
+      221,
+      255
+    ],
+    "normalSurface" : [
+      112,
+      201,
+      221,
+      254
+    ],
+    "stagedNormal" : [
+      112,
+      201,
+      221,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        8,
+        2,
+        6,
+        17
+      ],
+      "name" : "discovery_088",
+      "opacity" : 0.996078431372549,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      8,
+      2,
+      6,
+      17
+    ],
+    "normalRaw" : [
+      8,
+      2,
+      6,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      8,
+      2,
+      6,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      0,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        178,
+        174,
+        201,
+        255
+      ],
+      "name" : "discovery_089",
+      "opacity" : 0.9960784313725491,
+      "source" : [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "normalCopied" : [
+      178,
+      173,
+      200,
+      255
+    ],
+    "normalRaw" : [
+      178,
+      173,
+      200,
+      255
+    ],
+    "normalSurface" : [
+      1,
+      0,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      178,
+      173,
+      200,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        39,
+        48,
+        113,
+        128
+      ],
+      "name" : "discovery_090",
+      "opacity" : 0,
+      "source" : [
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    "normalCopied" : [
+      39,
+      48,
+      113,
+      128
+    ],
+    "normalRaw" : [
+      39,
+      48,
+      113,
+      128
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      39,
+      48,
+      113,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      8,
+      13,
+      16,
+      17
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        0,
+        0,
+        2
+      ],
+      "name" : "discovery_091",
+      "opacity" : 1,
+      "source" : [
+        8,
+        13,
+        16,
+        17
+      ]
+    },
+    "normalCopied" : [
+      9,
+      13,
+      16,
+      19
+    ],
+    "normalRaw" : [
+      9,
+      13,
+      16,
+      19
+    ],
+    "normalSurface" : [
+      8,
+      13,
+      16,
+      17
+    ],
+    "stagedNormal" : [
+      9,
+      13,
+      16,
+      19
+    ]
+  },
+  {
+    "copySurface" : [
+      47,
+      17,
+      2,
+      50
+    ],
+    "input" : {
+      "destination" : [
+        63,
+        136,
+        175,
+        254
+      ],
+      "name" : "discovery_092",
+      "opacity" : 0.79,
+      "source" : [
+        59,
+        22,
+        3,
+        64
+      ]
+    },
+    "normalCopied" : [
+      98,
+      126,
+      143,
+      254
+    ],
+    "normalRaw" : [
+      98,
+      126,
+      143,
+      254
+    ],
+    "normalSurface" : [
+      47,
+      17,
+      2,
+      50
+    ],
+    "stagedNormal" : [
+      98,
+      126,
+      143,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      13,
+      51,
+      84,
+      90
+    ],
+    "input" : {
+      "destination" : [
+        56,
+        125,
+        92,
+        127
+      ],
+      "name" : "discovery_093",
+      "opacity" : 0.71,
+      "source" : [
+        19,
+        72,
+        118,
+        127
+      ]
+    },
+    "normalCopied" : [
+      49,
+      132,
+      144,
+      172
+    ],
+    "normalRaw" : [
+      49,
+      132,
+      144,
+      172
+    ],
+    "normalSurface" : [
+      13,
+      51,
+      84,
+      90
+    ],
+    "stagedNormal" : [
+      49,
+      132,
+      144,
+      172
+    ]
+  },
+  {
+    "copySurface" : [
+      18,
+      53,
+      35,
+      81
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        1,
+        1
+      ],
+      "name" : "discovery_094",
+      "opacity" : 0.63,
+      "source" : [
+        28,
+        84,
+        56,
+        128
+      ]
+    },
+    "normalCopied" : [
+      18,
+      53,
+      36,
+      82
+    ],
+    "normalRaw" : [
+      18,
+      53,
+      36,
+      82
+    ],
+    "normalSurface" : [
+      18,
+      53,
+      35,
+      81
+    ],
+    "stagedNormal" : [
+      18,
+      53,
+      36,
+      82
+    ]
+  },
+  {
+    "copySurface" : [
+      2,
+      7,
+      9,
+      159
+    ],
+    "input" : {
+      "destination" : [
+        159,
+        62,
+        71,
+        201
+      ],
+      "name" : "discovery_095",
+      "opacity" : 0.83,
+      "source" : [
+        3,
+        9,
+        11,
+        191
+      ]
+    },
+    "normalCopied" : [
+      62,
+      30,
+      36,
+      235
+    ],
+    "normalRaw" : [
+      62,
+      30,
+      36,
+      235
+    ],
+    "normalSurface" : [
+      2,
+      7,
+      9,
+      159
+    ],
+    "stagedNormal" : [
+      62,
+      30,
+      36,
+      235
+    ]
+  },
+  {
+    "copySurface" : [
+      73,
+      24,
+      51,
+      75
+    ],
+    "input" : {
+      "destination" : [
+        64,
+        60,
+        1,
+        64
+      ],
+      "name" : "discovery_096",
+      "opacity" : 0.371259,
+      "source" : [
+        195,
+        64,
+        136,
+        201
+      ]
+    },
+    "normalCopied" : [
+      118,
+      66,
+      52,
+      120
+    ],
+    "normalRaw" : [
+      118,
+      66,
+      52,
+      120
+    ],
+    "normalSurface" : [
+      73,
+      24,
+      51,
+      75
+    ],
+    "stagedNormal" : [
+      118,
+      66,
+      52,
+      120
+    ]
+  },
+  {
+    "copySurface" : [
+      87,
+      54,
+      1,
+      142
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_097",
+      "opacity" : 0.5609,
+      "source" : [
+        155,
+        97,
+        2,
+        254
+      ]
+    },
+    "normalCopied" : [
+      87,
+      54,
+      1,
+      142
+    ],
+    "normalRaw" : [
+      87,
+      54,
+      1,
+      142
+    ],
+    "normalSurface" : [
+      87,
+      54,
+      1,
+      142
+    ],
+    "stagedNormal" : [
+      87,
+      54,
+      1,
+      142
+    ]
+  },
+  {
+    "copySurface" : [
+      186,
+      80,
+      0,
+      207
+    ],
+    "input" : {
+      "destination" : [
+        30,
+        134,
+        46,
+        191
+      ],
+      "name" : "discovery_098",
+      "opacity" : 0.81,
+      "source" : [
+        229,
+        99,
+        0,
+        255
+      ]
+    },
+    "normalCopied" : [
+      192,
+      105,
+      9,
+      243
+    ],
+    "normalRaw" : [
+      192,
+      105,
+      9,
+      243
+    ],
+    "normalSurface" : [
+      186,
+      80,
+      0,
+      207
+    ],
+    "stagedNormal" : [
+      192,
+      105,
+      9,
+      243
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        6,
+        4,
+        3,
+        17
+      ],
+      "name" : "discovery_099",
+      "opacity" : 0.47,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      6,
+      4,
+      3,
+      17
+    ],
+    "normalRaw" : [
+      6,
+      4,
+      3,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      6,
+      4,
+      3,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      1,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        57,
+        220,
+        145,
+        255
+      ],
+      "name" : "discovery_100",
+      "opacity" : 0.53,
+      "source" : [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      58,
+      220,
+      145,
+      255
+    ],
+    "normalRaw" : [
+      58,
+      220,
+      145,
+      255
+    ],
+    "normalSurface" : [
+      1,
+      1,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      58,
+      220,
+      145,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      2,
+      0,
+      2,
+      2
+    ],
+    "input" : {
+      "destination" : [
+        24,
+        88,
+        64,
+        128
+      ],
+      "name" : "discovery_101",
+      "opacity" : 0.9,
+      "source" : [
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    "normalCopied" : [
+      26,
+      87,
+      65,
+      129
+    ],
+    "normalRaw" : [
+      26,
+      87,
+      65,
+      129
+    ],
+    "normalSurface" : [
+      2,
+      0,
+      2,
+      2
+    ],
+    "stagedNormal" : [
+      26,
+      87,
+      65,
+      129
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        2,
+        1,
+        1,
+        2
+      ],
+      "name" : "discovery_102",
+      "opacity" : 0.0039215686274509795,
+      "source" : [
+        1,
+        1,
+        16,
+        17
+      ]
+    },
+    "normalCopied" : [
+      2,
+      1,
+      1,
+      2
+    ],
+    "normalRaw" : [
+      2,
+      1,
+      1,
+      2
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        141,
+        136,
+        66,
+        254
+      ],
+      "name" : "discovery_103",
+      "opacity" : 0.00392156862745098,
+      "source" : [
+        50,
+        8,
+        37,
+        64
+      ]
+    },
+    "normalCopied" : [
+      141,
+      136,
+      66,
+      254
+    ],
+    "normalRaw" : [
+      141,
+      136,
+      66,
+      254
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      141,
+      136,
+      66,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        76,
+        80,
+        103,
+        127
+      ],
+      "name" : "discovery_104",
+      "opacity" : 0.003921568627450981,
+      "source" : [
+        83,
+        123,
+        69,
+        127
+      ]
+    },
+    "normalCopied" : [
+      76,
+      80,
+      103,
+      127
+    ],
+    "normalRaw" : [
+      76,
+      80,
+      103,
+      127
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      76,
+      80,
+      103,
+      127
+    ]
+  },
+  {
+    "copySurface" : [
+      3,
+      7,
+      4,
+      9
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "name" : "discovery_105",
+      "opacity" : 0.06666666666666665,
+      "source" : [
+        48,
+        111,
+        67,
+        128
+      ]
+    },
+    "normalCopied" : [
+      4,
+      8,
+      5,
+      10
+    ],
+    "normalRaw" : [
+      4,
+      8,
+      5,
+      10
+    ],
+    "normalSurface" : [
+      3,
+      7,
+      4,
+      9
+    ],
+    "stagedNormal" : [
+      4,
+      8,
+      5,
+      10
+    ]
+  },
+  {
+    "copySurface" : [
+      7,
+      7,
+      10,
+      13
+    ],
+    "input" : {
+      "destination" : [
+        143,
+        23,
+        161,
+        201
+      ],
+      "name" : "discovery_106",
+      "opacity" : 0.06666666666666667,
+      "source" : [
+        104,
+        108,
+        150,
+        191
+      ]
+    },
+    "normalCopied" : [
+      143,
+      29,
+      163,
+      204
+    ],
+    "normalRaw" : [
+      143,
+      29,
+      163,
+      204
+    ],
+    "normalSurface" : [
+      7,
+      7,
+      10,
+      13
+    ],
+    "stagedNormal" : [
+      143,
+      29,
+      163,
+      204
+    ]
+  },
+  {
+    "copySurface" : [
+      7,
+      5,
+      12,
+      13
+    ],
+    "input" : {
+      "destination" : [
+        21,
+        28,
+        22,
+        64
+      ],
+      "name" : "discovery_107",
+      "opacity" : 0.06666666666666668,
+      "source" : [
+        111,
+        82,
+        173,
+        201
+      ]
+    },
+    "normalCopied" : [
+      27,
+      32,
+      33,
+      74
+    ],
+    "normalRaw" : [
+      27,
+      32,
+      33,
+      74
+    ],
+    "normalSurface" : [
+      7,
+      5,
+      12,
+      13
+    ],
+    "stagedNormal" : [
+      27,
+      32,
+      33,
+      74
+    ]
+  },
+  {
+    "copySurface" : [
+      39,
+      1,
+      37,
+      63
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_108",
+      "opacity" : 0.24705882352941175,
+      "source" : [
+        157,
+        4,
+        149,
+        254
+      ]
+    },
+    "normalCopied" : [
+      39,
+      1,
+      37,
+      63
+    ],
+    "normalRaw" : [
+      39,
+      1,
+      37,
+      63
+    ],
+    "normalSurface" : [
+      39,
+      1,
+      37,
+      63
+    ],
+    "stagedNormal" : [
+      39,
+      1,
+      37,
+      63
+    ]
+  },
+  {
+    "copySurface" : [
+      59,
+      61,
+      25,
+      63
+    ],
+    "input" : {
+      "destination" : [
+        120,
+        186,
+        164,
+        191
+      ],
+      "name" : "discovery_109",
+      "opacity" : 0.24705882352941178,
+      "source" : [
+        240,
+        246,
+        102,
+        255
+      ]
+    },
+    "normalCopied" : [
+      149,
+      201,
+      148,
+      207
+    ],
+    "normalRaw" : [
+      149,
+      201,
+      148,
+      207
+    ],
+    "normalSurface" : [
+      59,
+      61,
+      25,
+      63
+    ],
+    "stagedNormal" : [
+      149,
+      201,
+      148,
+      207
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        12,
+        11,
+        17,
+        17
+      ],
+      "name" : "discovery_110",
+      "opacity" : 0.2470588235294118,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      12,
+      11,
+      17,
+      17
+    ],
+    "normalRaw" : [
+      12,
+      11,
+      17,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      12,
+      11,
+      17,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        207,
+        59,
+        160,
+        255
+      ],
+      "name" : "discovery_111",
+      "opacity" : 0.49803921568627446,
+      "source" : [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "normalCopied" : [
+      207,
+      59,
+      160,
+      255
+    ],
+    "normalRaw" : [
+      207,
+      59,
+      160,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      207,
+      59,
+      160,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        50,
+        87,
+        78,
+        128
+      ],
+      "name" : "discovery_112",
+      "opacity" : 0.4980392156862745,
+      "source" : [
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    "normalCopied" : [
+      50,
+      87,
+      78,
+      128
+    ],
+    "normalRaw" : [
+      50,
+      87,
+      78,
+      128
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      50,
+      87,
+      78,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      5,
+      7,
+      1,
+      8
+    ],
+    "input" : {
+      "destination" : [
+        2,
+        0,
+        0,
+        2
+      ],
+      "name" : "discovery_113",
+      "opacity" : 0.4980392156862746,
+      "source" : [
+        10,
+        14,
+        2,
+        17
+      ]
+    },
+    "normalCopied" : [
+      7,
+      7,
+      1,
+      10
+    ],
+    "normalRaw" : [
+      7,
+      7,
+      1,
+      10
+    ],
+    "normalSurface" : [
+      5,
+      7,
+      1,
+      8
+    ],
+    "stagedNormal" : [
+      7,
+      7,
+      1,
+      10
+    ]
+  },
+  {
+    "copySurface" : [
+      31,
+      24,
+      22,
+      48
+    ],
+    "input" : {
+      "destination" : [
+        51,
+        226,
+        181,
+        254
+      ],
+      "name" : "discovery_114",
+      "opacity" : 0.7490196078431371,
+      "source" : [
+        41,
+        32,
+        29,
+        64
+      ]
+    },
+    "normalCopied" : [
+      72,
+      207,
+      169,
+      254
+    ],
+    "normalRaw" : [
+      72,
+      207,
+      169,
+      254
+    ],
+    "normalSurface" : [
+      31,
+      24,
+      22,
+      48
+    ],
+    "stagedNormal" : [
+      72,
+      207,
+      169,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      38,
+      28,
+      25,
+      95
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        8,
+        62,
+        127
+      ],
+      "name" : "discovery_115",
+      "opacity" : 0.7490196078431373,
+      "source" : [
+        51,
+        37,
+        34,
+        127
+      ]
+    },
+    "normalCopied" : [
+      38,
+      33,
+      64,
+      175
+    ],
+    "normalRaw" : [
+      38,
+      33,
+      64,
+      175
+    ],
+    "normalSurface" : [
+      38,
+      28,
+      25,
+      95
+    ],
+    "stagedNormal" : [
+      38,
+      33,
+      64,
+      175
+    ]
+  },
+  {
+    "copySurface" : [
+      39,
+      82,
+      88,
+      96
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        1,
+        1,
+        1
+      ],
+      "name" : "discovery_116",
+      "opacity" : 0.7490196078431374,
+      "source" : [
+        52,
+        109,
+        118,
+        128
+      ]
+    },
+    "normalCopied" : [
+      39,
+      83,
+      89,
+      97
+    ],
+    "normalRaw" : [
+      39,
+      83,
+      89,
+      97
+    ],
+    "normalSurface" : [
+      39,
+      82,
+      88,
+      96
+    ],
+    "stagedNormal" : [
+      39,
+      83,
+      89,
+      97
+    ]
+  },
+  {
+    "copySurface" : [
+      74,
+      107,
+      138,
+      190
+    ],
+    "input" : {
+      "destination" : [
+        42,
+        189,
+        62,
+        201
+      ],
+      "name" : "discovery_117",
+      "opacity" : 0.9960784313725489,
+      "source" : [
+        74,
+        107,
+        139,
+        191
+      ]
+    },
+    "normalCopied" : [
+      85,
+      155,
+      154,
+      241
+    ],
+    "normalRaw" : [
+      85,
+      155,
+      154,
+      241
+    ],
+    "normalSurface" : [
+      74,
+      107,
+      138,
+      190
+    ],
+    "stagedNormal" : [
+      85,
+      155,
+      154,
+      241
+    ]
+  },
+  {
+    "copySurface" : [
+      17,
+      113,
+      36,
+      200
+    ],
+    "input" : {
+      "destination" : [
+        22,
+        13,
+        6,
+        64
+      ],
+      "name" : "discovery_118",
+      "opacity" : 0.996078431372549,
+      "source" : [
+        17,
+        113,
+        36,
+        201
+      ]
+    },
+    "normalCopied" : [
+      22,
+      116,
+      37,
+      214
+    ],
+    "normalRaw" : [
+      22,
+      116,
+      37,
+      214
+    ],
+    "normalSurface" : [
+      17,
+      113,
+      36,
+      200
+    ],
+    "stagedNormal" : [
+      22,
+      116,
+      37,
+      214
+    ]
+  },
+  {
+    "copySurface" : [
+      168,
+      38,
+      221,
+      253
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_119",
+      "opacity" : 0.9960784313725491,
+      "source" : [
+        169,
+        38,
+        222,
+        254
+      ]
+    },
+    "normalCopied" : [
+      168,
+      38,
+      221,
+      253
+    ],
+    "normalRaw" : [
+      168,
+      38,
+      221,
+      253
+    ],
+    "normalSurface" : [
+      168,
+      38,
+      221,
+      253
+    ],
+    "stagedNormal" : [
+      168,
+      38,
+      221,
+      253
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        40,
+        145,
+        170,
+        191
+      ],
+      "name" : "discovery_120",
+      "opacity" : 0,
+      "source" : [
+        33,
+        142,
+        202,
+        255
+      ]
+    },
+    "normalCopied" : [
+      40,
+      145,
+      170,
+      191
+    ],
+    "normalRaw" : [
+      40,
+      145,
+      170,
+      191
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      40,
+      145,
+      170,
+      191
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        16,
+        3,
+        5,
+        17
+      ],
+      "name" : "discovery_121",
+      "opacity" : 1,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      16,
+      3,
+      5,
+      17
+    ],
+    "normalRaw" : [
+      16,
+      3,
+      5,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      16,
+      3,
+      5,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      0,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        76,
+        109,
+        8,
+        255
+      ],
+      "name" : "discovery_122",
+      "opacity" : 0.79,
+      "source" : [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      77,
+      109,
+      9,
+      255
+    ],
+    "normalRaw" : [
+      77,
+      109,
+      9,
+      255
+    ],
+    "normalSurface" : [
+      1,
+      0,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      77,
+      109,
+      9,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      1,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        79,
+        13,
+        109,
+        128
+      ],
+      "name" : "discovery_123",
+      "opacity" : 0.71,
+      "source" : [
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    "normalCopied" : [
+      80,
+      14,
+      109,
+      128
+    ],
+    "normalRaw" : [
+      80,
+      14,
+      109,
+      128
+    ],
+    "normalSurface" : [
+      1,
+      1,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      80,
+      14,
+      109,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      6,
+      1,
+      11
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        2,
+        0,
+        2
+      ],
+      "name" : "discovery_124",
+      "opacity" : 0.63,
+      "source" : [
+        1,
+        10,
+        1,
+        17
+      ]
+    },
+    "normalCopied" : [
+      1,
+      8,
+      1,
+      13
+    ],
+    "normalRaw" : [
+      1,
+      8,
+      1,
+      13
+    ],
+    "normalSurface" : [
+      1,
+      6,
+      1,
+      11
+    ],
+    "stagedNormal" : [
+      1,
+      8,
+      1,
+      13
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      0,
+      30,
+      53
+    ],
+    "input" : {
+      "destination" : [
+        108,
+        130,
+        41,
+        254
+      ],
+      "name" : "discovery_125",
+      "opacity" : 0.83,
+      "source" : [
+        1,
+        0,
+        36,
+        64
+      ]
+    },
+    "normalCopied" : [
+      87,
+      103,
+      62,
+      254
+    ],
+    "normalRaw" : [
+      87,
+      103,
+      62,
+      254
+    ],
+    "normalSurface" : [
+      1,
+      0,
+      30,
+      53
+    ],
+    "stagedNormal" : [
+      87,
+      103,
+      62,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      25,
+      5,
+      33,
+      47
+    ],
+    "input" : {
+      "destination" : [
+        59,
+        92,
+        88,
+        127
+      ],
+      "name" : "discovery_126",
+      "opacity" : 0.371259,
+      "source" : [
+        67,
+        13,
+        89,
+        127
+      ]
+    },
+    "normalCopied" : [
+      73,
+      80,
+      105,
+      151
+    ],
+    "normalRaw" : [
+      73,
+      80,
+      105,
+      151
+    ],
+    "normalSurface" : [
+      25,
+      5,
+      33,
+      47
+    ],
+    "stagedNormal" : [
+      73,
+      80,
+      105,
+      151
+    ]
+  },
+  {
+    "copySurface" : [
+      57,
+      47,
+      12,
+      72
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        1,
+        1
+      ],
+      "name" : "discovery_127",
+      "opacity" : 0.5609,
+      "source" : [
+        102,
+        84,
+        22,
+        128
+      ]
+    },
+    "normalCopied" : [
+      57,
+      47,
+      13,
+      73
+    ],
+    "normalRaw" : [
+      57,
+      47,
+      13,
+      73
+    ],
+    "normalSurface" : [
+      57,
+      47,
+      12,
+      72
+    ],
+    "stagedNormal" : [
+      57,
+      47,
+      13,
+      73
+    ]
+  },
+  {
+    "copySurface" : [
+      106,
+      77,
+      132,
+      155
+    ],
+    "input" : {
+      "destination" : [
+        13,
+        32,
+        51,
+        201
+      ],
+      "name" : "discovery_128",
+      "opacity" : 0.81,
+      "source" : [
+        130,
+        95,
+        163,
+        191
+      ]
+    },
+    "normalCopied" : [
+      111,
+      90,
+      152,
+      234
+    ],
+    "normalRaw" : [
+      111,
+      90,
+      152,
+      234
+    ],
+    "normalSurface" : [
+      106,
+      77,
+      132,
+      155
+    ],
+    "stagedNormal" : [
+      111,
+      90,
+      152,
+      234
+    ]
+  },
+  {
+    "copySurface" : [
+      34,
+      69,
+      8,
+      95
+    ],
+    "input" : {
+      "destination" : [
+        3,
+        47,
+        9,
+        64
+      ],
+      "name" : "discovery_129",
+      "opacity" : 0.47,
+      "source" : [
+        73,
+        146,
+        17,
+        201
+      ]
+    },
+    "normalCopied" : [
+      36,
+      98,
+      14,
+      135
+    ],
+    "normalRaw" : [
+      36,
+      98,
+      14,
+      135
+    ],
+    "normalSurface" : [
+      34,
+      69,
+      8,
+      95
+    ],
+    "stagedNormal" : [
+      36,
+      98,
+      14,
+      135
+    ]
+  },
+  {
+    "copySurface" : [
+      117,
+      82,
+      52,
+      134
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_130",
+      "opacity" : 0.53,
+      "source" : [
+        221,
+        154,
+        98,
+        254
+      ]
+    },
+    "normalCopied" : [
+      117,
+      82,
+      52,
+      134
+    ],
+    "normalRaw" : [
+      117,
+      82,
+      52,
+      134
+    ],
+    "normalSurface" : [
+      117,
+      82,
+      52,
+      134
+    ],
+    "stagedNormal" : [
+      117,
+      82,
+      52,
+      134
+    ]
+  },
+  {
+    "copySurface" : [
+      185,
+      90,
+      162,
+      230
+    ],
+    "input" : {
+      "destination" : [
+        47,
+        9,
+        129,
+        191
+      ],
+      "name" : "discovery_131",
+      "opacity" : 0.9,
+      "source" : [
+        205,
+        100,
+        180,
+        255
+      ]
+    },
+    "normalCopied" : [
+      190,
+      91,
+      175,
+      249
+    ],
+    "normalRaw" : [
+      190,
+      91,
+      175,
+      249
+    ],
+    "normalSurface" : [
+      185,
+      90,
+      162,
+      230
+    ],
+    "stagedNormal" : [
+      190,
+      91,
+      175,
+      249
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        10,
+        0,
+        1,
+        17
+      ],
+      "name" : "discovery_132",
+      "opacity" : 0.0039215686274509795,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      10,
+      0,
+      1,
+      17
+    ],
+    "normalRaw" : [
+      10,
+      0,
+      1,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      10,
+      0,
+      1,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        174,
+        35,
+        21,
+        255
+      ],
+      "name" : "discovery_133",
+      "opacity" : 0.00392156862745098,
+      "source" : [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      174,
+      35,
+      21,
+      255
+    ],
+    "normalRaw" : [
+      174,
+      35,
+      21,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      174,
+      35,
+      21,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        39,
+        75,
+        119,
+        128
+      ],
+      "name" : "discovery_134",
+      "opacity" : 0.003921568627450981,
+      "source" : [
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    "normalCopied" : [
+      39,
+      75,
+      119,
+      128
+    ],
+    "normalRaw" : [
+      39,
+      75,
+      119,
+      128
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      39,
+      75,
+      119,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      1,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        2,
+        1,
+        2
+      ],
+      "name" : "discovery_135",
+      "opacity" : 0.06666666666666665,
+      "source" : [
+        6,
+        15,
+        8,
+        17
+      ]
+    },
+    "normalCopied" : [
+      1,
+      3,
+      2,
+      3
+    ],
+    "normalRaw" : [
+      1,
+      3,
+      2,
+      3
+    ],
+    "normalSurface" : [
+      0,
+      1,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      1,
+      3,
+      2,
+      3
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      3,
+      1,
+      4
+    ],
+    "input" : {
+      "destination" : [
+        159,
+        248,
+        163,
+        254
+      ],
+      "name" : "discovery_136",
+      "opacity" : 0.06666666666666667,
+      "source" : [
+        6,
+        41,
+        9,
+        64
+      ]
+    },
+    "normalCopied" : [
+      157,
+      247,
+      161,
+      254
+    ],
+    "normalRaw" : [
+      157,
+      247,
+      161,
+      254
+    ],
+    "normalSurface" : [
+      0,
+      3,
+      1,
+      4
+    ],
+    "stagedNormal" : [
+      157,
+      247,
+      161,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      4,
+      4,
+      3,
+      8
+    ],
+    "input" : {
+      "destination" : [
+        80,
+        6,
+        16,
+        127
+      ],
+      "name" : "discovery_137",
+      "opacity" : 0.06666666666666668,
+      "source" : [
+        59,
+        62,
+        40,
+        127
+      ]
+    },
+    "normalCopied" : [
+      81,
+      10,
+      18,
+      131
+    ],
+    "normalRaw" : [
+      81,
+      10,
+      18,
+      131
+    ],
+    "normalSurface" : [
+      4,
+      4,
+      3,
+      8
+    ],
+    "stagedNormal" : [
+      81,
+      10,
+      18,
+      131
+    ]
+  },
+  {
+    "copySurface" : [
+      17,
+      27,
+      1,
+      32
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        1,
+        1,
+        1
+      ],
+      "name" : "discovery_138",
+      "opacity" : 0.24705882352941175,
+      "source" : [
+        69,
+        110,
+        5,
+        128
+      ]
+    },
+    "normalCopied" : [
+      18,
+      28,
+      2,
+      33
+    ],
+    "normalRaw" : [
+      18,
+      28,
+      2,
+      33
+    ],
+    "normalSurface" : [
+      17,
+      27,
+      1,
+      32
+    ],
+    "stagedNormal" : [
+      18,
+      28,
+      2,
+      33
+    ]
+  },
+  {
+    "copySurface" : [
+      7,
+      29,
+      43,
+      47
+    ],
+    "input" : {
+      "destination" : [
+        121,
+        6,
+        11,
+        201
+      ],
+      "name" : "discovery_139",
+      "opacity" : 0.24705882352941178,
+      "source" : [
+        28,
+        116,
+        176,
+        191
+      ]
+    },
+    "normalCopied" : [
+      106,
+      34,
+      52,
+      211
+    ],
+    "normalRaw" : [
+      106,
+      34,
+      52,
+      211
+    ],
+    "normalSurface" : [
+      7,
+      29,
+      43,
+      47
+    ],
+    "stagedNormal" : [
+      106,
+      34,
+      52,
+      211
+    ]
+  },
+  {
+    "copySurface" : [
+      41,
+      43,
+      44,
+      50
+    ],
+    "input" : {
+      "destination" : [
+        14,
+        1,
+        18,
+        64
+      ],
+      "name" : "discovery_140",
+      "opacity" : 0.2470588235294118,
+      "source" : [
+        164,
+        173,
+        178,
+        201
+      ]
+    },
+    "normalCopied" : [
+      52,
+      44,
+      58,
+      101
+    ],
+    "normalRaw" : [
+      52,
+      44,
+      58,
+      101
+    ],
+    "normalSurface" : [
+      41,
+      43,
+      44,
+      50
+    ],
+    "stagedNormal" : [
+      52,
+      44,
+      58,
+      101
+    ]
+  },
+  {
+    "copySurface" : [
+      111,
+      79,
+      71,
+      127
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_141",
+      "opacity" : 0.49803921568627446,
+      "source" : [
+        222,
+        158,
+        143,
+        254
+      ]
+    },
+    "normalCopied" : [
+      111,
+      79,
+      71,
+      127
+    ],
+    "normalRaw" : [
+      111,
+      79,
+      71,
+      127
+    ],
+    "normalSurface" : [
+      111,
+      79,
+      71,
+      127
+    ],
+    "stagedNormal" : [
+      111,
+      79,
+      71,
+      127
+    ]
+  },
+  {
+    "copySurface" : [
+      54,
+      25,
+      58,
+      127
+    ],
+    "input" : {
+      "destination" : [
+        63,
+        67,
+        137,
+        191
+      ],
+      "name" : "discovery_142",
+      "opacity" : 0.4980392156862745,
+      "source" : [
+        108,
+        50,
+        116,
+        255
+      ]
+    },
+    "normalCopied" : [
+      86,
+      59,
+      127,
+      223
+    ],
+    "normalRaw" : [
+      86,
+      59,
+      127,
+      223
+    ],
+    "normalSurface" : [
+      54,
+      25,
+      58,
+      127
+    ],
+    "stagedNormal" : [
+      86,
+      59,
+      127,
+      223
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        12,
+        12,
+        15,
+        17
+      ],
+      "name" : "discovery_143",
+      "opacity" : 0.4980392156862746,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      12,
+      12,
+      15,
+      17
+    ],
+    "normalRaw" : [
+      12,
+      12,
+      15,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      12,
+      12,
+      15,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        187,
+        61,
+        129,
+        255
+      ],
+      "name" : "discovery_144",
+      "opacity" : 0.7490196078431371,
+      "source" : [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "normalCopied" : [
+      186,
+      62,
+      128,
+      255
+    ],
+    "normalRaw" : [
+      186,
+      62,
+      128,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      186,
+      62,
+      128,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      0,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        85,
+        33,
+        41,
+        128
+      ],
+      "name" : "discovery_145",
+      "opacity" : 0.7490196078431373,
+      "source" : [
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    "normalCopied" : [
+      86,
+      33,
+      41,
+      128
+    ],
+    "normalRaw" : [
+      86,
+      33,
+      41,
+      128
+    ],
+    "normalSurface" : [
+      1,
+      0,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      86,
+      33,
+      41,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      10,
+      12,
+      2,
+      13
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        2,
+        2
+      ],
+      "name" : "discovery_146",
+      "opacity" : 0.7490196078431374,
+      "source" : [
+        14,
+        16,
+        3,
+        17
+      ]
+    },
+    "normalCopied" : [
+      10,
+      12,
+      4,
+      15
+    ],
+    "normalRaw" : [
+      10,
+      12,
+      4,
+      15
+    ],
+    "normalSurface" : [
+      10,
+      12,
+      2,
+      13
+    ],
+    "stagedNormal" : [
+      10,
+      12,
+      4,
+      15
+    ]
+  },
+  {
+    "copySurface" : [
+      3,
+      13,
+      8,
+      64
+    ],
+    "input" : {
+      "destination" : [
+        238,
+        3,
+        138,
+        254
+      ],
+      "name" : "discovery_147",
+      "opacity" : 0.9960784313725489,
+      "source" : [
+        3,
+        13,
+        8,
+        64
+      ]
+    },
+    "normalCopied" : [
+      181,
+      15,
+      111,
+      254
+    ],
+    "normalRaw" : [
+      181,
+      15,
+      111,
+      254
+    ],
+    "normalSurface" : [
+      3,
+      13,
+      8,
+      64
+    ],
+    "stagedNormal" : [
+      181,
+      15,
+      111,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      104,
+      120,
+      16,
+      127
+    ],
+    "input" : {
+      "destination" : [
+        122,
+        57,
+        124,
+        127
+      ],
+      "name" : "discovery_148",
+      "opacity" : 0.996078431372549,
+      "source" : [
+        104,
+        120,
+        16,
+        127
+      ]
+    },
+    "normalCopied" : [
+      165,
+      149,
+      78,
+      191
+    ],
+    "normalRaw" : [
+      165,
+      149,
+      78,
+      191
+    ],
+    "normalSurface" : [
+      104,
+      120,
+      16,
+      127
+    ],
+    "stagedNormal" : [
+      165,
+      149,
+      78,
+      191
+    ]
+  },
+  {
+    "copySurface" : [
+      35,
+      34,
+      85,
+      127
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        0,
+        1,
+        1
+      ],
+      "name" : "discovery_149",
+      "opacity" : 0.9960784313725491,
+      "source" : [
+        35,
+        34,
+        85,
+        128
+      ]
+    },
+    "normalCopied" : [
+      36,
+      34,
+      86,
+      128
+    ],
+    "normalRaw" : [
+      36,
+      34,
+      86,
+      128
+    ],
+    "normalSurface" : [
+      35,
+      34,
+      85,
+      127
+    ],
+    "stagedNormal" : [
+      36,
+      34,
+      86,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        133,
+        149,
+        76,
+        201
+      ],
+      "name" : "discovery_150",
+      "opacity" : 0,
+      "source" : [
+        172,
+        83,
+        53,
+        191
+      ]
+    },
+    "normalCopied" : [
+      133,
+      149,
+      76,
+      201
+    ],
+    "normalRaw" : [
+      133,
+      149,
+      76,
+      201
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      133,
+      149,
+      76,
+      201
+    ]
+  },
+  {
+    "copySurface" : [
+      78,
+      112,
+      15,
+      201
+    ],
+    "input" : {
+      "destination" : [
+        41,
+        28,
+        34,
+        64
+      ],
+      "name" : "discovery_151",
+      "opacity" : 1,
+      "source" : [
+        78,
+        112,
+        15,
+        201
+      ]
+    },
+    "normalCopied" : [
+      87,
+      118,
+      22,
+      215
+    ],
+    "normalRaw" : [
+      87,
+      118,
+      22,
+      215
+    ],
+    "normalSurface" : [
+      78,
+      112,
+      15,
+      201
+    ],
+    "stagedNormal" : [
+      87,
+      118,
+      22,
+      215
+    ]
+  },
+  {
+    "copySurface" : [
+      35,
+      97,
+      1,
+      200
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_152",
+      "opacity" : 0.79,
+      "source" : [
+        45,
+        123,
+        1,
+        254
+      ]
+    },
+    "normalCopied" : [
+      35,
+      97,
+      1,
+      200
+    ],
+    "normalRaw" : [
+      35,
+      97,
+      1,
+      200
+    ],
+    "normalSurface" : [
+      35,
+      97,
+      1,
+      200
+    ],
+    "stagedNormal" : [
+      35,
+      97,
+      1,
+      200
+    ]
+  },
+  {
+    "copySurface" : [
+      34,
+      97,
+      169,
+      181
+    ],
+    "input" : {
+      "destination" : [
+        128,
+        75,
+        163,
+        191
+      ],
+      "name" : "discovery_153",
+      "opacity" : 0.71,
+      "source" : [
+        48,
+        136,
+        238,
+        255
+      ]
+    },
+    "normalCopied" : [
+      71,
+      119,
+      216,
+      236
+    ],
+    "normalRaw" : [
+      71,
+      119,
+      216,
+      236
+    ],
+    "normalSurface" : [
+      34,
+      97,
+      169,
+      181
+    ],
+    "stagedNormal" : [
+      71,
+      119,
+      216,
+      236
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        15,
+        1,
+        5,
+        17
+      ],
+      "name" : "discovery_154",
+      "opacity" : 0.63,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      15,
+      1,
+      5,
+      17
+    ],
+    "normalRaw" : [
+      15,
+      1,
+      5,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      15,
+      1,
+      5,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        66,
+        183,
+        160,
+        255
+      ],
+      "name" : "discovery_155",
+      "opacity" : 0.83,
+      "source" : [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      66,
+      182,
+      160,
+      255
+    ],
+    "normalRaw" : [
+      66,
+      182,
+      160,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      66,
+      182,
+      160,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        40,
+        88,
+        63,
+        128
+      ],
+      "name" : "discovery_156",
+      "opacity" : 0.371259,
+      "source" : [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "normalCopied" : [
+      40,
+      88,
+      63,
+      128
+    ],
+    "normalRaw" : [
+      40,
+      88,
+      63,
+      128
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      40,
+      88,
+      63,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      4,
+      2,
+      3,
+      10
+    ],
+    "input" : {
+      "destination" : [
+        2,
+        0,
+        0,
+        2
+      ],
+      "name" : "discovery_157",
+      "opacity" : 0.5609,
+      "source" : [
+        7,
+        3,
+        6,
+        17
+      ]
+    },
+    "normalCopied" : [
+      6,
+      2,
+      3,
+      12
+    ],
+    "normalRaw" : [
+      6,
+      2,
+      3,
+      12
+    ],
+    "normalSurface" : [
+      4,
+      2,
+      3,
+      10
+    ],
+    "stagedNormal" : [
+      6,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "copySurface" : [
+      10,
+      28,
+      29,
+      52
+    ],
+    "input" : {
+      "destination" : [
+        139,
+        72,
+        2,
+        254
+      ],
+      "name" : "discovery_158",
+      "opacity" : 0.81,
+      "source" : [
+        12,
+        34,
+        36,
+        64
+      ]
+    },
+    "normalCopied" : [
+      121,
+      85,
+      31,
+      254
+    ],
+    "normalRaw" : [
+      121,
+      85,
+      31,
+      254
+    ],
+    "normalSurface" : [
+      10,
+      28,
+      29,
+      52
+    ],
+    "stagedNormal" : [
+      121,
+      85,
+      31,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      7,
+      38,
+      59,
+      60
+    ],
+    "input" : {
+      "destination" : [
+        85,
+        82,
+        102,
+        127
+      ],
+      "name" : "discovery_159",
+      "opacity" : 0.47,
+      "source" : [
+        15,
+        80,
+        126,
+        127
+      ]
+    },
+    "normalCopied" : [
+      72,
+      101,
+      137,
+      157
+    ],
+    "normalRaw" : [
+      72,
+      101,
+      137,
+      157
+    ],
+    "normalSurface" : [
+      7,
+      38,
+      59,
+      60
+    ],
+    "stagedNormal" : [
+      72,
+      101,
+      137,
+      157
+    ]
+  },
+  {
+    "copySurface" : [
+      65,
+      42,
+      41,
+      68
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        1
+      ],
+      "name" : "discovery_160",
+      "opacity" : 0.53,
+      "source" : [
+        123,
+        80,
+        78,
+        128
+      ]
+    },
+    "normalCopied" : [
+      65,
+      42,
+      41,
+      69
+    ],
+    "normalRaw" : [
+      65,
+      42,
+      41,
+      69
+    ],
+    "normalSurface" : [
+      65,
+      42,
+      41,
+      68
+    ],
+    "stagedNormal" : [
+      65,
+      42,
+      41,
+      69
+    ]
+  },
+  {
+    "copySurface" : [
+      75,
+      1,
+      94,
+      172
+    ],
+    "input" : {
+      "destination" : [
+        108,
+        136,
+        135,
+        201
+      ],
+      "name" : "discovery_161",
+      "opacity" : 0.9,
+      "source" : [
+        83,
+        1,
+        104,
+        191
+      ]
+    },
+    "normalCopied" : [
+      110,
+      45,
+      138,
+      237
+    ],
+    "normalRaw" : [
+      110,
+      45,
+      138,
+      237
+    ],
+    "normalSurface" : [
+      75,
+      1,
+      94,
+      172
+    ],
+    "stagedNormal" : [
+      110,
+      45,
+      138,
+      237
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        59,
+        25,
+        46,
+        64
+      ],
+      "name" : "discovery_162",
+      "opacity" : 0.0039215686274509795,
+      "source" : [
+        25,
+        85,
+        85,
+        201
+      ]
+    },
+    "normalCopied" : [
+      59,
+      25,
+      46,
+      65
+    ],
+    "normalRaw" : [
+      59,
+      25,
+      46,
+      65
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      59,
+      25,
+      46,
+      65
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_163",
+      "opacity" : 0.00392156862745098,
+      "source" : [
+        89,
+        191,
+        127,
+        254
+      ]
+    },
+    "normalCopied" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "normalRaw" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "normalSurface" : [
+      0,
+      1,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      1,
+      1,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        56,
+        13,
+        166,
+        191
+      ],
+      "name" : "discovery_164",
+      "opacity" : 0.003921568627450981,
+      "source" : [
+        65,
+        168,
+        199,
+        255
+      ]
+    },
+    "normalCopied" : [
+      56,
+      14,
+      166,
+      191
+    ],
+    "normalRaw" : [
+      56,
+      14,
+      166,
+      191
+    ],
+    "normalSurface" : [
+      0,
+      1,
+      1,
+      1
+    ],
+    "stagedNormal" : [
+      56,
+      14,
+      166,
+      191
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        6,
+        16,
+        15,
+        17
+      ],
+      "name" : "discovery_165",
+      "opacity" : 0.06666666666666665,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      6,
+      16,
+      15,
+      17
+    ],
+    "normalRaw" : [
+      6,
+      16,
+      15,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      6,
+      16,
+      15,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        36,
+        85,
+        39,
+        255
+      ],
+      "name" : "discovery_166",
+      "opacity" : 0.06666666666666667,
+      "source" : [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    "normalCopied" : [
+      36,
+      85,
+      39,
+      255
+    ],
+    "normalRaw" : [
+      36,
+      85,
+      39,
+      255
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      36,
+      85,
+      39,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        93,
+        71,
+        86,
+        128
+      ],
+      "name" : "discovery_167",
+      "opacity" : 0.06666666666666668,
+      "source" : [
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    "normalCopied" : [
+      93,
+      71,
+      86,
+      128
+    ],
+    "normalRaw" : [
+      93,
+      71,
+      86,
+      128
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      93,
+      71,
+      86,
+      128
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      4,
+      4
+    ],
+    "input" : {
+      "destination" : [
+        1,
+        2,
+        2,
+        2
+      ],
+      "name" : "discovery_168",
+      "opacity" : 0.24705882352941175,
+      "source" : [
+        0,
+        2,
+        16,
+        17
+      ]
+    },
+    "normalCopied" : [
+      1,
+      2,
+      6,
+      6
+    ],
+    "normalRaw" : [
+      1,
+      2,
+      6,
+      6
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      4,
+      4
+    ],
+    "stagedNormal" : [
+      1,
+      2,
+      6,
+      6
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      13,
+      8,
+      16
+    ],
+    "input" : {
+      "destination" : [
+        125,
+        125,
+        158,
+        254
+      ],
+      "name" : "discovery_169",
+      "opacity" : 0.24705882352941178,
+      "source" : [
+        0,
+        51,
+        34,
+        64
+      ]
+    },
+    "normalCopied" : [
+      117,
+      130,
+      156,
+      254
+    ],
+    "normalRaw" : [
+      117,
+      130,
+      156,
+      254
+    ],
+    "normalSurface" : [
+      0,
+      13,
+      8,
+      16
+    ],
+    "stagedNormal" : [
+      117,
+      130,
+      156,
+      254
+    ]
+  },
+  {
+    "copySurface" : [
+      3,
+      17,
+      20,
+      31
+    ],
+    "input" : {
+      "destination" : [
+        33,
+        41,
+        20,
+        127
+      ],
+      "name" : "discovery_170",
+      "opacity" : 0.2470588235294118,
+      "source" : [
+        13,
+        70,
+        80,
+        127
+      ]
+    },
+    "normalCopied" : [
+      32,
+      53,
+      38,
+      143
+    ],
+    "normalRaw" : [
+      32,
+      53,
+      38,
+      143
+    ],
+    "normalSurface" : [
+      3,
+      17,
+      20,
+      31
+    ],
+    "stagedNormal" : [
+      32,
+      53,
+      38,
+      143
+    ]
+  },
+  {
+    "copySurface" : [
+      54,
+      10,
+      53,
+      64
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        1,
+        1,
+        1
+      ],
+      "name" : "discovery_171",
+      "opacity" : 0.49803921568627446,
+      "source" : [
+        109,
+        20,
+        106,
+        128
+      ]
+    },
+    "normalCopied" : [
+      54,
+      11,
+      54,
+      65
+    ],
+    "normalRaw" : [
+      54,
+      11,
+      54,
+      65
+    ],
+    "normalSurface" : [
+      54,
+      10,
+      53,
+      64
+    ],
+    "stagedNormal" : [
+      54,
+      11,
+      54,
+      65
+    ]
+  },
+  {
+    "copySurface" : [
+      52,
+      44,
+      92,
+      95
+    ],
+    "input" : {
+      "destination" : [
+        51,
+        4,
+        83,
+        201
+      ],
+      "name" : "discovery_172",
+      "opacity" : 0.4980392156862745,
+      "source" : [
+        105,
+        88,
+        184,
+        191
+      ]
+    },
+    "normalCopied" : [
+      84,
+      47,
+      144,
+      221
+    ],
+    "normalRaw" : [
+      84,
+      47,
+      144,
+      221
+    ],
+    "normalSurface" : [
+      52,
+      44,
+      92,
+      95
+    ],
+    "stagedNormal" : [
+      84,
+      47,
+      144,
+      221
+    ]
+  },
+  {
+    "copySurface" : [
+      35,
+      30,
+      82,
+      100
+    ],
+    "input" : {
+      "destination" : [
+        20,
+        36,
+        12,
+        64
+      ],
+      "name" : "discovery_173",
+      "opacity" : 0.4980392156862746,
+      "source" : [
+        71,
+        61,
+        164,
+        201
+      ]
+    },
+    "normalCopied" : [
+      47,
+      52,
+      89,
+      139
+    ],
+    "normalRaw" : [
+      47,
+      52,
+      89,
+      139
+    ],
+    "normalSurface" : [
+      35,
+      30,
+      82,
+      100
+    ],
+    "stagedNormal" : [
+      47,
+      52,
+      89,
+      139
+    ]
+  },
+  {
+    "copySurface" : [
+      100,
+      150,
+      157,
+      190
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "discovery_174",
+      "opacity" : 0.7490196078431371,
+      "source" : [
+        133,
+        200,
+        210,
+        254
+      ]
+    },
+    "normalCopied" : [
+      100,
+      150,
+      157,
+      190
+    ],
+    "normalRaw" : [
+      100,
+      150,
+      157,
+      190
+    ],
+    "normalSurface" : [
+      100,
+      150,
+      157,
+      190
+    ],
+    "stagedNormal" : [
+      100,
+      150,
+      157,
+      190
+    ]
+  },
+  {
+    "copySurface" : [
+      10,
+      139,
+      42,
+      191
+    ],
+    "input" : {
+      "destination" : [
+        78,
+        7,
+        102,
+        191
+      ],
+      "name" : "discovery_175",
+      "opacity" : 0.7490196078431373,
+      "source" : [
+        14,
+        186,
+        56,
+        255
+      ]
+    },
+    "normalCopied" : [
+      30,
+      141,
+      68,
+      239
+    ],
+    "normalRaw" : [
+      30,
+      141,
+      68,
+      239
+    ],
+    "normalSurface" : [
+      10,
+      139,
+      42,
+      191
+    ],
+    "stagedNormal" : [
+      30,
+      141,
+      68,
+      239
+    ]
+  },
+  {
+    "copySurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input" : {
+      "destination" : [
+        11,
+        10,
+        3,
+        17
+      ],
+      "name" : "discovery_176",
+      "opacity" : 0.7490196078431374,
+      "source" : [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "normalCopied" : [
+      11,
+      10,
+      3,
+      17
+    ],
+    "normalRaw" : [
+      11,
+      10,
+      3,
+      17
+    ],
+    "normalSurface" : [
+      0,
+      0,
+      0,
+      0
+    ],
+    "stagedNormal" : [
+      11,
+      10,
+      3,
+      17
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      1,
+      0,
+      1
+    ],
+    "input" : {
+      "destination" : [
+        36,
+        111,
+        114,
+        255
+      ],
+      "name" : "discovery_177",
+      "opacity" : 0.9960784313725489,
+      "source" : [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "normalCopied" : [
+      37,
+      112,
+      114,
+      255
+    ],
+    "normalRaw" : [
+      37,
+      112,
+      114,
+      255
+    ],
+    "normalSurface" : [
+      1,
+      1,
+      0,
+      1
+    ],
+    "stagedNormal" : [
+      37,
+      112,
+      114,
+      255
+    ]
+  },
+  {
+    "copySurface" : [
+      1,
+      0,
+      1,
+      2
+    ],
+    "input" : {
+      "destination" : [
+        66,
+        60,
+        80,
+        128
+      ],
+      "name" : "discovery_178",
+      "opacity" : 0.996078431372549,
+      "source" : [
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    "normalCopied" : [
+      66,
+      60,
+      80,
+      129
+    ],
+    "normalRaw" : [
+      66,
+      60,
+      80,
+      129
+    ],
+    "normalSurface" : [
+      1,
+      0,
+      1,
+      2
+    ],
+    "stagedNormal" : [
+      66,
+      60,
+      80,
+      129
+    ]
+  },
+  {
+    "copySurface" : [
+      4,
+      9,
+      4,
+      17
+    ],
+    "input" : {
+      "destination" : [
+        2,
+        2,
+        1,
+        2
+      ],
+      "name" : "discovery_179",
+      "opacity" : 0.9960784313725491,
+      "source" : [
+        4,
+        9,
+        4,
+        17
+      ]
+    },
+    "normalCopied" : [
+      6,
+      11,
+      5,
+      19
+    ],
+    "normalRaw" : [
+      6,
+      11,
+      5,
+      19
+    ],
+    "normalSurface" : [
+      4,
+      9,
+      4,
+      17
+    ],
+    "stagedNormal" : [
+      6,
+      11,
+      5,
+      19
+    ]
+  },
+  {
+    "copySurface" : [
+      38,
+      6,
+      98,
+      158
+    ],
+    "input" : {
+      "destination" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name" : "original_training_leaf_0",
+      "opacity" : 0.79,
+      "source" : [
+        48,
+        8,
+        124,
+        201
+      ]
+    },
+    "normalCopied" : [
+      38,
+      6,
+      98,
+      158
+    ],
+    "normalRaw" : [
+      38,
+      6,
+      98,
+      158
+    ],
+    "normalSurface" : [
+      38,
+      6,
+      98,
+      158
+    ],
+    "stagedNormal" : [
+      38,
+      6,
+      98,
+      158
+    ]
+  },
+  {
+    "copySurface" : [
+      47,
+      6,
+      37,
+      55
+    ],
+    "input" : {
+      "destination" : [
+        38,
+        6,
+        98,
+        158
+      ],
+      "name" : "original_training_leaf_3",
+      "opacity" : 0.30529999999999996,
+      "source" : [
+        153,
+        21,
+        120,
+        179
+      ]
+    },
+    "normalCopied" : [
+      77,
+      11,
+      114,
+      179
+    ],
+    "normalRaw" : [
+      77,
+      11,
+      114,
+      179
+    ],
+    "normalSurface" : [
+      47,
+      6,
+      37,
+      55
+    ],
+    "stagedNormal" : [
+      77,
+      11,
+      114,
+      179
+    ]
+  },
+  {
+    "copySurface" : [
+      5,
+      19,
+      11,
+      21
+    ],
+    "input" : {
+      "destination" : [
+        84,
+        17,
+        113,
+        185
+      ],
+      "name" : "original_training_leaf_7",
+      "opacity" : 0.16550099999999998,
+      "source" : [
+        31,
+        116,
+        64,
+        127
+      ]
+    },
+    "normalCopied" : [
+      82,
+      35,
+      115,
+      191
+    ],
+    "normalRaw" : [
+      82,
+      35,
+      115,
+      191
+    ],
+    "normalSurface" : [
+      5,
+      19,
+      11,
+      21
+    ],
+    "stagedNormal" : [
+      82,
+      35,
+      115,
+      191
+    ]
+  },
+  {
+    "copySurface" : [
+      57,
+      24,
+      5,
+      63
+    ],
+    "input" : {
+      "destination" : [
+        82,
+        35,
+        115,
+        191
+      ],
+      "name" : "original_training_leaf_5",
+      "opacity" : 0.41179999999999994,
+      "source" : [
+        139,
+        58,
+        11,
+        153
+      ]
+    },
+    "normalCopied" : [
+      119,
+      50,
+      92,
+      207
+    ],
+    "normalRaw" : [
+      119,
+      50,
+      92,
+      207
+    ],
+    "normalSurface" : [
+      57,
+      24,
+      5,
+      63
+    ],
+    "stagedNormal" : [
+      119,
+      50,
+      92,
+      207
+    ]
+  },
+  {
+    "copySurface" : [
+      16,
+      1,
+      8,
+      23
+    ],
+    "input" : {
+      "destination" : [
+        119,
+        50,
+        92,
+        207
+      ],
+      "name" : "original_training_leaf_2",
+      "opacity" : 0.23,
+      "source" : [
+        67,
+        5,
+        33,
+        101
+      ]
+    },
+    "normalCopied" : [
+      124,
+      46,
+      92,
+      211
+    ],
+    "normalRaw" : [
+      124,
+      46,
+      92,
+      211
+    ],
+    "normalSurface" : [
+      16,
+      1,
+      8,
+      23
+    ],
+    "stagedNormal" : [
+      124,
+      46,
+      92,
+      211
+    ]
+  }
+]

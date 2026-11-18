@@ -1,0 +1,38 @@
+{
+  "canvas": [
+    16,
+    12
+  ],
+  "checkpointVersion": 5,
+  "expectedBlackRect": [
+    4,
+    3,
+    4,
+    4
+  ],
+  "maskEnabled": true,
+  "maskLinked": true,
+  "maskPlacement": null,
+  "maskSize": [
+    8,
+    7
+  ],
+  "originalMask": [
+    1,
+    1,
+    0
+  ],
+  "sourceSize": [
+    8,
+    7
+  ],
+  "transform": [
+    1,
+    1,
+    8,
+    7,
+    0,
+    0,
+    0
+  ]
+}

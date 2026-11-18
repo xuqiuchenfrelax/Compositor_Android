@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="layer_panel_named_id">%1$s #%2$d</string>
+    <string name="layer_panel_id">#%1$d</string>
+    <string name="layer_panel_source_dimensions">%1$d × %2$d 像素</string>
+    <string name="layer_panel_kind_group">组</string>
+    <string name="layer_panel_kind_pixel_content">像素内容</string>
+    <string name="layer_panel_kind_layer">图层</string>
+    <string name="layer_panel_target_mask">蒙版</string>
+    <string name="layer_panel_target_group">组</string>
+    <string name="layer_panel_target_content">内容</string>
+    <string name="layer_panel_current_target">当前编辑：%1$s · %2$s</string>
+    <string name="layer_panel_no_target">请选择要编辑的图层</string>
+    <string name="layer_panel_editing">正在编辑%1$s</string>
+    <string name="layer_panel_editing_target_state">当前编辑目标</string>
+    <string name="layer_panel_not_editing_target_state">非当前编辑目标</string>
+    <string name="layer_panel_multi_select">多选</string>
+    <string name="layer_panel_tap_to_edit">点击图层以编辑</string>
+    <string name="layer_panel_visibility">可见性</string>
+    <string name="layer_panel_visible">显示</string>
+    <string name="layer_panel_hidden">隐藏</string>
+</resources>

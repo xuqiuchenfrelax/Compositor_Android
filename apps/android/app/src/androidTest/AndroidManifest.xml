@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity
+            android:name="com.pojia.compositor.mobile.V21ProjectProviderSessionActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <provider
+            android:name="com.pojia.compositor.mobile.V21ProjectDocumentsProvider"
+            android:authorities="com.pojia.compositor.mobile.test.v21projects"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter><action android:name="android.content.action.DOCUMENTS_PROVIDER" /></intent-filter>
+        </provider>
+        <provider
+            android:name="com.pojia.compositor.mobile.ImageDeniedProvider"
+            android:authorities="com.pojia.compositor.mobile.test.deniedimage"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:readPermission="android.permission.MANAGE_DOCUMENTS" />
+        <activity
+            android:name="com.pojia.compositor.mobile.ProjectProviderGrantActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <provider
+            android:name="com.pojia.compositor.mobile.ExportDocumentsProvider"
+            android:authorities="com.pojia.compositor.mobile.test.exports"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter><action android:name="android.content.action.DOCUMENTS_PROVIDER" /></intent-filter>
+        </provider>
+        <provider
+            android:name="com.pojia.compositor.mobile.FakeProjectDocumentsProvider"
+            android:authorities="com.pojia.compositor.mobile.test.projects"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
+        </provider>
+    </application>
+</manifest>

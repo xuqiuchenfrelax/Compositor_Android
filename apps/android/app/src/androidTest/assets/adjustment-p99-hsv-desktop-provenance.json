@@ -1,0 +1,24 @@
+{
+  "source": "actual Mac primitive oracle, independent seed holdout; no native output used as expected bytes",
+  "parentFixtureSha256": "c01ca458532ab0c2f633b7fbc523711474de4c15fd53bb0631196a95805927c7",
+  "parentMacSha256": "3b4fd072b682a36b07df1120564917a031b492441d97652ea619493af426336f",
+  "assetSha256": "f4713afbc968151079a64e5f10e79c7231c2f8868754dbbf93b11f32bb5ff079",
+  "selection": "extended-30..53; each selects256 indices round(i*(pixelCount-1)/255), source channel bytes unchanged",
+  "caseCount": 24,
+  "pixelCount": 6144,
+  "sources": {
+    "Compositor/Document/Levels.swift": "1d138680c8f338eb6a4f4d037f27e1769678c3152017026ca5c66f15270ad837",
+    "Compositor/Document/ImageAdjustments.swift": "8b699bb8c29c3f4d88a3eefeb5a4d854b4be105bf5a086d202fd36df58a7fd70",
+    "Compositor/Document/PixelInvert.swift": "e22ade5ae1d7e06dd8e4a3e97d18449a6b816a8010eb9b11d4719e07a90a6b26",
+    "Compositor/Rendering/LevelsPixels.c": "5cb9a2a115b780c05455ee4dd3bf96a51099313d6ea6d9c65195c4a4e8a17540",
+    "Compositor/Rendering/LevelsPixels.h": "d008a84f849d0a65fe000826251e8dce0d70f0239332d1c190a254dc0152dbdc",
+    "engine/src/raster/adjustment.cpp": "5678a01be3ae767ab9c7babedb9541430becac1143f2ab419ee290d4be603e93",
+    "engine/src/raster/adjustment.hpp": "a6a345fb05ab3edafcbadc268727eb2429f32f578957da5ddfd2239dd2720cee",
+    "engine/tests/adjustment_tests.cpp": "a25d52c36a74f18c015a6cdce4235852ec8269f4ff87b4e10f7385562ec8029e",
+    "Compositor/Document/Curves.swift": "ceb108a8688ca66b41b5bf1bc738cafd80e1c5aa9658664c2b3cdcb520177ad3",
+    "Compositor/Rendering/AdjustPixels.c": "f909779259a9b621d7573fd6bf48d0197262978094c6e0884b4bd7116adbdedb",
+    "scripts/adjustment_extended_fixtures.py": "4b51e235f5904084c5bd2a3f72792813a5db422875ddf5628d251a1d504bba8f",
+    "scripts/adjustment_extended_oracle.py": "e430ce41ff447df86e84b55d36d30c96a3ab62588ec9847da375911679887f00",
+    "Compositor/Document/HueSaturation.swift": "9ad4f391c334d30833a65411830fd1a03c2b6e3bee668c19e3023d33e68798e0"
+  }
+}

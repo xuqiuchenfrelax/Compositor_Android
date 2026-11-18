@@ -1,0 +1,49 @@
+{
+  "activeLayerID" : "B7700000-0000-4000-8000-000000000009",
+  "colorSpace" : "sRGB",
+  "documentID" : "B7700000-0000-4000-9000-000000000009",
+  "format" : "com.compositor.project",
+  "height" : 64,
+  "layers" : [
+    {
+      "id" : "B7700000-0000-4000-8000-000000000009",
+      "imageFile" : "B7700000-0000-4000-8000-000000000009.png",
+      "isVisible" : true,
+      "name" : "line-fractional-square",
+      "shape" : {
+        "blue" : 0.876543210987654,
+        "cornerRadius" : 0,
+        "end" : [
+          0.9466019417475728,
+          0.8777777777777778
+        ],
+        "green" : 0.543210987654321,
+        "kind" : "Line",
+        "lineCap" : "Square",
+        "lineStyle" : "Dashed",
+        "lineWidth" : 3.5,
+        "red" : 0.123456789012345,
+        "start" : [
+          0.05339805825242718,
+          0.12222222222222222
+        ]
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          10,
+          10
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          51,
+          22
+        ]
+      }
+    }
+  ],
+  "version" : 15,
+  "width" : 96
+}

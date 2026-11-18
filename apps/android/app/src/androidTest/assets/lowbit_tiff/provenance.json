@@ -1,0 +1,71 @@
+{
+  "producer": "engine/src/io/tiff_codec_tests/tiff_codec_tests.cpp lowBitFixture: independent TIFFOpen/SetField/WriteScanline fixture producer; source files never use compositor encode_all",
+  "producerSourceSHA256": "3bfc7be10c528e4666c43318acd5378bbc6efddac96490f792701709f2f9059d",
+  "generatedBy": "COMPOSITOR_LOWBIT_EVIDENCE=build/p148-lowbit-tiff/fixtures native-release/third_party/tiff_codec_tests",
+  "scope": "5x3 top-left uncompressed little-endian source TIFF; unsigned grayBlack/grayWhite/palette1/2/4; samples independent formula (y*5+x)&((1<<bits)-1); palette16=index*4001+channel*151+13",
+  "fixtures": [
+    {
+      "name": "bits1-photo0-source.tiff",
+      "bytes": 180,
+      "sha256": "99091a28df725c1b49c3bdf5caf2b6ec8492bf27f842942f337b7613fd9a59bb",
+      "bits": 1,
+      "photometric": 0
+    },
+    {
+      "name": "bits1-photo1-source.tiff",
+      "bytes": 180,
+      "sha256": "f52a3634094860dd9bd231e22d1aad12bd71ec569f21a8b3f3c383761daaed87",
+      "bits": 1,
+      "photometric": 1
+    },
+    {
+      "name": "bits1-photo3-source.tiff",
+      "bytes": 204,
+      "sha256": "d53f74712d99ce1b45c01ea09d81694e61dcffff7dd94f8ba32c7394e3aab443",
+      "bits": 1,
+      "photometric": 3
+    },
+    {
+      "name": "bits2-photo0-source.tiff",
+      "bytes": 182,
+      "sha256": "650b437f6a20293df49759931908ec09e53009ef1e0cf8c6add9d2792bf828b7",
+      "bits": 2,
+      "photometric": 0
+    },
+    {
+      "name": "bits2-photo1-source.tiff",
+      "bytes": 182,
+      "sha256": "35295a6e14f631826204fd165d2861664fc7f468c4af34d211bd146169fb027d",
+      "bits": 2,
+      "photometric": 1
+    },
+    {
+      "name": "bits2-photo3-source.tiff",
+      "bytes": 218,
+      "sha256": "dc590e55fd20d0e2a257059e5a0b0ae9451a378de7dfeafa36610bf841a84049",
+      "bits": 2,
+      "photometric": 3
+    },
+    {
+      "name": "bits4-photo0-source.tiff",
+      "bytes": 186,
+      "sha256": "a67bc632ed09cba6f83907e3354f24c8d147b5cde2428dc68286c6b23df3ad47",
+      "bits": 4,
+      "photometric": 0
+    },
+    {
+      "name": "bits4-photo1-source.tiff",
+      "bytes": 186,
+      "sha256": "01d900a643e3a8fc343d23b3604a4aacb9352627fda70ef2d9f1f4d87a2b201f",
+      "bits": 4,
+      "photometric": 1
+    },
+    {
+      "name": "bits4-photo3-source.tiff",
+      "bytes": 294,
+      "sha256": "d6c18614f5610a409ea0ba18f158e465b5159fe4f9303cd1148691c83e21cefd",
+      "bits": 4,
+      "photometric": 3
+    }
+  ]
+}

@@ -1,0 +1,12855 @@
+{
+  "cases" : [
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        5
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        5,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        6
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        6,
+        5
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        5,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        6,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        6,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        6,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        6,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        6,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        6,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        5
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        5,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        6
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        6,
+        5
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        5,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        6,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        6,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        6,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        6,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        6,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        6,
+        5,
+        3
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        8,
+        7,
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3,
+        2
+      ],
+      "query" : "face",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        3
+      ],
+      "query" : "  中文  ",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+        1,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "query" : "Portrait",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    },
+    {
+      "collapsed" : [
+        1,
+        4
+      ],
+      "expected" : [
+
+      ],
+      "query" : "missing",
+      "selected" : [
+        3,
+        7
+      ],
+      "types" : [
+        "image",
+        "shape",
+        "text",
+        "folder",
+        "adjustment",
+        "selected"
+      ]
+    }
+  ],
+  "layers" : [
+    {
+      "id" : 1,
+      "kind" : "folder",
+      "name" : "Portrait",
+      "parent" : 0
+    },
+    {
+      "id" : 2,
+      "kind" : "image",
+      "name" : "Face",
+      "parent" : 1
+    },
+    {
+      "id" : 3,
+      "kind" : "text",
+      "name" : "中文 Face",
+      "parent" : 1
+    },
+    {
+      "id" : 4,
+      "kind" : "folder",
+      "name" : "Nested",
+      "parent" : 1
+    },
+    {
+      "id" : 5,
+      "kind" : "shape",
+      "name" : "Line",
+      "parent" : 4
+    },
+    {
+      "id" : 6,
+      "kind" : "adjustment",
+      "name" : "Tone",
+      "parent" : 4
+    },
+    {
+      "id" : 7,
+      "kind" : "image",
+      "name" : "Texture",
+      "parent" : 0
+    },
+    {
+      "id" : 8,
+      "kind" : "image",
+      "name" : "Blank",
+      "parent" : 0
+    }
+  ]
+}

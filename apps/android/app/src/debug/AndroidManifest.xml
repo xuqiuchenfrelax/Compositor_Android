@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The permission-denial fixture must be visible without granting access to its bytes. -->
+    <queries>
+        <provider android:authorities="com.pojia.compositor.mobile.test.deniedimage" />
+    </queries>
+</manifest>

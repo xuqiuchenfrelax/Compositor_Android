@@ -1,0 +1,12 @@
+<resources>
+    <string name="ui_help_healing">在当前图像图层的污点处涂抹 · 双指平移</string>
+    <string name="ui_help_smear">拖动以涂抹当前图像图层 · 双指平移</string>
+    <string name="ui_help_move">拖动当前图层 · 开启自动选择可点选画布中的图层</string>
+    <string name="ui_help_crop">拖动裁剪边缘，然后点击应用裁剪</string>
+    <string name="ui_help_shape">在画布中拖动以绘制形状</string>
+    <string name="ui_help_gradient">拖动预览渐变，然后点击应用</string>
+    <string name="ui_help_selection">拖动选择区域 · 在工具栏填充、剪切或清除</string>
+    <string name="ui_help_magic">点击颜色选择区域 · 在工具栏调整容差</string>
+    <string name="ui_help_sample">触摸画布以取色</string>
+    <string name="ui_help_text">在工具栏选择新建文字或编辑所选文字</string>
+</resources>

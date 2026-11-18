@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:glEsVersion="0x00030000" android:required="true" />
+    <application android:allowBackup="false" android:icon="@drawable/ic_compositor" android:roundIcon="@drawable/ic_compositor" android:label="@string/app_name" android:theme="@style/AppTheme" android:supportsRtl="true" android:localeConfig="@xml/locales_config">
+        <meta-data android:name="com.pojia.compositor.RELEASE_CHANNEL" android:value="${compositorReleaseChannel}" />
+        <meta-data android:name="com.pojia.compositor.VERSION_NAME" android:value="${compositorVersionName}" />
+        <meta-data android:name="com.pojia.compositor.VERSION_CODE" android:value="${compositorVersionCode}" />
+        <meta-data android:name="com.pojia.compositor.SOURCE_REVISION" android:value="${compositorSourceRevision}" />
+        <meta-data android:name="com.pojia.compositor.BUILD_TYPE" android:value="${compositorBuildType}" />
+        <meta-data android:name="com.pojia.compositor.SIGNING_STATE" android:value="${compositorSigningState}" />
+        <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize" android:configChanges="orientation|screenSize|screenLayout|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

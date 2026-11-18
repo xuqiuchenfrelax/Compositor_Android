@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_exposure_valid_range">请输入 %1$s 到 %2$s 之间的有限数值。</string>
+</resources>

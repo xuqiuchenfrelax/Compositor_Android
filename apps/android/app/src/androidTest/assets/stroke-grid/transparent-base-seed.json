@@ -1,0 +1,24 @@
+{
+  "baseSource": [
+    3,
+    2
+  ],
+  "canvas": [
+    8,
+    6
+  ],
+  "checkpointVersion": 5,
+  "outerExplicitTiles": 0,
+  "outerFill": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "target": [
+    2,
+    2,
+    3,
+    2
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "commit" : "365b5745eda537f984f3d5bed1e53c361dbc9c91",
+  "fixtures" : [
+    {
+      "assets" : [
+        {
+          "height" : 2,
+          "layerID" : "A2000000-0000-4000-8000-000000000003",
+          "mask" : false,
+          "pixels" : [
+            255,
+            0,
+            0,
+            255,
+            64,
+            32,
+            16,
+            128,
+            1,
+            2,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            255,
+            64,
+            255,
+            15,
+            22,
+            7,
+            32
+          ],
+          "width" : 3
+        },
+        {
+          "height" : 2,
+          "layerID" : "A2000000-0000-4000-8000-000000000003",
+          "mask" : true,
+          "pixels" : [
+            0,
+            1,
+            17,
+            63,
+            128,
+            255
+          ],
+          "width" : 3
+        },
+        {
+          "height" : 2,
+          "layerID" : "A2000000-0000-4000-8000-000000000004",
+          "mask" : false,
+          "pixels" : [
+            255,
+            0,
+            0,
+            255,
+            64,
+            32,
+            16,
+            128,
+            1,
+            2,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            255,
+            64,
+            255,
+            15,
+            22,
+            7,
+            32
+          ],
+          "width" : 3
+        },
+        {
+          "height" : 2,
+          "layerID" : "A2000000-0000-4000-8000-000000000004",
+          "mask" : true,
+          "pixels" : [
+            0,
+            1,
+            17,
+            63,
+            128,
+            255
+          ],
+          "width" : 3
+        }
+      ],
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "metadata" : {
+        "activeLayerID" : "A2000000-0000-4000-8000-000000000004",
+        "colorSpace" : "sRGB",
+        "documentID" : "A2000000-0000-4000-8000-000000000001",
+        "format" : "com.compositor.project",
+        "guides" : [
+          {
+            "axis" : "horizontal",
+            "id" : "A2000000-0000-4000-8000-000000000006",
+            "position" : 2.1234567890123448
+          },
+          {
+            "axis" : "vertical",
+            "id" : "A2000000-0000-4000-8000-000000000007",
+            "position" : -3.9876543210987649
+          }
+        ],
+        "height" : 8,
+        "layers" : [
+          {
+            "blendMode" : "Normal",
+            "id" : "A2000000-0000-4000-8000-000000000002",
+            "isGroup" : true,
+            "isVisible" : true,
+            "name" : "组合 🎨",
+            "opacity" : 0.73123456789012342,
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "Nearest",
+              "size" : [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "blendMode" : "Normal",
+            "id" : "A2000000-0000-4000-8000-000000000003",
+            "imageFile" : "A2000000-0000-4000-8000-000000000003.png",
+            "isVisible" : true,
+            "maskEnabled" : true,
+            "maskFile" : "A2000000-0000-4000-8000-000000000003.mask.png",
+            "maskLinked" : true,
+            "name" : "原像素",
+            "opacity" : 0.81234567890123455,
+            "parentID" : "A2000000-0000-4000-8000-000000000002",
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "Nearest",
+              "size" : [
+                3,
+                2
+              ]
+            }
+          },
+          {
+            "blendMode" : "Normal",
+            "id" : "A2000000-0000-4000-8000-000000000004",
+            "imageFile" : "A2000000-0000-4000-8000-000000000004.png",
+            "isVisible" : false,
+            "maskEnabled" : false,
+            "maskFile" : "A2000000-0000-4000-8000-000000000004.mask.png",
+            "maskLinked" : false,
+            "maskPlacement" : {
+              "flipX" : false,
+              "flipY" : true,
+              "origin" : [
+                5.1234567890123452,
+                -1.9876543210987649
+              ],
+              "rotation" : 180,
+              "sampling" : "Nearest",
+              "size" : [
+                3,
+                2
+              ]
+            },
+            "maskSourceID" : "A2000000-0000-4000-8000-000000000003",
+            "name" : "独立蒙版",
+            "opacity" : 0.61234567890123448,
+            "parentID" : "A2000000-0000-4000-8000-000000000002",
+            "transform" : {
+              "flipX" : true,
+              "flipY" : false,
+              "origin" : [
+                4.1234567890123452,
+                2.9876543210987649
+              ],
+              "rotation" : 360000000090,
+              "sampling" : "Nearest",
+              "size" : [
+                3,
+                2
+              ]
+            }
+          },
+          {
+            "blendMode" : "Normal",
+            "id" : "A2000000-0000-4000-8000-000000000005",
+            "isGroup" : false,
+            "isVisible" : true,
+            "name" : "无资产空白",
+            "opacity" : 1,
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "Nearest",
+              "size" : [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution" : 300.12345678901232,
+        "version" : 14,
+        "width" : 8
+      },
+      "path" : "raster-editable.comp",
+      "seedDecodedPixelsPreserved" : true
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_UNSUPPORTED",
+      "metadata" : {
+        "activeLayerID" : "B3100000-0000-4000-8000-000000000001",
+        "colorSpace" : "sRGB",
+        "documentID" : "B3100000-0000-4000-8000-000000000000",
+        "format" : "com.compositor.project",
+        "height" : 50,
+        "layers" : [
+          {
+            "id" : "B3100000-0000-4000-8000-000000000001",
+            "imageFile" : "B3100000-0000-4000-8000-000000000001.png",
+            "isVisible" : true,
+            "name" : "Shape smoothing true",
+            "shape" : {
+              "blue" : 0.75,
+              "cornerRadius" : 10,
+              "green" : 0.5,
+              "kind" : "Rectangle",
+              "red" : 0.25,
+              "smoothing" : true
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                60,
+                50
+              ]
+            }
+          }
+        ],
+        "version" : 14,
+        "width" : 60
+      },
+      "path" : "shape-smoothing-true.comp",
+      "reason" : "All non-null shape metadata remains unsupported",
+      "smoothing" : true,
+      "sourcePixelsSHA256" : "e7ea23603074c2c8043bd7daf7be0adbe1118bbd6b6989528968786431bcd4c1"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_UNSUPPORTED",
+      "metadata" : {
+        "activeLayerID" : "B3100000-0000-4000-8000-000000000001",
+        "colorSpace" : "sRGB",
+        "documentID" : "B3100000-0000-4000-8000-000000000000",
+        "format" : "com.compositor.project",
+        "height" : 50,
+        "layers" : [
+          {
+            "id" : "B3100000-0000-4000-8000-000000000001",
+            "imageFile" : "B3100000-0000-4000-8000-000000000001.png",
+            "isVisible" : true,
+            "name" : "Shape smoothing false",
+            "shape" : {
+              "blue" : 0.75,
+              "cornerRadius" : 10,
+              "green" : 0.5,
+              "kind" : "Rectangle",
+              "red" : 0.25,
+              "smoothing" : false
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                60,
+                50
+              ]
+            }
+          }
+        ],
+        "version" : 14,
+        "width" : 60
+      },
+      "path" : "shape-smoothing-false.comp",
+      "reason" : "All non-null shape metadata remains unsupported",
+      "smoothing" : false,
+      "sourcePixelsSHA256" : "b0b7b888e5c8617f30d50df357a84fcbaa9c76e4d78d3b9ede60da198d7df877"
+    }
+  ],
+  "operatingSystem" : "Version 26.6.2 (Build 25G83)",
+  "scope" : "Standalone exact upstream schema\/ProjectStore save-load and shape raster paths; no full application session or mobile acceptance",
+  "v13SmoothingTrueSaveRejected" : true,
+  "writerUnderTest" : "Remote desktop v14; mobile writer remains v13"
+}

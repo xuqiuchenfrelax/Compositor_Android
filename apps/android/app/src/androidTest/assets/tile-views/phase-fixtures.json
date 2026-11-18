@@ -1,0 +1,1 @@
+{"width":269,"height":279,"phase_x":252,"phase_y":250,"tile_count":4,"maximum_lod":0,"valid_rect":[7,11,255,257],"source_offset":[3,5],"source_size":[259,263],"pattern":"RGBA=((7*x+3*y)%256,(5*x+11*y)%256,(13*x+17*y)%256,255)","fill":[17,29,41,255],"oracle":"inside valid_rect use original coordinates (logical_x-4,logical_y-6); outside use each fixture fill"}

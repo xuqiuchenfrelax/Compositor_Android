@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_levels_sample">Sample</string>
+    <string name="ui_levels_sample_black">Black</string>
+    <string name="ui_levels_sample_gray">Gray</string>
+    <string name="ui_levels_sample_white">White</string>
+    <string name="ui_levels_sample_help">Tap the original canvas to set %1$s. Tap the same eyedropper again to stop.</string>
+    <string name="ui_levels_sample_picker">Sample %1$s point</string>
+</resources>
