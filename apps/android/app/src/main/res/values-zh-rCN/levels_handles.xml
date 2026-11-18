@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_levels_input_handles">输入色阶手柄</string>
+    <string name="ui_levels_output_handles">输出色阶手柄</string>
+    <string name="ui_levels_handle_black">输入黑场手柄</string>
+    <string name="ui_levels_handle_gamma">伽马手柄</string>
+    <string name="ui_levels_handle_white">输入白场手柄</string>
+    <string name="ui_levels_handle_output_black">输出黑场手柄</string>
+    <string name="ui_levels_handle_output_white">输出白场手柄</string>
+</resources>

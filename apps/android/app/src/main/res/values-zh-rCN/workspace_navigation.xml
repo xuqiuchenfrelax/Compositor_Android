@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_choose_inspector_panel">选择检查器面板，当前：%1$s</string>
+    <string name="ui_previous_tools">显示上方工具</string>
+    <string name="ui_more_tools">显示更多工具和颜色</string>
+    <string name="ui_tools_up">上方</string>
+    <string name="ui_tools_down">更多</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_levels_reset">Reset levels</string>
+    <string name="ui_levels_valid_range">Enter a finite value from %1$s to %2$s. Input white must be at least 1 above input black.</string>
+    <string name="ui_levels_other_channel_invalid">Fix invalid values in the other channels, or reset levels.</string>
+</resources>

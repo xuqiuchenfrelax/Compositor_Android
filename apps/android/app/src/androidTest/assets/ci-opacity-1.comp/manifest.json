@@ -1,0 +1,62 @@
+{
+  "format": "com.compositor.project",
+  "version": 13,
+  "documentID": "B2000000-0000-4000-8000-000000000001",
+  "width": 1,
+  "height": 1,
+  "resolution": 72,
+  "colorSpace": "sRGB",
+  "guides": [],
+  "activeLayerID": "B2000000-0000-4000-8000-000000000003",
+  "layers": [
+    {
+      "id": "B2000000-0000-4000-8000-000000000002",
+      "name": "Destination",
+      "imageFile": "B2000000-0000-4000-8000-000000000002.png",
+      "blendMode": "Normal",
+      "opacity": 1,
+      "isVisible": true,
+      "isGroup": false,
+      "transform": {
+        "origin": [
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Nearest"
+      }
+    },
+    {
+      "id": "B2000000-0000-4000-8000-000000000003",
+      "name": "Source",
+      "imageFile": "B2000000-0000-4000-8000-000000000003.png",
+      "blendMode": "Color Burn",
+      "opacity": 0.73,
+      "isVisible": true,
+      "isGroup": false,
+      "transform": {
+        "origin": [
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1
+        ],
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Nearest"
+      },
+      "maskFile": "B2000000-0000-4000-8000-000000000003.mask.png",
+      "maskEnabled": true,
+      "maskLinked": true
+    }
+  ]
+}

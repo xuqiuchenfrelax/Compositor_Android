@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Asset agrees with the total, not the number copied so far. -->
+    <plurals name="notice_copying_project_assets">
+        <item quantity="one">%1$d / %2$d asset</item>
+        <item quantity="other">%1$d / %2$d assets</item>
+    </plurals>
+    <!-- These counts vary independently; choose each clause separately. -->
+    <plurals name="notice_export_copies_cleaned">
+        <item quantity="one">%1$d interrupted copy cleaned up</item>
+        <item quantity="other">%1$d interrupted copies cleaned up</item>
+    </plurals>
+    <plurals name="notice_export_records_review">
+        <item quantity="one">%1$d record needs review</item>
+        <item quantity="other">%1$d records need review</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notice_copying_project_assets">
+        <item quantity="other">%1$d / %2$d 个资源</item>
+    </plurals>
+    <plurals name="notice_export_copies_cleaned">
+        <item quantity="other">已清理 %1$d 个中断副本</item>
+    </plurals>
+    <plurals name="notice_export_records_review">
+        <item quantity="other">%1$d 条记录需要检查</item>
+    </plurals>
+</resources>

@@ -1,0 +1,25 @@
+{
+  "createdUTC": "2026-10-22T01:22:26.943385+00:00",
+  "cases": 2472,
+  "phaseCounts": {
+    "mechanism": 517,
+    "opacity": 771,
+    "hsl": 771,
+    "direct": 93,
+    "groups": 320
+  },
+  "assetSHA256": "ac72ed7d4d88f053b5e2bbd96783fef483f989e524405987270a597a5ff3095d",
+  "expectedRGBA8SHA256": "32f8aa7d148b2a856966c6d63b4b6719eb9225f008ee4412e433392856feb163",
+  "selection": "All517 mechanism cases; every8th pre-existing boundary input index with all four modes, plus the original three P85 counterexamples; all320 fresh Double-group scenes. Selection is explicit regression sampling after observation, not a new holdout.",
+  "selectedBoundaryCounts": {
+    "observations.json": 259,
+    "refined-observations.json": 512
+  },
+  "sourceSHA256": {
+    "opacity-mechanism-observations.json": "85281df9bbe1893b1e849f7bef720ce27438cb036e211b792191ef2cf145ca2f",
+    "observations.json": "3a9d5230a7a2c46b08fe24cd8eb7524b77c2875a9bc88062837a9ea989f0fc6e",
+    "refined-observations.json": "62d5cade8da41abd5aea2e3e67e7cf8e50b958a6760747701f319d51f4902a24",
+    "refined-group-observations.json": "2352aeae9ad2d0114dcede1b54b94f411afd36e4d13222d89d5259896b7a7fd4"
+  },
+  "scope": "Opacity-source and mechanism cases exact; HSL/direct/group keep original tolerance2 except Normal groups exact. Staged masked-source cases test actual GPU HSL only; they do not establish native mask sampling or fallback behavior. Original185 unchanged."
+}

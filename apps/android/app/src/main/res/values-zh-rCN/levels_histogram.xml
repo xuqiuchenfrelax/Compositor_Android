@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_levels_auto">自动</string>
+    <string name="ui_levels_auto_contrast">对比度</string>
+    <string name="ui_levels_auto_color">颜色</string>
+    <string name="ui_levels_auto_neutral">颜色 + 中性中间调</string>
+    <string name="ui_levels_histogram_channel">下方像素的%1$s直方图</string>
+    <string name="ui_levels_histogram_source">下方像素 · 按透明度加权的直方图</string>
+    <string name="ui_levels_histogram_loading">正在加载直方图…</string>
+    <string name="ui_levels_histogram_failed">直方图暂不可用，仍可手动编辑。</string>
+    <string name="ui_levels_histogram_empty">空直方图</string>
+    <string name="ui_levels_histogram_ready">直方图已就绪</string>
+    <string name="ui_levels_histogram_retry">重试直方图</string>
+</resources>

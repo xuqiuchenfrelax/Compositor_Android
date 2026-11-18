@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_levels_reset">重置色阶</string>
+    <string name="ui_levels_valid_range">请输入 %1$s 到 %2$s 之间的有限数值。输入白场必须至少比输入黑场大 1。</string>
+    <string name="ui_levels_other_channel_invalid">请修正其他通道中的无效数值，或重置色阶。</string>
+</resources>

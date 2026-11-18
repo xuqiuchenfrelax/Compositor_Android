@@ -1,0 +1,230 @@
+{
+  "commit": "2f4cb15ad221c93da70ff40498159930667365fc",
+  "sources": {
+    "Compositor/IO/ProjectStore.swift": {
+      "gitBlob": "61d6c20b3a88471e46f08891f0db206179319080",
+      "sha256": "8c9c75f3111fdb1735d19c6d718c6e416dade49639f532cf6d574e7a68158672",
+      "bytes": 17362
+    },
+    "Compositor/Document/LayerTransform.swift": {
+      "gitBlob": "fc67015c19b8f8b0def2aca0b07052a89576e7d9",
+      "sha256": "29575d7da881c6ca74097c6a0333b8ea78d58c9e8a8a02cacad017ff949e93bb",
+      "bytes": 12961
+    },
+    "Compositor/Document/ShapeTool.swift": {
+      "gitBlob": "a45cdcbbc9abc6560b9359fc06aed75813f68886",
+      "sha256": "adaf9af7524c9ff90ec52d998040362d8f67ac0bc2e4df20ba40505990fe7ec3",
+      "bytes": 23036
+    },
+    "Compositor/Document/BrushStroke.swift": {
+      "gitBlob": "cb196feb367220c2149ca334b56ee254b47b52ce",
+      "sha256": "8577620e3d4486612a53e5892da8641be8c51cc4ff58f3ab2685a4941f1e9730",
+      "bytes": 71117
+    },
+    "Compositor/Document/LayerMask.swift": {
+      "gitBlob": "fe3b4f612e5d34daddabe48bf0ff79badc93fbd5",
+      "sha256": "81ad2c21a83b91c03a8c8919deabc40c56c397c90fcb77d034cc1175d9f140b3",
+      "bytes": 24915
+    },
+    "Compositor/Document/LayerAppearance.swift": {
+      "gitBlob": "51f0cec1aa46b18674d0d92bffc306eaaa8d94b1",
+      "sha256": "d98787c21e20a859c13cee3d4e65461b0250e5177298fdb6f9dceaf556dd04ef",
+      "bytes": 6702
+    },
+    "Compositor/Document/Guides.swift": {
+      "gitBlob": "84742bfbb9518c0a012588e697ef12986f844046",
+      "sha256": "13422d63e9c1e48b92534261a89d31a7ad2e6312cd42fb439e3d208203af40f1",
+      "bytes": 13096
+    },
+    "Compositor/Document/LayerGroups.swift": {
+      "gitBlob": "cbbf3da1c7506f8fc4ac68bf2e267fe797713f28",
+      "sha256": "c983402d20a1da5af655651d664a742b77bf096b5c351ccc6994ce9834764dd7",
+      "bytes": 16087
+    },
+    "Compositor/Document/LiveLayerMask.swift": {
+      "gitBlob": "c1e5f628b31e4e14ed3963a5d5e209316aa7b265",
+      "sha256": "ed1ddae5c8a22bf9e893afd40d25b48c46f5a168e7164507e5a31e2b06e832aa",
+      "bytes": 14552
+    },
+    "Compositor/Document/DocumentLimits.swift": {
+      "gitBlob": "8895624e95dee7206d193e73c45ef461dcefcfbc",
+      "sha256": "ee34d4d2f81f828ebcc7042fbdef280159ad7405473f7161ae860679d56100dd",
+      "bytes": 2387
+    },
+    "Compositor/IO/ImageImporter.swift": {
+      "gitBlob": "3a68b47b566c6651541cc6f17aecfd110c37741f",
+      "sha256": "330337d0edf1606f7c6beda0c732767acf5fae928cddc737ff7fb6dc30f224f2",
+      "bytes": 12296
+    },
+    "Compositor/IO/ImageExporter.swift": {
+      "gitBlob": "fb0902078c72f4d1fede1af4131f92e4822059ca",
+      "sha256": "fab173e810cc3694e8075468904ac2d70a94b435a8706c78fcaa7d14614d8cc5",
+      "bytes": 17292
+    },
+    "Compositor/Document/ColorPalette.swift": {
+      "gitBlob": "c3a810e56cc7af755dc4da18a236753b16c43ee1",
+      "sha256": "02f00febed8b428c915374628bae47ce0d185a2f0ad088a88aee0feb92b8cd41",
+      "bytes": 19720
+    }
+  },
+  "fragments": [
+    {
+      "marker": "extension UTType",
+      "startLine": 6,
+      "endLine": 16,
+      "sha256": "7fd76f5f869971d9634b48e7922f4d8b040658b2c262273ab128866c3dc118e6"
+    },
+    {
+      "marker": "nonisolated struct ProjectManifest",
+      "startLine": 18,
+      "endLine": 36,
+      "sha256": "9a37221e2bb5ccb3a417a8a49713ad9a9478d9a0b727c38ec086c10ccf5699b1"
+    },
+    {
+      "marker": "nonisolated struct ProjectLayerRecord",
+      "startLine": 38,
+      "endLine": 61,
+      "sha256": "47dad850d03802721411969442f7f91661c6b08124d87bd362cb48985a59d9c1"
+    },
+    {
+      "marker": "nonisolated struct ProjectSnapshot",
+      "startLine": 63,
+      "endLine": 67,
+      "sha256": "5a19e4818c929dc48d4f69851232a4a2eba9e293af7f9da52769ab9c2ac7d8c9"
+    },
+    {
+      "marker": "nonisolated enum ProjectError",
+      "startLine": 69,
+      "endLine": 80,
+      "sha256": "5722e8883a58c0f87246f7f8654556f9ae234c395295a622db27828002549197"
+    },
+    {
+      "marker": "actor ProjectStore",
+      "startLine": 82,
+      "endLine": 301,
+      "sha256": "dd04e1fa6d84923e60f5dccbac1b4e7afb6533d5e72c046a8c788d7dbe9e3881"
+    },
+    {
+      "marker": "    var isValid:",
+      "startLine": 27,
+      "endLine": 31,
+      "sha256": "7146a716bd65d6618ba5644bc79b2e754d883de6e8f387b2b612e7cca40bd566"
+    },
+    {
+      "marker": "nonisolated enum LayerSampling",
+      "startLine": 4,
+      "endLine": 15,
+      "sha256": "8657f60d19ceeda4045ffe3040bd6ac98f4cd0634e18fd83ea836c272e365722"
+    },
+    {
+      "marker": "nonisolated enum LayerBlendMode",
+      "startLine": 4,
+      "endLine": 73,
+      "sha256": "b0898a70e0c729b315a6c7dbb6f28c71364886e6bf79117edbfd5354dd83b011"
+    },
+    {
+      "marker": "nonisolated struct CanvasGuide",
+      "startLine": 5,
+      "endLine": 32,
+      "sha256": "bf03d2e1b86a2eb653d89598f33d5425dc008a396c970267c25aa0a67e3be372"
+    },
+    {
+      "marker": "nonisolated enum LayerHierarchy",
+      "startLine": 3,
+      "endLine": 47,
+      "sha256": "ceb58459fba3a34d74aba6ad0a34c4e8ea0796c37fa7fa6fb9f5dfaf9c4878ac"
+    },
+    {
+      "marker": "nonisolated enum LiveMaskGraph",
+      "startLine": 3,
+      "endLine": 20,
+      "sha256": "d4740ba80fa8238421b2f541f0f0e3754239548a6d879c29d6f420d53d1e431f"
+    },
+    {
+      "marker": "    static func isValid(",
+      "startLine": 23,
+      "endLine": 26,
+      "sha256": "7360a7975a2f8708491c45718da12aea6dd9fd5ea59385f6082abc8c74835dfc"
+    },
+    {
+      "marker": "nonisolated struct ImportedImage",
+      "startLine": 7,
+      "endLine": 21,
+      "sha256": "826f2995588ef9a5189b25223b9ef8a94785e1ba98835090f84f8d4224b448ef"
+    },
+    {
+      "marker": "nonisolated struct QuickLookImages",
+      "startLine": 276,
+      "endLine": 278,
+      "sha256": "a998e8fffb86a7c6475e825763c6fb6484ee27497517b75ebbcf86746f038b6e"
+    },
+    {
+      "marker": "nonisolated struct PaletteColor",
+      "startLine": 4,
+      "endLine": 18,
+      "sha256": "dbaab7a0f089841c3da7ddb8e89d6a7b5d969f7802c5bfb4f9ba83c31f94b13d"
+    },
+    {
+      "marker": "nonisolated enum ShapeKind",
+      "startLine": 3,
+      "endLine": 54,
+      "sha256": "f08cdd14a5283d6dd637db75f7f8433c8c7777e18464e4f46eb1bd90dccdc99f"
+    },
+    {
+      "marker": "nonisolated enum ShapeLineStyle",
+      "startLine": 57,
+      "endLine": 82,
+      "sha256": "93233f766843207164e2ba90269804cafbf5dba5c328bb02babb8548046cb2b5"
+    },
+    {
+      "marker": "nonisolated enum ShapeLineCap",
+      "startLine": 85,
+      "endLine": 100,
+      "sha256": "47ed9450b36ca85a2e94620e02cc5c6c7e4c1e3812c6a83755432c390b33e74b"
+    },
+    {
+      "marker": "extension CGContext",
+      "startLine": 102,
+      "endLine": 155,
+      "sha256": "63fe7e5533c342dbd2da9d953b8fe718966a4f3a6e1c1ac0a3495ca3dd57b7d9"
+    },
+    {
+      "marker": "nonisolated struct LayerShapeStyle",
+      "startLine": 158,
+      "endLine": 177,
+      "sha256": "de4e6d749d9cbbd6cd5d6cb1aea4fb109d21c48c481d2acbb0addf50f5fa4293"
+    },
+    {
+      "marker": "    nonisolated static func shapeImage(",
+      "startLine": 368,
+      "endLine": 391,
+      "sha256": "53e6ea61224aa5f3ca28db8612d4ae56279d96a71749ad036a2db6d4699e880b"
+    },
+    {
+      "marker": "    nonisolated static func lineGridShift(",
+      "startLine": 238,
+      "endLine": 241,
+      "sha256": "d7c4f039e6e01e348c58f8e6ea51e89d53cf95cb4e8126cf98861ef9dc235dab"
+    },
+    {
+      "marker": "    static func context(width:",
+      "startLine": 53,
+      "endLine": 61,
+      "sha256": "e27788f6c4a3bc732c9e5661d5b9b879bbe9ad3751994bfa80350592eaf9de00"
+    },
+    {
+      "marker": "    static func copy(_ image:",
+      "startLine": 64,
+      "endLine": 78,
+      "sha256": "1fdb64b68af0d5beb86438a62bebf4ec94676ec9477e5a51e4bdbe3081c5d7ce"
+    },
+    {
+      "marker": "    static func draw(_ image:",
+      "startLine": 90,
+      "endLine": 107,
+      "sha256": "a31227187e4c356bc35a98c34fc86ed9b28a7d52decbfda21467a02235d06cc2"
+    }
+  ],
+  "extractedSHA256": "4a8bb36db7b263afb4c766c959b48e3997f26dd6bd1a90572b565d6581114947",
+  "scope": "Exact upstream Codable, complete ProjectStore actor save/load/validators, actual Line patterns/caps/reach/grid-shift and shapeImage geometry. Standalone oracle, not a full application session. Text/adjustment/effects and deep/raster-backed assets explicitly excluded."
+}

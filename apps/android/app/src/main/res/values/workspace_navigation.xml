@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_choose_inspector_panel">Choose inspector panel, current: %1$s</string>
+    <string name="ui_previous_tools">Show previous tools</string>
+    <string name="ui_more_tools">Show more tools and colors</string>
+    <string name="ui_tools_up">Up</string>
+    <string name="ui_tools_down">More</string>
+</resources>

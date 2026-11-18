@@ -1,0 +1,833 @@
+{
+  "commit" : "2f4cb15ad221c93da70ff40498159930667365fc",
+  "fixtures" : [
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 27,
+      "geometryWidth" : 56,
+      "imageHeight" : 27,
+      "imageWidth" : 56,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000001",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000001",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000001",
+            "imageFile" : "B7700000-0000-4000-8000-000000000001.png",
+            "isVisible" : true,
+            "name" : "line-solid-round",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.9732142857142857,
+                0.94444444444444442
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Round",
+              "lineStyle" : "Solid",
+              "lineWidth" : 3,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.026785714285714284,
+                0.055555555555555552
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                11,
+                11
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                56,
+                27
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-solid-round.comp",
+      "rgbaBytes" : 6048,
+      "rgbaPath" : "pixels\/line-solid-round.rgba",
+      "rgbaSHA256" : "6fd93878fa69e1ef0d971d3d622e28f657d6ae225499711de199348c45d8c6e7"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 29,
+      "geometryWidth" : 58,
+      "imageHeight" : 29,
+      "imageWidth" : 58,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000002",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000002",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000002",
+            "imageFile" : "B7700000-0000-4000-8000-000000000002.png",
+            "isVisible" : true,
+            "name" : "line-solid-square",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.9568965517241379,
+                0.91379310344827591
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Square",
+              "lineStyle" : "Solid",
+              "lineWidth" : 3,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.043103448275862072,
+                0.086206896551724144
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                10,
+                10
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                58,
+                29
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-solid-square.comp",
+      "rgbaBytes" : 6728,
+      "rgbaPath" : "pixels\/line-solid-square.rgba",
+      "rgbaSHA256" : "e6186a5cf2e562bd8401a7735433426872955493bfa2809e9b64e28bb180c66f"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 27,
+      "geometryWidth" : 56,
+      "imageHeight" : 27,
+      "imageWidth" : 56,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000003",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000003",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000003",
+            "imageFile" : "B7700000-0000-4000-8000-000000000003.png",
+            "isVisible" : true,
+            "name" : "line-dotted-round",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.9732142857142857,
+                0.94444444444444442
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Round",
+              "lineStyle" : "Dotted",
+              "lineWidth" : 3,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.026785714285714284,
+                0.055555555555555552
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                11,
+                11
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                56,
+                27
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-dotted-round.comp",
+      "rgbaBytes" : 6048,
+      "rgbaPath" : "pixels\/line-dotted-round.rgba",
+      "rgbaSHA256" : "ee6c2a4248850d7b1514e839b13a11d9abed1825ac680fea7facf9a42823ab18"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 29,
+      "geometryWidth" : 58,
+      "imageHeight" : 29,
+      "imageWidth" : 58,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000004",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000004",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000004",
+            "imageFile" : "B7700000-0000-4000-8000-000000000004.png",
+            "isVisible" : true,
+            "name" : "line-dotted-square",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.9568965517241379,
+                0.91379310344827591
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Square",
+              "lineStyle" : "Dotted",
+              "lineWidth" : 3,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.043103448275862072,
+                0.086206896551724144
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                10,
+                10
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                58,
+                29
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-dotted-square.comp",
+      "rgbaBytes" : 6728,
+      "rgbaPath" : "pixels\/line-dotted-square.rgba",
+      "rgbaSHA256" : "f6a59d8f0d96a3b7d42e799994254ee6e56188c45e005009505ac8ee5b8d8f8c"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 27,
+      "geometryWidth" : 56,
+      "imageHeight" : 27,
+      "imageWidth" : 56,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000005",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000005",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000005",
+            "imageFile" : "B7700000-0000-4000-8000-000000000005.png",
+            "isVisible" : true,
+            "name" : "line-dashed-round",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.9732142857142857,
+                0.94444444444444442
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Round",
+              "lineStyle" : "Dashed",
+              "lineWidth" : 3,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.026785714285714284,
+                0.055555555555555552
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                11,
+                11
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                56,
+                27
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-dashed-round.comp",
+      "rgbaBytes" : 6048,
+      "rgbaPath" : "pixels\/line-dashed-round.rgba",
+      "rgbaSHA256" : "c26774c19725cdc5f376f30c05d9708654687e68a746fda0e5eae66b0b02549c"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 29,
+      "geometryWidth" : 58,
+      "imageHeight" : 29,
+      "imageWidth" : 58,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000006",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000006",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000006",
+            "imageFile" : "B7700000-0000-4000-8000-000000000006.png",
+            "isVisible" : true,
+            "name" : "line-dashed-square",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.9568965517241379,
+                0.91379310344827591
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Square",
+              "lineStyle" : "Dashed",
+              "lineWidth" : 3,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.043103448275862072,
+                0.086206896551724144
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                10,
+                10
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                58,
+                29
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-dashed-square.comp",
+      "rgbaBytes" : 6728,
+      "rgbaPath" : "pixels\/line-dashed-square.rgba",
+      "rgbaSHA256" : "4b392331e2a827baaef57bc938ba26651496b4291575810762283dc2c42f9ad4"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 27,
+      "geometryWidth" : 56,
+      "imageHeight" : 27,
+      "imageWidth" : 56,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000007",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000007",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000007",
+            "imageFile" : "B7700000-0000-4000-8000-000000000007.png",
+            "isVisible" : true,
+            "name" : "line-long-dash-round",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.9732142857142857,
+                0.94444444444444442
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Round",
+              "lineStyle" : "Long Dash",
+              "lineWidth" : 3,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.026785714285714284,
+                0.055555555555555552
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                11,
+                11
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                56,
+                27
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-long-dash-round.comp",
+      "rgbaBytes" : 6048,
+      "rgbaPath" : "pixels\/line-long-dash-round.rgba",
+      "rgbaSHA256" : "975b7b8e60df3f1d4f543ff7419cf64acf3d2ac95f06136647138c29da62eed1"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 29,
+      "geometryWidth" : 58,
+      "imageHeight" : 29,
+      "imageWidth" : 58,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000008",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000008",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000008",
+            "imageFile" : "B7700000-0000-4000-8000-000000000008.png",
+            "isVisible" : true,
+            "name" : "line-long-dash-square",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.9568965517241379,
+                0.91379310344827591
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Square",
+              "lineStyle" : "Long Dash",
+              "lineWidth" : 3,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.043103448275862072,
+                0.086206896551724144
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                10,
+                10
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                58,
+                29
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-long-dash-square.comp",
+      "rgbaBytes" : 6728,
+      "rgbaPath" : "pixels\/line-long-dash-square.rgba",
+      "rgbaSHA256" : "072e5e487e5224bcf888296622434005141a32adb9b28c56ab7c212bf6f4910c"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 22.5,
+      "geometryWidth" : 51.5,
+      "imageHeight" : 22,
+      "imageWidth" : 51,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000009",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000009",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000009",
+            "imageFile" : "B7700000-0000-4000-8000-000000000009.png",
+            "isVisible" : true,
+            "name" : "line-fractional-square",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.94660194174757284,
+                0.87777777777777777
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Square",
+              "lineStyle" : "Dashed",
+              "lineWidth" : 3.5,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.053398058252427182,
+                0.12222222222222222
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                10,
+                10
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                51,
+                22
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-fractional-square.comp",
+      "rgbaBytes" : 4488,
+      "rgbaPath" : "pixels\/line-fractional-square.rgba",
+      "rgbaSHA256" : "545d80ccd06db5c609bc6ae9db4e0e90482f4b47fbd6e889dd0aacaad28c6190"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 20.5,
+      "geometryWidth" : 49.5,
+      "imageHeight" : 20,
+      "imageWidth" : 49,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000010",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000010",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000010",
+            "imageFile" : "B7700000-0000-4000-8000-000000000010.png",
+            "isVisible" : true,
+            "name" : "line-fractional-round",
+            "shape" : {
+              "blue" : 0.87654321098765398,
+              "cornerRadius" : 0,
+              "end" : [
+                0.96464646464646464,
+                0.91463414634146345
+              ],
+              "green" : 0.54321098765432096,
+              "kind" : "Line",
+              "lineCap" : "Round",
+              "lineStyle" : "Dashed",
+              "lineWidth" : 3.5,
+              "red" : 0.123456789012345,
+              "start" : [
+                0.035353535353535352,
+                0.085365853658536592
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                11,
+                11
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                49,
+                20
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-fractional-round.comp",
+      "rgbaBytes" : 3920,
+      "rgbaPath" : "pixels\/line-fractional-round.rgba",
+      "rgbaSHA256" : "b5620f31a8135c35b926263cb6881562774806c4a76a08ec0bae1edd61f7bd6d"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 18,
+      "geometryWidth" : 36,
+      "imageHeight" : 18,
+      "imageWidth" : 36,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000011",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000011",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000011",
+            "imageFile" : "B7700000-0000-4000-8000-000000000011.png",
+            "isVisible" : true,
+            "name" : "line-legacy-defaults",
+            "shape" : {
+              "blue" : 0.75,
+              "cornerRadius" : 0,
+              "green" : 0.5,
+              "kind" : "Line",
+              "red" : 0.25
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                36,
+                18
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-legacy-defaults.comp",
+      "rgbaBytes" : 2592,
+      "rgbaPath" : "pixels\/line-legacy-defaults.rgba",
+      "rgbaSHA256" : "b67df8534b602038b6a74fb95887b13235bf7118d69021d6e1068183edc58692"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 18,
+      "geometryWidth" : 36,
+      "imageHeight" : 18,
+      "imageWidth" : 36,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000012",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000012",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000012",
+            "imageFile" : "B7700000-0000-4000-8000-000000000012.png",
+            "isVisible" : true,
+            "name" : "line-legacy-width-v14",
+            "shape" : {
+              "blue" : 0.75,
+              "cornerRadius" : 0,
+              "green" : 0.5,
+              "kind" : "Line",
+              "lineWidth" : 4,
+              "red" : 0.25
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                36,
+                18
+              ]
+            }
+          }
+        ],
+        "version" : 14,
+        "width" : 96
+      },
+      "path" : "line-legacy-width-v14.comp",
+      "rgbaBytes" : 2592,
+      "rgbaPath" : "pixels\/line-legacy-width-v14.rgba",
+      "rgbaSHA256" : "d8d8cac80f3907bee8775093195cbc6e14e47eae01a19b3b6223dacc303dcc41"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 18,
+      "geometryWidth" : 36,
+      "imageHeight" : 18,
+      "imageWidth" : 36,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000013",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000013",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000013",
+            "imageFile" : "B7700000-0000-4000-8000-000000000013.png",
+            "isVisible" : true,
+            "name" : "line-start-only",
+            "shape" : {
+              "blue" : 0.75,
+              "cornerRadius" : 0,
+              "green" : 0.5,
+              "kind" : "Line",
+              "lineStyle" : "Dotted",
+              "lineWidth" : 4,
+              "red" : 0.25,
+              "start" : [
+                0.125,
+                0.375
+              ]
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                36,
+                18
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-start-only.comp",
+      "rgbaBytes" : 2592,
+      "rgbaPath" : "pixels\/line-start-only.rgba",
+      "rgbaSHA256" : "1c7ec23e5955dfbb88ef1cf18c603050a5a4e7f47b08ad97653d828da467e16e"
+    },
+    {
+      "desktopSaveLoadPassed" : true,
+      "expectedNativeStatus" : "CP_OK",
+      "geometryHeight" : 18,
+      "geometryWidth" : 36,
+      "imageHeight" : 18,
+      "imageWidth" : 36,
+      "metadata" : {
+        "activeLayerID" : "B7700000-0000-4000-8000-000000000014",
+        "colorSpace" : "sRGB",
+        "documentID" : "B7700000-0000-4000-9000-000000000014",
+        "format" : "com.compositor.project",
+        "height" : 64,
+        "layers" : [
+          {
+            "id" : "B7700000-0000-4000-8000-000000000014",
+            "imageFile" : "B7700000-0000-4000-8000-000000000014.png",
+            "isVisible" : true,
+            "name" : "line-end-only",
+            "shape" : {
+              "blue" : 0.75,
+              "cornerRadius" : 0,
+              "end" : [
+                0.875,
+                0.625
+              ],
+              "green" : 0.5,
+              "kind" : "Line",
+              "lineCap" : "Square",
+              "lineWidth" : 4,
+              "red" : 0.25,
+              "smoothing" : false
+            },
+            "transform" : {
+              "flipX" : false,
+              "flipY" : false,
+              "origin" : [
+                0,
+                0
+              ],
+              "rotation" : 0,
+              "sampling" : "High quality",
+              "size" : [
+                36,
+                18
+              ]
+            }
+          }
+        ],
+        "version" : 15,
+        "width" : 96
+      },
+      "path" : "line-end-only.comp",
+      "rgbaBytes" : 2592,
+      "rgbaPath" : "pixels\/line-end-only.rgba",
+      "rgbaSHA256" : "585b163ed7c235f520a5a30952dca261e09e5ab2f18c80f47cd78bd5fecd4198"
+    }
+  ],
+  "operatingSystem" : "Version 26.6.2 (Build 25G83)",
+  "pixelLayout" : "premultiplied RGBA8, packed rows, top to bottom",
+  "scope" : "Exact upstream Line raster geometry and complete ProjectStore save\/load; standalone executable, not a full application session or mobile renderer parity",
+  "v14ExplicitLineStyleCapSaveRejected" : true
+}

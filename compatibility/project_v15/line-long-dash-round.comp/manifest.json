@@ -1,0 +1,49 @@
+{
+  "activeLayerID" : "B7700000-0000-4000-8000-000000000007",
+  "colorSpace" : "sRGB",
+  "documentID" : "B7700000-0000-4000-9000-000000000007",
+  "format" : "com.compositor.project",
+  "height" : 64,
+  "layers" : [
+    {
+      "id" : "B7700000-0000-4000-8000-000000000007",
+      "imageFile" : "B7700000-0000-4000-8000-000000000007.png",
+      "isVisible" : true,
+      "name" : "line-long-dash-round",
+      "shape" : {
+        "blue" : 0.876543210987654,
+        "cornerRadius" : 0,
+        "end" : [
+          0.9732142857142857,
+          0.9444444444444444
+        ],
+        "green" : 0.543210987654321,
+        "kind" : "Line",
+        "lineCap" : "Round",
+        "lineStyle" : "Long Dash",
+        "lineWidth" : 3,
+        "red" : 0.123456789012345,
+        "start" : [
+          0.026785714285714284,
+          0.05555555555555555
+        ]
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          11,
+          11
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          56,
+          27
+        ]
+      }
+    }
+  ],
+  "version" : 15,
+  "width" : 96
+}

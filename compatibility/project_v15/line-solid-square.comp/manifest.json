@@ -1,0 +1,49 @@
+{
+  "activeLayerID" : "B7700000-0000-4000-8000-000000000002",
+  "colorSpace" : "sRGB",
+  "documentID" : "B7700000-0000-4000-9000-000000000002",
+  "format" : "com.compositor.project",
+  "height" : 64,
+  "layers" : [
+    {
+      "id" : "B7700000-0000-4000-8000-000000000002",
+      "imageFile" : "B7700000-0000-4000-8000-000000000002.png",
+      "isVisible" : true,
+      "name" : "line-solid-square",
+      "shape" : {
+        "blue" : 0.876543210987654,
+        "cornerRadius" : 0,
+        "end" : [
+          0.9568965517241379,
+          0.9137931034482759
+        ],
+        "green" : 0.543210987654321,
+        "kind" : "Line",
+        "lineCap" : "Square",
+        "lineStyle" : "Solid",
+        "lineWidth" : 3,
+        "red" : 0.123456789012345,
+        "start" : [
+          0.04310344827586207,
+          0.08620689655172414
+        ]
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          10,
+          10
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          58,
+          29
+        ]
+      }
+    }
+  ],
+  "version" : 15,
+  "width" : 96
+}

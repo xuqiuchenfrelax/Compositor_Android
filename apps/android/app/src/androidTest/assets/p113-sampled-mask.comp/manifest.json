@@ -1,0 +1,39 @@
+{
+  "format": "com.compositor.project",
+  "version": 13,
+  "documentID": "C00F0113-0000-4000-8000-000000000002",
+  "width": 8,
+  "height": 9,
+  "resolution": 72,
+  "colorSpace": "sRGB",
+  "guides": [],
+  "layers": [
+    {
+      "id": "C00F0113-0000-4000-8000-000000000001",
+      "name": "P113 two-axis mask",
+      "isVisible": true,
+      "opacity": 1,
+      "blendMode": "Normal",
+      "transform": {
+        "origin": [
+          2,
+          2
+        ],
+        "size": [
+          3,
+          5
+        ],
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Nearest"
+      },
+      "isGroup": false,
+      "imageFile": "C00F0113-0000-4000-8000-000000000001.png",
+      "maskFile": "C00F0113-0000-4000-8000-000000000001.mask.png",
+      "maskEnabled": true,
+      "maskLinked": true
+    }
+  ],
+  "activeLayerID": "C00F0113-0000-4000-8000-000000000001"
+}

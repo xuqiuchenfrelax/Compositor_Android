@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_adjustment_creating">Creating adjustment layer…</string>
+    <string name="ui_adjustment_create_failed">The adjustment layer could not be created. Please try again.</string>
+    <string name="ui_adjustment_created_editor_unavailable">The adjustment was created, but its editor could not be opened. Select the layer to edit it.</string>
+</resources>

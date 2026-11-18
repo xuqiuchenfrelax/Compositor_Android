@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="layer_panel_named_id">%1$s #%2$d</string>
+    <string name="layer_panel_id">#%1$d</string>
+    <string name="layer_panel_source_dimensions">%1$d × %2$d px</string>
+    <string name="layer_panel_kind_group">Group</string>
+    <string name="layer_panel_kind_pixel_content">Pixel content</string>
+    <string name="layer_panel_kind_layer">Layer</string>
+    <string name="layer_panel_target_mask">mask</string>
+    <string name="layer_panel_target_group">group</string>
+    <string name="layer_panel_target_content">content</string>
+    <string name="layer_panel_current_target">Editing: %1$s · %2$s</string>
+    <string name="layer_panel_no_target">Select a layer to edit</string>
+    <string name="layer_panel_editing">Editing %1$s</string>
+    <string name="layer_panel_editing_target_state">Current editing target</string>
+    <string name="layer_panel_not_editing_target_state">Not the current editing target</string>
+    <string name="layer_panel_multi_select">Select</string>
+    <string name="layer_panel_tap_to_edit">Tap a layer to edit</string>
+    <string name="layer_panel_visibility">Visibility</string>
+    <string name="layer_panel_visible">Visible</string>
+    <string name="layer_panel_hidden">Hidden</string>
+</resources>

@@ -1,0 +1,51 @@
+{
+  "provenance": "compatibility/mask_sampling/research/opacity-surface/mode-observations.log; actual desktop LayerRenderer/CG/CI readback",
+  "fixtures": [
+    {
+      "package": "ci-opacity-0.comp",
+      "source": [
+        76,
+        54,
+        156,
+        198
+      ],
+      "destination": [
+        134,
+        196,
+        154,
+        252
+      ],
+      "mask": 231,
+      "opacity": 0.73,
+      "expected": [
+        66,
+        119,
+        142,
+        254
+      ]
+    },
+    {
+      "package": "ci-opacity-1.comp",
+      "source": [
+        36,
+        14,
+        16,
+        76
+      ],
+      "destination": [
+        148,
+        195,
+        156,
+        238
+      ],
+      "mask": 190,
+      "opacity": 0.73,
+      "expected": [
+        133,
+        164,
+        132,
+        241
+      ]
+    }
+  ]
+}

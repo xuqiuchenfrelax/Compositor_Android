@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_adjustment_creating">正在创建调整图层…</string>
+    <string name="ui_adjustment_create_failed">无法创建调整图层，请重试。</string>
+    <string name="ui_adjustment_created_editor_unavailable">调整图层已创建，但暂时无法打开编辑器。请选择该图层后编辑。</string>
+</resources>
