@@ -1,0 +1,75 @@
+{
+  "format": "com.compositor.project",
+  "version": 13,
+  "documentID": "19300000-0000-4000-8000-000000000000",
+  "activeLayerID": "19300000-0000-4000-8000-000000000002",
+  "width": 8,
+  "height": 8,
+  "colorSpace": "sRGB",
+  "resolution": 72,
+  "guides": [],
+  "layers": [
+    {
+      "id": "19300000-0000-4000-8000-000000000001",
+      "name": "Outer folder",
+      "isVisible": true,
+      "opacity": 1,
+      "blendMode": "Normal",
+      "transform": {
+        "origin": [
+          0,
+          0
+        ],
+        "size": [
+          8,
+          8
+        ],
+        "rotation": 19,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Nearest"
+      },
+      "isGroup": true,
+      "maskFile": "19300000-0000-4000-8000-000000000001.mask.png",
+      "maskEnabled": true,
+      "maskLinked": false,
+      "maskPlacement": {
+        "origin": [
+          5,
+          0
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "High quality"
+      }
+    },
+    {
+      "id": "19300000-0000-4000-8000-000000000002",
+      "name": "Color grid",
+      "isVisible": true,
+      "opacity": 1,
+      "blendMode": "Normal",
+      "transform": {
+        "origin": [
+          3.375,
+          2.125
+        ],
+        "size": [
+          1,
+          3.6875
+        ],
+        "rotation": 0,
+        "flipX": true,
+        "flipY": false,
+        "sampling": "Nearest"
+      },
+      "parentID": "19300000-0000-4000-8000-000000000001",
+      "imageFile": "19300000-0000-4000-8000-000000000002.png"
+    }
+  ]
+}

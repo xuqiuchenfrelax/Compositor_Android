@@ -1,0 +1,3535 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "commit": "0b90cc844387152566da09d80a1b2b456b673de5",
+  "sourceCurrent": 21,
+  "pixelEncoding": "Images: tightly packed top-to-bottom rows from actual upstream BrushRaster.copy, sRGB premultiplied RGBA8 (byteOrder32Big, premultipliedLast, top-left drawing coordinates); masks: tightly packed raw gray8 rows. No additional flip, color conversion or tolerance. PNG file hashes are recorded separately.",
+  "fixtureSampling": "Nearest",
+  "sourceProvenanceSHA256": "69d255ac715f2c9cd3e875520e5bf658f4d5be06f64e66029effe27338653c3e",
+  "generationSHA256": "08d1cb6fb072db8cf89d7b8a8c87d1ab13adc4be0496305eb358480d3697376d",
+  "fixtures": [
+    {
+      "allowedEdit": {
+        "after": "图层组 · P146互操作",
+        "before": "图层组",
+        "layerID": "B1460000-0000-4000-8000-000000000001"
+      },
+      "assets": [
+        {
+          "bytes": 64,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000001",
+          "mask": true,
+          "sha256": "b6ca8ddc53007e1eebf8944a3c615ba83fbabff649b5ea653794f17797c41dcf",
+          "width": 8
+        },
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000002",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        },
+        {
+          "bytes": 64,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000002",
+          "mask": true,
+          "sha256": "b6ca8ddc53007e1eebf8944a3c615ba83fbabff649b5ea653794f17797c41dcf",
+          "width": 8
+        }
+      ],
+      "canonicalMetadataSHA256": "84d90cf46360b2a366552202a5ae85108e71c456b589130b4733db29046fcdd4",
+      "expectedMobile": "accept",
+      "expectedPC": "accept",
+      "files": [
+        {
+          "bytes": 158,
+          "path": "images/B1460000-0000-4000-8000-000000000001.mask.png",
+          "sha256": "36015131e8cf5b6e74465ee724d4bbe0fbf2fd79367481d9bdb8955f237a0442"
+        },
+        {
+          "bytes": 158,
+          "path": "images/B1460000-0000-4000-8000-000000000002.mask.png",
+          "sha256": "36015131e8cf5b6e74465ee724d4bbe0fbf2fd79367481d9bdb8955f237a0442"
+        },
+        {
+          "bytes": 195,
+          "path": "images/B1460000-0000-4000-8000-000000000002.png",
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "bytes": 1373,
+          "path": "manifest.json",
+          "sha256": "bf461d0f18242c9a00bf7d47389df299a9c8b064cd54e5d120d86e0a62af786f"
+        }
+      ],
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000002",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000100",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000001",
+            "isGroup": true,
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000001.mask.png",
+            "name": "图层组",
+            "opacity": 0.75,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "id": "B1460000-0000-4000-8000-000000000002",
+            "imageFile": "B1460000-0000-4000-8000-000000000002.png",
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000002.mask.png",
+            "name": "原始像素",
+            "parentID": "B1460000-0000-4000-8000-000000000001",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "name": "v21-basic",
+      "origin": "pc-native-save",
+      "outputVersion": 17,
+      "package": "v21-basic.comp",
+      "version": 21,
+      "sourcePackage": null,
+      "mutations": [],
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000002",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000100",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000001",
+            "isGroup": true,
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000001.mask.png",
+            "name": "图层组",
+            "opacity": 0.75,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "id": "B1460000-0000-4000-8000-000000000002",
+            "imageFile": "B1460000-0000-4000-8000-000000000002.png",
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000002.mask.png",
+            "name": "原始像素",
+            "parentID": "B1460000-0000-4000-8000-000000000001",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-basic.json",
+        "sha256": "b6b431f87528a690d650f6178be7b0a02f83cba16dfd607a176078c0ba8a692a",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "allowedEdit": {
+        "after": "底图 · P146互操作",
+        "before": "底图",
+        "layerID": "B1460000-0000-4000-8000-000000000011"
+      },
+      "assets": [
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000011",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        }
+      ],
+      "canonicalMetadataSHA256": "826d2311bf46059f445250bebe21206193a37c73b455e8fe1770a82bb734c8e8",
+      "expectedMobile": "accept",
+      "expectedPC": "accept",
+      "files": [
+        {
+          "bytes": 195,
+          "path": "images/B1460000-0000-4000-8000-000000000011.png",
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "bytes": 3686,
+          "path": "manifest.json",
+          "sha256": "c0a1556c757d1e3e07f5d58058f3efdbd2e46532313259e15955165fac0c35df"
+        }
+      ],
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000101",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000,
+                "vignette": {
+                  "amount": 47,
+                  "color": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "feather": 60,
+                  "highlights": 17,
+                  "midpoint": 43,
+                  "roundness": 100
+                }
+              },
+              "hue": 0,
+              "kind": "Vignette",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000012",
+            "isVisible": true,
+            "name": "暗角调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "name": "v21-vignette",
+      "origin": "pc-native-save",
+      "outputVersion": 18,
+      "package": "v21-vignette.comp",
+      "version": 21,
+      "sourcePackage": null,
+      "mutations": [],
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000101",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000,
+                "vignette": {
+                  "amount": 47,
+                  "color": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "feather": 60,
+                  "highlights": 17,
+                  "midpoint": 43,
+                  "roundness": 100
+                }
+              },
+              "hue": 0,
+              "kind": "Vignette",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000012",
+            "isVisible": true,
+            "name": "暗角调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-vignette.json",
+        "sha256": "5241d25c85d406c64ca17d08457fa993b9bc50f80ccd04a117f8b2a0ec0c6251",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "allowedEdit": null,
+      "assets": [
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000011",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        }
+      ],
+      "canonicalMetadataSHA256": "7e13d887788024cadc715545664a2234d732767ec5661b539b8e6cf56733634c",
+      "expectedMobile": "reject",
+      "expectedPC": "accept",
+      "files": [
+        {
+          "bytes": 195,
+          "path": "images/B1460000-0000-4000-8000-000000000011.png",
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "bytes": 3514,
+          "path": "manifest.json",
+          "sha256": "4f18111d2387cb61279c7816d9c9c2988a3618687d607e80f96a594f15ab7113"
+        }
+      ],
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000013",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000102",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "reduceNoise": {
+                  "color": 81,
+                  "details": 32,
+                  "strength": 67
+                },
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000
+              },
+              "hue": 0,
+              "kind": "Reduce Noise",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000013",
+            "isVisible": true,
+            "name": "降噪调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "name": "v21-reduce-noise",
+      "origin": "pc-native-save",
+      "outputVersion": null,
+      "package": "v21-reduce-noise.comp",
+      "version": 21,
+      "sourcePackage": null,
+      "mutations": [],
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000013",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000102",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "reduceNoise": {
+                  "color": 81,
+                  "details": 32,
+                  "strength": 67
+                },
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000
+              },
+              "hue": 0,
+              "kind": "Reduce Noise",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000013",
+            "isVisible": true,
+            "name": "降噪调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-reduce-noise.json",
+        "sha256": "78e677e231073e6040331061cc0bdf9be12075563aa91c36e3657bd84e8de8f0",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "allowedEdit": {
+        "after": "虚线 · P146互操作",
+        "before": "虚线",
+        "layerID": "B1460000-0000-4000-8000-000000000020"
+      },
+      "assets": [
+        {
+          "bytes": 8192,
+          "height": 32,
+          "layerID": "B1460000-0000-4000-8000-000000000020",
+          "mask": false,
+          "sha256": "68b9e15a9c60969d7ae5ac4d29bdfb5f1af5325fad07be0ef6a93fe5548d36b2",
+          "width": 64
+        },
+        {
+          "bytes": 42000,
+          "height": 70,
+          "layerID": "B1460000-0000-4000-8000-000000000021",
+          "mask": false,
+          "sha256": "23b05f5e1223c26c802cc296f264f0967461dc095b069cb4f8904a1d16f8ea69",
+          "width": 150
+        }
+      ],
+      "canonicalMetadataSHA256": "4e4edc5ffe5a7a3d8d39246abb823cff29f6730ecffcdcfb34b188c4c7be5410",
+      "expectedMobile": "accept",
+      "expectedPC": "accept",
+      "files": [
+        {
+          "bytes": 857,
+          "path": "images/B1460000-0000-4000-8000-000000000020.png",
+          "sha256": "1d0c2f77e4652aaa8f65f05327016637d280644979c54ab02c8218b1db803b4f"
+        },
+        {
+          "bytes": 4288,
+          "path": "images/B1460000-0000-4000-8000-000000000021.png",
+          "sha256": "53c4ccd3be8131adce9c58b4eff3081b8377e268fc26fbdea78cfc36a8e2428b"
+        },
+        {
+          "bytes": 2208,
+          "path": "manifest.json",
+          "sha256": "8a8b9e3421dc209ad307054579c6f5aaf67ad4957ff4ce881d7e54f0f8cd7281"
+        }
+      ],
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000021",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000103",
+        "format": "com.compositor.project",
+        "height": 96,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000020",
+            "imageFile": "B1460000-0000-4000-8000-000000000020.png",
+            "isVisible": true,
+            "name": "虚线",
+            "shape": {
+              "blue": 0.4,
+              "cornerRadius": 0,
+              "end": [
+                0.9,
+                0.8
+              ],
+              "green": 0.2,
+              "kind": "Line",
+              "lineCap": "Square",
+              "lineStyle": "Dashed",
+              "lineWidth": 3.5,
+              "red": 0.8,
+              "smoothing": false,
+              "start": [
+                0.1,
+                0.2
+              ]
+            },
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                32
+              ]
+            }
+          },
+          {
+            "id": "B1460000-0000-4000-8000-000000000021",
+            "imageFile": "B1460000-0000-4000-8000-000000000021.png",
+            "isVisible": true,
+            "name": "中文文本",
+            "text": {
+              "alignment": "Center",
+              "blue": 0,
+              "boxSize": [
+                150,
+                70
+              ],
+              "colorRuns": [
+                {
+                  "blue": 0.3,
+                  "green": 0.1,
+                  "length": 2,
+                  "location": 0,
+                  "red": 0.8
+                }
+              ],
+              "content": "中文🚀 v21\n保留文字",
+              "fontName": "Helvetica",
+              "fontRuns": [
+                {
+                  "fontName": "Helvetica-Bold",
+                  "length": 3,
+                  "location": 5
+                }
+              ],
+              "fontSize": 18,
+              "green": 0,
+              "leading": 23,
+              "red": 0,
+              "tracking": 0.5
+            },
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4,
+                20
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                150,
+                70
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 160
+      },
+      "name": "v21-typed",
+      "origin": "pc-native-save",
+      "outputVersion": 17,
+      "package": "v21-typed.comp",
+      "version": 21,
+      "sourcePackage": null,
+      "mutations": [],
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000021",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000103",
+        "format": "com.compositor.project",
+        "height": 96,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000020",
+            "imageFile": "B1460000-0000-4000-8000-000000000020.png",
+            "isVisible": true,
+            "name": "虚线",
+            "shape": {
+              "blue": 0.4,
+              "cornerRadius": 0,
+              "end": [
+                0.9,
+                0.8
+              ],
+              "green": 0.2,
+              "kind": "Line",
+              "lineCap": "Square",
+              "lineStyle": "Dashed",
+              "lineWidth": 3.5,
+              "red": 0.8,
+              "smoothing": false,
+              "start": [
+                0.1,
+                0.2
+              ]
+            },
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                32
+              ]
+            }
+          },
+          {
+            "id": "B1460000-0000-4000-8000-000000000021",
+            "imageFile": "B1460000-0000-4000-8000-000000000021.png",
+            "isVisible": true,
+            "name": "中文文本",
+            "text": {
+              "alignment": "Center",
+              "blue": 0,
+              "boxSize": [
+                150,
+                70
+              ],
+              "colorRuns": [
+                {
+                  "blue": 0.3,
+                  "green": 0.1,
+                  "length": 2,
+                  "location": 0,
+                  "red": 0.8
+                }
+              ],
+              "content": "中文🚀 v21\n保留文字",
+              "fontName": "Helvetica",
+              "fontRuns": [
+                {
+                  "fontName": "Helvetica-Bold",
+                  "length": 3,
+                  "location": 5
+                }
+              ],
+              "fontSize": 18,
+              "green": 0,
+              "leading": 23,
+              "red": 0,
+              "tracking": 0.5
+            },
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4,
+                20
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                150,
+                70
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 160
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-typed.json",
+        "sha256": "d82460182dd2344cdeedea67f726d08e224be2d1cd6592d546afe65c830e61c1",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "name": "v21-inactive-reduce-noise",
+      "package": "v21-inactive-reduce-noise.comp",
+      "origin": "controlled-derivative",
+      "sourcePackage": "v21-reduce-noise.comp",
+      "sourceManifestSHA256": "4f18111d2387cb61279c7816d9c9c2988a3618687d607e80f96a594f15ab7113",
+      "mutations": [
+        "Change only Reduce Noise kind to Invert; retain non-null inactive reduceNoise settings."
+      ],
+      "expectedMobile": "reject",
+      "expectedPC": "accept",
+      "outputVersion": null,
+      "allowedEdit": null,
+      "version": 21,
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000013",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000102",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "reduceNoise": {
+                  "color": 81,
+                  "details": 32,
+                  "strength": 67
+                },
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000
+              },
+              "hue": 0,
+              "kind": "Invert",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000013",
+            "isVisible": true,
+            "name": "降噪调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "files": [
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000011.png",
+          "bytes": 195,
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3413,
+          "sha256": "1032e1c1f0fc1f30d4f4886d5dcd43151654d344d6cc7131e44e9872454dbd6c"
+        }
+      ],
+      "assets": [
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000011",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        }
+      ],
+      "assetAuthority": "Exact copies of the named native PC source assets; asset files independently hash-bound.",
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000013",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000102",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "reduceNoise": {
+                  "color": 81,
+                  "details": 32,
+                  "strength": 67
+                },
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000
+              },
+              "hue": 0,
+              "kind": "Invert",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000013",
+            "isVisible": true,
+            "name": "降噪调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-inactive-reduce-noise.json",
+        "sha256": "f9f9fcc3f9cbc65e643f35b67a1ad2c5f35cc9d9fe1c9aa46154af1cd281cd70",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "name": "v21-unsupported-sharpen",
+      "package": "v21-unsupported-sharpen.comp",
+      "origin": "controlled-derivative",
+      "sourcePackage": "v21-vignette.comp",
+      "sourceManifestSHA256": "c0a1556c757d1e3e07f5d58058f3efdbd2e46532313259e15955165fac0c35df",
+      "mutations": [
+        "Change only Vignette kind to Sharpen; valid inactive vignette metadata remains."
+      ],
+      "expectedMobile": "reject",
+      "expectedPC": "accept",
+      "outputVersion": null,
+      "allowedEdit": null,
+      "version": 21,
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000101",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000,
+                "vignette": {
+                  "amount": 47,
+                  "color": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "feather": 60,
+                  "highlights": 17,
+                  "midpoint": 43,
+                  "roundness": 100
+                }
+              },
+              "hue": 0,
+              "kind": "Sharpen",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000012",
+            "isVisible": true,
+            "name": "暗角调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "files": [
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000011.png",
+          "bytes": 195,
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3584,
+          "sha256": "bf1106b131fe1f4c0d8ab3f78bb36e9108e3170383ecd3ddea7dc9429c2a5135"
+        }
+      ],
+      "assets": [
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000011",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        }
+      ],
+      "assetAuthority": "Exact copies of the named native PC source assets; asset files independently hash-bound.",
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000101",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000,
+                "vignette": {
+                  "amount": 47,
+                  "color": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "feather": 60,
+                  "highlights": 17,
+                  "midpoint": 43,
+                  "roundness": 100
+                }
+              },
+              "hue": 0,
+              "kind": "Sharpen",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000012",
+            "isVisible": true,
+            "name": "暗角调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-unsupported-sharpen.json",
+        "sha256": "7c2df9c11b9e00b9b500e289be99ac18f04ffe99c84183a633c5bab4909a8c57",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "name": "v21-reduce-noise-null",
+      "package": "v21-reduce-noise-null.comp",
+      "origin": "controlled-derivative",
+      "sourcePackage": "v21-vignette.comp",
+      "sourceManifestSHA256": "c0a1556c757d1e3e07f5d58058f3efdbd2e46532313259e15955165fac0c35df",
+      "mutations": [
+        "Add only optional reduceNoise:null. Actual PC Codable treats it as absent; source writer omits nil."
+      ],
+      "expectedMobile": "accept",
+      "expectedPC": "accept",
+      "outputVersion": 18,
+      "allowedEdit": {
+        "after": "底图 · P146互操作",
+        "before": "底图",
+        "layerID": "B1460000-0000-4000-8000-000000000011"
+      },
+      "version": 21,
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000101",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000,
+                "vignette": {
+                  "amount": 47,
+                  "color": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "feather": 60,
+                  "highlights": 17,
+                  "midpoint": 43,
+                  "roundness": 100
+                },
+                "reduceNoise": null
+              },
+              "hue": 0,
+              "kind": "Vignette",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000012",
+            "isVisible": true,
+            "name": "暗角调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "files": [
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000011.png",
+          "bytes": 195,
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3616,
+          "sha256": "31d03e33262052834e8cb7dc4af95534aad5a6b0343e28cc90f21a1e09c724a6"
+        }
+      ],
+      "assets": [
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000011",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        }
+      ],
+      "assetAuthority": "Exact copies of the named native PC source assets; asset files independently hash-bound.",
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000101",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000,
+                "vignette": {
+                  "amount": 47,
+                  "color": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "feather": 60,
+                  "highlights": 17,
+                  "midpoint": 43,
+                  "roundness": 100
+                }
+              },
+              "hue": 0,
+              "kind": "Vignette",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000012",
+            "isVisible": true,
+            "name": "暗角调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-reduce-noise-null.json",
+        "sha256": "02a1ae5989d9b33e3501aa0301294d9b42422784281bcadb5e4be6cc0eff1aae",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "name": "v21-unknown-field",
+      "package": "v21-unknown-field.comp",
+      "origin": "controlled-derivative",
+      "sourcePackage": "v21-basic.comp",
+      "sourceManifestSHA256": "bf461d0f18242c9a00bf7d47389df299a9c8b064cd54e5d120d86e0a62af786f",
+      "mutations": [
+        "Add one unknown layer field. PC ignores unknown JSON keys; mobile must refuse before replacing state."
+      ],
+      "expectedMobile": "reject",
+      "expectedPC": "accept_ignores_unknown",
+      "outputVersion": null,
+      "allowedEdit": null,
+      "version": 21,
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000002",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000100",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000001",
+            "isGroup": true,
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000001.mask.png",
+            "name": "图层组",
+            "opacity": 0.75,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            },
+            "futureFeature": true
+          },
+          {
+            "id": "B1460000-0000-4000-8000-000000000002",
+            "imageFile": "B1460000-0000-4000-8000-000000000002.png",
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000002.mask.png",
+            "name": "原始像素",
+            "parentID": "B1460000-0000-4000-8000-000000000001",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "files": [
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000001.mask.png",
+          "bytes": 158,
+          "sha256": "36015131e8cf5b6e74465ee724d4bbe0fbf2fd79367481d9bdb8955f237a0442"
+        },
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000002.mask.png",
+          "bytes": 158,
+          "sha256": "36015131e8cf5b6e74465ee724d4bbe0fbf2fd79367481d9bdb8955f237a0442"
+        },
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000002.png",
+          "bytes": 195,
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 1366,
+          "sha256": "3e80aa43d6832d87a5ebfb1bb7fe4e8328215381f8f118793c9f806e70c64119"
+        }
+      ],
+      "assets": [
+        {
+          "bytes": 64,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000001",
+          "mask": true,
+          "sha256": "b6ca8ddc53007e1eebf8944a3c615ba83fbabff649b5ea653794f17797c41dcf",
+          "width": 8
+        },
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000002",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        },
+        {
+          "bytes": 64,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000002",
+          "mask": true,
+          "sha256": "b6ca8ddc53007e1eebf8944a3c615ba83fbabff649b5ea653794f17797c41dcf",
+          "width": 8
+        }
+      ],
+      "assetAuthority": "Exact copies of the named native PC source assets; asset files independently hash-bound.",
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000002",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000100",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000001",
+            "isGroup": true,
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000001.mask.png",
+            "name": "图层组",
+            "opacity": 0.75,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "id": "B1460000-0000-4000-8000-000000000002",
+            "imageFile": "B1460000-0000-4000-8000-000000000002.png",
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000002.mask.png",
+            "name": "原始像素",
+            "parentID": "B1460000-0000-4000-8000-000000000001",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-unknown-field.json",
+        "sha256": "8884060d4fae8339c66175ebad9e234ae7cbef7a4e6d56d7fbd1415bac78c132",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "name": "v21-unknown-alias",
+      "package": "v21-unknown-alias.comp",
+      "origin": "controlled-derivative",
+      "sourcePackage": "v21-vignette.comp",
+      "sourceManifestSHA256": "c0a1556c757d1e3e07f5d58058f3efdbd2e46532313259e15955165fac0c35df",
+      "mutations": [
+        "Add unknown reduce_noise alias with null; it is not the declared reduceNoise optional key."
+      ],
+      "expectedMobile": "reject",
+      "expectedPC": "accept_ignores_unknown",
+      "outputVersion": null,
+      "allowedEdit": null,
+      "version": 21,
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000101",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000,
+                "vignette": {
+                  "amount": 47,
+                  "color": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "feather": 60,
+                  "highlights": 17,
+                  "midpoint": 43,
+                  "roundness": 100
+                },
+                "reduce_noise": null
+              },
+              "hue": 0,
+              "kind": "Vignette",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000012",
+            "isVisible": true,
+            "name": "暗角调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "files": [
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000011.png",
+          "bytes": 195,
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3617,
+          "sha256": "fe59173721744f63221d8826aa33a7d4f50b425a823c0da009f3fcc17e3a3089"
+        }
+      ],
+      "assets": [
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000011",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        }
+      ],
+      "assetAuthority": "Exact copies of the named native PC source assets; asset files independently hash-bound.",
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000101",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000,
+                "vignette": {
+                  "amount": 47,
+                  "color": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "feather": 60,
+                  "highlights": 17,
+                  "midpoint": 43,
+                  "roundness": 100
+                }
+              },
+              "hue": 0,
+              "kind": "Vignette",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000012",
+            "isVisible": true,
+            "name": "暗角调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-unknown-alias.json",
+        "sha256": "8e86f111b4c63b8f7773827459053b4588d64d13b2653b505424d38847a39741",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    },
+    {
+      "name": "v23-future",
+      "package": "v23-future.comp",
+      "origin": "controlled-derivative",
+      "sourcePackage": "v21-basic.comp",
+      "sourceManifestSHA256": "bf461d0f18242c9a00bf7d47389df299a9c8b064cd54e5d120d86e0a62af786f",
+      "mutations": [
+        "Change only declared version from 21 to 23; future version boundary."
+      ],
+      "expectedMobile": "reject",
+      "outputVersion": null,
+      "allowedEdit": null,
+      "version": 23,
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000002",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000100",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000001",
+            "isGroup": true,
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000001.mask.png",
+            "name": "图层组",
+            "opacity": 0.75,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "id": "B1460000-0000-4000-8000-000000000002",
+            "imageFile": "B1460000-0000-4000-8000-000000000002.png",
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1460000-0000-4000-8000-000000000002.mask.png",
+            "name": "原始像素",
+            "parentID": "B1460000-0000-4000-8000-000000000001",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 23,
+        "width": 8
+      },
+      "files": [
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000001.mask.png",
+          "bytes": 158,
+          "sha256": "36015131e8cf5b6e74465ee724d4bbe0fbf2fd79367481d9bdb8955f237a0442"
+        },
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000002.mask.png",
+          "bytes": 158,
+          "sha256": "36015131e8cf5b6e74465ee724d4bbe0fbf2fd79367481d9bdb8955f237a0442"
+        },
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000002.png",
+          "bytes": 195,
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 1337,
+          "sha256": "d56c8af0531143827fa34cea311054beffc8c3f2d5db057c94bd8ecde7b336f4"
+        }
+      ],
+      "assets": [
+        {
+          "bytes": 64,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000001",
+          "mask": true,
+          "sha256": "b6ca8ddc53007e1eebf8944a3c615ba83fbabff649b5ea653794f17797c41dcf",
+          "width": 8
+        },
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000002",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        },
+        {
+          "bytes": 64,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000002",
+          "mask": true,
+          "sha256": "b6ca8ddc53007e1eebf8944a3c615ba83fbabff649b5ea653794f17797c41dcf",
+          "width": 8
+        }
+      ],
+      "assetAuthority": "Exact copies of the named native PC source assets; asset files independently hash-bound."
+    },
+    {
+      "name": "v20-reduce-noise-invalid",
+      "package": "v20-reduce-noise-invalid.comp",
+      "origin": "controlled-derivative",
+      "sourcePackage": "v21-reduce-noise.comp",
+      "sourceManifestSHA256": "4f18111d2387cb61279c7816d9c9c2988a3618687d607e80f96a594f15ab7113",
+      "mutations": [
+        "Change only version21 to20 while retaining Reduce Noise; explicitly invalid PC project."
+      ],
+      "expectedMobile": "reject",
+      "expectedPC": "reject",
+      "outputVersion": null,
+      "allowedEdit": null,
+      "version": 20,
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000013",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000102",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "reduceNoise": {
+                  "color": 81,
+                  "details": 32,
+                  "strength": 67
+                },
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000
+              },
+              "hue": 0,
+              "kind": "Reduce Noise",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000013",
+            "isVisible": true,
+            "name": "降噪调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 20,
+        "width": 8
+      },
+      "files": [
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000011.png",
+          "bytes": 195,
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3419,
+          "sha256": "3ba9ab40619b0bb54012ddc661ec6abb19d0230545bd4c90ac10a10db41f3619"
+        }
+      ],
+      "assets": [
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000011",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        }
+      ],
+      "assetAuthority": "Exact copies of the named native PC source assets; asset files independently hash-bound.",
+      "pcReadback": {
+        "path": "fixture-checks/v20-reduce-noise-invalid.json",
+        "sha256": "4abbc45cd1f781384e91a90b0eb2114c748af37bc731244600aa784dfa3f9d7c",
+        "expectedAcceptance": false,
+        "actualPassed": false,
+        "exitCode": 1
+      }
+    },
+    {
+      "name": "v21-hidden-reduce-noise",
+      "package": "v21-hidden-reduce-noise.comp",
+      "origin": "controlled-derivative",
+      "sourcePackage": "v21-reduce-noise.comp",
+      "sourceManifestSHA256": "4f18111d2387cb61279c7816d9c9c2988a3618687d607e80f96a594f15ab7113",
+      "mutations": [
+        "Hide only the Reduce Noise layer; unsupported editable content still exists."
+      ],
+      "expectedMobile": "reject",
+      "expectedPC": "accept",
+      "outputVersion": null,
+      "allowedEdit": null,
+      "version": 21,
+      "manifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000013",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000102",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "reduceNoise": {
+                  "color": 81,
+                  "details": 32,
+                  "strength": 67
+                },
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000
+              },
+              "hue": 0,
+              "kind": "Reduce Noise",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000013",
+            "isVisible": false,
+            "name": "降噪调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "files": [
+        {
+          "path": "images/B1460000-0000-4000-8000-000000000011.png",
+          "bytes": 195,
+          "sha256": "80ba694f67b4448cdef212f75cd097d230d748c5aa826150e55e7893e3aecc3a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3420,
+          "sha256": "7a2eca138cd962271e97c31e9639c1aa12be512e33de210322d669ade888b7f3"
+        }
+      ],
+      "assets": [
+        {
+          "bytes": 256,
+          "height": 8,
+          "layerID": "B1460000-0000-4000-8000-000000000011",
+          "mask": false,
+          "sha256": "3bcaea7075f735544b1f7140d04bfb90fd4b2acc587f8cab6fa7cd9c942fcb20",
+          "width": 8
+        }
+      ],
+      "assetAuthority": "Exact copies of the named native PC source assets; asset files independently hash-bound.",
+      "pcCanonicalManifest": {
+        "activeLayerID": "B1460000-0000-4000-8000-000000000013",
+        "colorSpace": "sRGB",
+        "documentID": "B1460000-0000-4000-8000-000000000102",
+        "format": "com.compositor.project",
+        "height": 8,
+        "layers": [
+          {
+            "id": "B1460000-0000-4000-8000-000000000011",
+            "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+            "isVisible": true,
+            "name": "底图",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "filterLayerSettings": {
+                "bloomAmount": 40,
+                "bloomRadius": 24,
+                "progressiveFrom": 0,
+                "progressiveInverted": false,
+                "progressiveRadial": false,
+                "progressiveTo": 20,
+                "reduceNoise": {
+                  "color": 81,
+                  "details": 32,
+                  "strength": 67
+                },
+                "rgbSplitAngle": 0,
+                "rgbSplitBlur": 0,
+                "rgbSplitDistance": 10,
+                "rgbSplitRadial": false,
+                "rgbSplitReach": 1000
+              },
+              "hue": 0,
+              "kind": "Reduce Noise",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1460000-0000-4000-8000-000000000013",
+            "isVisible": false,
+            "name": "降噪调整",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                0,
+                0
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                8,
+                8
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 21,
+        "width": 8
+      },
+      "pcReadback": {
+        "path": "fixture-checks/v21-hidden-reduce-noise.json",
+        "sha256": "de4ba80da16229655ca31554a33665dc06b03ecd43981b54b4160e0ef831bc39",
+        "expectedAcceptance": true,
+        "actualPassed": true,
+        "exitCode": 0
+      }
+    }
+  ],
+  "fixtureBytes": 42791,
+  "fixtureBudgetBytes": 33554432,
+  "scope": "Typed PC source packages and explicitly labeled controlled derivatives. Every package is checked by the same source-pinned PC actor. Android acceptance and compositor parity require separate evidence."
+}

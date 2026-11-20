@@ -6,16 +6,29 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+
+@Composable
+internal fun ProjectFileError(projects: ProjectFlowController) {
+    val state = projects.state
+    if (state.error == null) return
+    Text((state.errorNotice ?: UiNotice(UiNoticeKey.PROJECT_FAILED)).text(LocalContext.current),
+        color = MaterialTheme.colorScheme.error,
+        modifier = Modifier.fillMaxWidth().clickable { projects.clearError() }.padding(horizontal = 14.dp, vertical = 8.dp))
+}
 
 /** Rendering can come and go; the retained owner alone starts work, owns cancellation and receives results. */
 @Composable
@@ -93,7 +106,6 @@ internal fun ProjectFileActions(editor: NativeEditor, canvas: CanvasView?, works
         if (projects.exportRecoveryNotice != null) TextButton(enabled = !state.busy,
             onClick = { projects.listExportHistory() }) { Text(ui.getString(R.string.ui_export_review_needed)) }
     }
-    state.error?.let { Text((state.errorNotice ?: UiNotice(UiNoticeKey.PROJECT_FAILED)).text(ui), modifier = Modifier.clickable { projects.clearError() }) }
     state.exportResult?.let { result ->
         val message = when (result.commit) {
             ProjectExportCommit.COMMITTED_VERIFIED -> ui.getString(R.string.ui_export_confirmed, result.displayName)

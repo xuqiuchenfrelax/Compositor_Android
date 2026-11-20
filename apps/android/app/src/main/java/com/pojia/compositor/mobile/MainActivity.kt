@@ -1050,6 +1050,7 @@ private fun EditorScreen(editor: NativeEditor, workspace: AndroidWorkspace, work
                 if (fileOpen && BuildConfig.DEBUG) TextButton(onClick = { diagnostics = true }) { Text(ui.getString(R.string.ui_diagnostics)) }
                 if (fileOpen) HorizontalDivider()
             }
+            ProjectFileError(projects)
             ToolHeader(tool, erasing, if (tool == EditorTool.CLONE) cloneSettings else if (tool == EditorTool.SMEAR) smearSettings else if (tool == EditorTool.HEALING) healingSettings else settings, foreground, maskTarget, selectedLayer?.hasMask == true,
                 selectedLayer?.isGroup != true, enabled, zoomPercent,
                 setErasing = { canvas?.cancelStroke(); erasing = it }, setSettings = { if (tool == EditorTool.CLONE) cloneSettings = it else if (tool == EditorTool.SMEAR) smearSettings = it else if (tool == EditorTool.HEALING) healingSettings = it else settings = it },

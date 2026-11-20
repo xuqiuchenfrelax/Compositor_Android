@@ -1,0 +1,62 @@
+{
+  "activeLayerID" : "B1040000-0000-4000-8000-000000000004",
+  "colorSpace" : "sRGB",
+  "documentID" : "B1040000-0000-4000-8000-000000000103",
+  "format" : "com.compositor.project",
+  "height" : 120,
+  "layers" : [
+    {
+      "id" : "B1040000-0000-4000-8000-000000000004",
+      "imageFile" : "B1040000-0000-4000-8000-000000000004.png",
+      "isVisible" : true,
+      "name" : "中文 Text",
+      "text" : {
+        "alignment" : "Center",
+        "blue" : 0,
+        "boxSize" : [
+          180,
+          90
+        ],
+        "colorRuns" : [
+          {
+            "blue" : 0.3,
+            "green" : 0.1,
+            "length" : 2,
+            "location" : 0,
+            "red" : 0.8
+          }
+        ],
+        "content" : "中文🚀 v17\n可编辑文本",
+        "fontName" : "Helvetica",
+        "fontRuns" : [
+          {
+            "fontName" : "Helvetica-Bold",
+            "length" : 3,
+            "location" : 5
+          }
+        ],
+        "fontSize" : 18,
+        "green" : 0,
+        "leading" : 23,
+        "red" : 0,
+        "tracking" : 0.5
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4.125,
+          8.75
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          180,
+          90
+        ]
+      }
+    }
+  ],
+  "version" : 22,
+  "width" : 200
+}

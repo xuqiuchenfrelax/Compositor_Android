@@ -141,6 +141,34 @@ internal fun projectCandidateSmoke(instrumentation: Instrumentation): String {
                 }
             }
             unchanged()
+            val current = copiedPackage("raster-editable.comp")
+            val currentManifest = File(current, "manifest.json")
+            currentManifest.writeText(JSONObject(currentManifest.readText()).put("version", 22).toString())
+            NativeEditor.loadProjectCandidate(context, current, limit, resident).use { candidate ->
+                assertMetadata(candidate)
+                val before = candidate.state()
+                val pixels = rendered(candidate)
+                val layerId = before.layers[1].id
+                candidate.renameLayer(layerId, "v22 round-trip")
+                val edited = candidate.state()
+                check(edited.layers == before.layers.map { if (it.id == layerId) it.copy(name = "v22 round-trip") else it })
+                candidate.undo(false)
+                check(candidate.state().layers == before.layers)
+                candidate.undo(true)
+                check(candidate.state().layers == edited.layers)
+                val exported = File(directory, "v22-roundtrip.comp")
+                candidate.captureProjectSnapshot().use { snapshot ->
+                    NativeProjectWriteControl(limit, resident).use { control ->
+                        check(snapshot.write(context, exported, false, control).successful)
+                    }
+                }
+                check(JSONObject(File(exported, "manifest.json").readText()).getInt("version") == 17)
+                NativeEditor.loadProjectCandidate(context, exported, limit, resident).use { restored ->
+                    check(restored.state().document == edited.document && restored.state().layers == edited.layers)
+                    check(rendered(restored).contentEquals(pixels))
+                }
+            }
+            unchanged()
             val ledger = ImageIoAdmission.ledger
             val beforeHandoff = ledger.snapshot()
             val segment = 32L * 1024 * 1024
@@ -209,8 +237,17 @@ internal fun projectCandidateSmoke(instrumentation: Instrumentation): String {
             }
             val future = copiedPackage("raster-editable.comp")
             val futureManifest = File(future, "manifest.json")
-            futureManifest.writeText(JSONObject(futureManifest.readText()).put("version", 22).toString())
+            futureManifest.writeText(JSONObject(futureManifest.readText()).put("version", 23).toString())
             fails(5, future)
+            val stroked = copiedPackage("raster-editable.comp")
+            val strokedFile = File(stroked, "manifest.json")
+            val strokedManifest = JSONObject(strokedFile.readText()).put("version", 22)
+            strokedManifest.getJSONArray("layers").getJSONObject(1).put("isVisible", false).put("shape", JSONObject()
+                .put("kind", "Rectangle").put("red", 0.3).put("green", 0.4).put("blue", 0.5)
+                .put("cornerRadius", 1).put("strokeWidth", 2.5)
+                .put("strokeRed", 0.7).put("strokeGreen", 0.8).put("strokeBlue", 0.9))
+            strokedFile.writeText(strokedManifest.toString())
+            fails(5, stroked)
             val corrupt = copiedPackage()
             val lastAsset = File(corrupt, "images/$placedId.mask.png")
             val bytes = lastAsset.readBytes(); bytes[bytes.lastIndex] = (bytes.last().toInt() xor 1).toByte(); lastAsset.writeBytes(bytes)
@@ -229,7 +266,7 @@ internal fun projectCandidateSmoke(instrumentation: Instrumentation): String {
             try { NativeEditor.loadProjectCandidate(context, alias, limit, resident).close(); error("Symbolic staging was accepted") }
             catch (_: IllegalArgumentException) { unchanged() }
         }
-        return "Project candidate passed: real desktop PNG source/color/Adam7 and 8×8 render goldens, exact metadata/UUID/guides/active/relationships/nil placement/raw mask, v14 raster reads and writes13 with exact state/pixels, edit+undo/v3 recovery/retained scene lifetime; shape smoothing true/false and Android-unsupported v16, cancellation/budget/late corrupt asset/cICP-only/large blank reject with null output and old editor/checkpoint unchanged; app-owned staging only, no workspace replacement or SAF UI"
+        return "Project candidate passed: desktop PNG source/color/Adam7 and 8×8 render goldens, exact metadata/UUID/guides/active/relationships/nil placement/raw mask, v14 and v22 raster round trips to v17, edit/undo/redo/v3 recovery/retained scene lifetime; unsupported shapes (including a hidden v22 inside stroke), future v23, cancellation/budget/late corrupt asset/cICP-only/large blank rejected with old editor/checkpoint unchanged; app-owned staging only, no workspace replacement or SAF UI"
     } finally { directory.deleteRecursively() }
 }
 

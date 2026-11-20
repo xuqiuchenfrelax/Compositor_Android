@@ -345,14 +345,14 @@ internal class CanvasView(context: Context, private val editor: NativeEditor,
     }
     internal fun dispatchMoveKey(event: KeyEvent): Boolean {
         if (!keyboardFocusActive || !keyboardMoveEnabled || !hasWindowFocus() || !current() || !samplingEnabled || toolMode != CanvasToolMode.MOVE ||
-            event.isCtrlPressed || event.isMetaPressed || event.isAltPressed ||
+            event.isCtrlPressed || event.isMetaPressed ||
             (event.action != KeyEvent.ACTION_DOWN && event.action != KeyEvent.ACTION_UP)) return false
         val dx = when (event.keyCode) { KeyEvent.KEYCODE_DPAD_LEFT -> -1.0; KeyEvent.KEYCODE_DPAD_RIGHT -> 1.0; else -> 0.0 }
         val dy = when (event.keyCode) { KeyEvent.KEYCODE_DPAD_UP -> -1.0; KeyEvent.KEYCODE_DPAD_DOWN -> 1.0; else -> 0.0 }
         if (dx == 0.0 && dy == 0.0) return false
-        if (event.action == KeyEvent.ACTION_DOWN) {
+        if (event.action == KeyEvent.ACTION_DOWN && (!event.isAltPressed || event.repeatCount == 0)) {
             val step = if (event.isShiftPressed) 10.0 else 1.0
-            val accepted = nudgeMove(dx * step, dy * step)
+            val accepted = nudgeMove(dx * step, dy * step, duplicate = event.isAltPressed)
             if (BuildConfig.DEBUG) android.util.Log.d("CompositorKey", "canvas nudge accepted=$accepted step=$step")
         }
         return true
@@ -477,18 +477,21 @@ internal class CanvasView(context: Context, private val editor: NativeEditor,
         (event.y.toDouble() - offsetY) / scale)
     fun snapScreenLines(): Pair<Float?, Float?> = (moveSnap?.snapX?.let { (offsetX + it * scale).toFloat() }) to
         (moveSnap?.snapY?.let { (offsetY + it * scale).toFloat() })
-    private fun beginMove(persistent: Boolean = false, fromFields: Boolean = false): Boolean {
+    private fun beginMove(persistent: Boolean = false, fromFields: Boolean = false, duplicate: Boolean = false): Boolean {
         if (!current() || moveInProgress || moveContextPending || strokeInProgress || nativeCommandPending || samplingFinishPending) return false
         val state = editor.state()
         val layer = state.layers.firstOrNull { it.id == layerId && it.id == state.document.activeLayerId }
-        val geometry = selectedGeometry(layer, state)
+        val geometry = if (duplicate && layer != null) {
+            val selection = editor.selection()
+            MoveGeometry.selection(state, selection.roots, layer.id, mask = false)
+        } else selectedGeometry(layer, state)
         if (geometry == null) { failNotice(UiNoticeKey.TRANSFORM_SELECT_LAYER); return false }
         val target = geometry.target
         val box = geometry.box
         val activeLayer = checkNotNull(layer)
         var owner: TransformController.Owner? = null
         val start = { owner = transforms.begin(activeLayer.id, target, viewEpoch, viewEpoch, ++moveInputEpoch,
-            persistent, fromFields); Unit }
+            persistent, fromFields, duplicateAtDown = duplicate); Unit }
         try {
             if (lease != null) lease.execute(start) else start()
         } catch (error: Exception) { failNotice(UiNoticeKey.TRANSFORM_ADMISSION_FAILED, error); return false }
@@ -929,15 +932,29 @@ internal class CanvasView(context: Context, private val editor: NativeEditor,
         val original = moveBox ?: geometry.box
         return previewMoveInspector(MoveInspectorGeometry.flipped(original, horizontal))
     }
-    fun nudgeMove(dx: Double, dy: Double): Boolean {
-        if (moveScrubSession != null || moveSettling || moveGesture != null || !dx.isFinite() || !dy.isFinite()) return false
+    fun nudgeMove(dx: Double, dy: Double, duplicate: Boolean = false): Boolean {
+        if (moveScrubSession != null || moveSettling || moveContextPending || moveGesture != null ||
+            pendingMovePress != null || !dx.isFinite() || !dy.isFinite()) return false
         if (moveInProgress && moveBox == null) return false
+        if (duplicate && moveInProgress) {
+            val captured = editor.selection()
+            return switchMoveContext {
+                val selected = editor.selection()
+                if (captured.instance == selected.instance && captured.primary == selected.primary &&
+                    captured.roots == selected.roots && captured.mask == selected.mask) nudgeMove(dx, dy, duplicate = true)
+            }
+        }
         val alreadyEditing = moveInProgress
-        if (!alreadyEditing && !beginMove()) return false
+        if (!alreadyEditing && !beginMove(duplicate = duplicate)) return false
+        val owner = checkNotNull(moveOwner)
         val original = checkNotNull(moveBox)
         val updated = original.copy(x = original.x + dx, y = original.y + dy)
-        if (!MoveGeometry.valid(updated)) { if (!alreadyEditing) cancelMove(); return false }
-        if (!transforms.update(checkNotNull(moveOwner), updated, moveSampling)) { if (!alreadyEditing) cancelMove(); return false }
+        val valid = if (owner.target == TransformTarget.GROUP) MoveGeometry.validGroup(updated) else MoveGeometry.valid(updated)
+        // Promote before submitting the offset so it cannot touch the original layer.
+        if (!valid || (duplicate && !transforms.firstDrag(owner)) || !transforms.update(owner, updated, moveSampling)) {
+            if (!alreadyEditing) cancelMove()
+            return false
+        }
         locallyUpdatedMove = true; moveBox = updated; moveSnap = null
         if (!alreadyEditing) applyMove() else requestRender()
         return true

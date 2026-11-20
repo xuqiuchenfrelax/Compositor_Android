@@ -3,7 +3,8 @@ package com.pojia.compositor.mobile
 import android.content.Context
 import java.io.File
 
-internal class ProjectImportException(val status: Int) : IllegalStateException(when (status) {
+internal class ProjectImportException(val status: Int, val renderUnsupported: Boolean = false) : IllegalStateException(
+    if (renderUnsupported) "The project uses layer rendering settings this version does not support" else when (status) {
     3 -> "The project operation exceeds its reserved memory budget"
     5 -> "The project contains an unsupported format or feature"
     6 -> "The project operation encountered an internal error"
@@ -15,6 +16,7 @@ internal class ProjectImportException(val status: Int) : IllegalStateException(w
 
 /** Shared codecs/builders load app-owned staging only. Provider transport is a separate operation. */
 internal object NativeProjectIO {
+    private const val RENDER_UNSUPPORTED = -1L
     init { System.loadLibrary("compositor_android") }
     fun load(context: Context, directory: File, limitBytes: Long, residentBytes: Long,
         preCancelledForTest: Boolean = false): Long {
@@ -25,6 +27,7 @@ internal object NativeProjectIO {
         check(result.size == 2)
         if (result[0] != 0L) {
             check(result[1] == 0L) { "A failed import returned a live candidate" }
+            if (result[0] == RENDER_UNSUPPORTED) throw ProjectImportException(5, renderUnsupported = true)
             throw ProjectImportException(result[0].toInt())
         }
         check(result[1] != 0L) { "Project import returned no candidate" }

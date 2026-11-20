@@ -519,7 +519,7 @@ private class ManifestReferences(private val policy: ProjectTransportPolicy,
                     fail(ProjectTransportFailure.INVALID, "Invalid project manifest header")
                 // Keep legacy mobile saves readable alongside current desktop
                 // static projects. Native validation still checks every typed record.
-                if (version!! !in 1..21 && version != 27)
+                if (version!! !in 1..22 && version != 27)
                     fail(ProjectTransportFailure.UNSUPPORTED, "Project version $version is not supported")
                 if (reader.peek() != JsonToken.END_DOCUMENT) fail(ProjectTransportFailure.INVALID, "Trailing manifest data")
             }

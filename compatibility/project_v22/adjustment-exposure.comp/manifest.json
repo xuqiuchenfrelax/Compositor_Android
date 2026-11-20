@@ -1,0 +1,142 @@
+{
+  "activeLayerID" : "B1040000-0000-4000-8000-000000000023",
+  "colorSpace" : "sRGB",
+  "documentID" : "B1040000-0000-4000-8000-000000000123",
+  "format" : "com.compositor.project",
+  "height" : 64,
+  "layers" : [
+    {
+      "id" : "B1040000-0000-4000-8000-000000000043",
+      "imageFile" : "B1040000-0000-4000-8000-000000000043.png",
+      "isVisible" : true,
+      "name" : "Base",
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4.125,
+          8.75
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "adjustment" : {
+        "colorize" : false,
+        "curves" : {
+          "channel" : "RGB",
+          "channels" : [
+            [
+              {
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "x" : 255,
+                "y" : 255
+              }
+            ],
+            [
+              {
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "x" : 255,
+                "y" : 255
+              }
+            ],
+            [
+              {
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "x" : 255,
+                "y" : 255
+              }
+            ],
+            [
+              {
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "x" : 255,
+                "y" : 255
+              }
+            ]
+          ]
+        },
+        "exposureSettings" : {
+          "exposure" : 1.25,
+          "gamma" : 1.2,
+          "offset" : 0.1
+        },
+        "hue" : 0,
+        "kind" : "Exposure",
+        "levels" : {
+          "channel" : "RGB",
+          "ranges" : [
+            {
+              "black" : 0,
+              "gamma" : 1,
+              "outputBlack" : 0,
+              "outputWhite" : 255,
+              "white" : 255
+            },
+            {
+              "black" : 0,
+              "gamma" : 1,
+              "outputBlack" : 0,
+              "outputWhite" : 255,
+              "white" : 255
+            },
+            {
+              "black" : 0,
+              "gamma" : 1,
+              "outputBlack" : 0,
+              "outputWhite" : 255,
+              "white" : 255
+            },
+            {
+              "black" : 0,
+              "gamma" : 1,
+              "outputBlack" : 0,
+              "outputWhite" : 255,
+              "white" : 255
+            }
+          ]
+        },
+        "lightness" : 0,
+        "saturation" : 0
+      },
+      "blendMode" : "Normal",
+      "id" : "B1040000-0000-4000-8000-000000000023",
+      "isVisible" : true,
+      "name" : "调整 Exposure",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4.125,
+          8.75
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          64,
+          64
+        ]
+      }
+    }
+  ],
+  "version" : 22,
+  "width" : 64
+}

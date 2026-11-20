@@ -115,6 +115,8 @@ android {
         // Keep native libraries uncompressed and page-aligned for Android 15+
         // devices with 16 KiB pages.  This is part of the release contract.
         jniLibs.useLegacyPackaging = false
+        // Published libraries have already been stripped and verified.
+        jniLibs.keepDebugSymbols += "**/libcompositor_android.so"
         jniLibs.keepDebugSymbols += "**/libcompositor_android.so"
     }
     sourceSets.getByName("androidTest").assets.srcDir(layout.buildDirectory.dir("generated/sourceOverFixtures"))
@@ -173,8 +175,8 @@ fun sha256(file: java.io.File): String {
 }
 
 val nativeChecksums = mapOf(
-    "arm64-v8a" to "114f484b32d850752305f3823c80d66af0a9bf2f562992ce8d100edf5c22a757",
-    "x86_64" to "4fcb68fda99eef8cc55f4e29129b1c212f7235367298c0e631176621d425fa15",
+    "arm64-v8a" to "7c99794c3624701a01b65f8586768933e039d493c13a3bcbacf8e78d14a1e1bd",
+    "x86_64" to "49e38548af1fa6b13d293fedd9dc5c8677e359a6a88128b7523aab158a6fa8b5",
 )
 val verifyNativeEngine by tasks.registering {
     inputs.files(nativeChecksums.keys.map { file("src/main/jniLibs/$it/libcompositor_android.so") })

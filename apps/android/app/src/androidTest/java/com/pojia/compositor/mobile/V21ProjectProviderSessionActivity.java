@@ -48,11 +48,11 @@ public final class V21ProjectProviderSessionActivity extends Activity {
             paths.add(root.toPath().relativize(current.toPath()).toString());
         }
     }
-    private static JSONObject verify(File root, JSONObject expected) throws Exception {
+    private static JSONObject verify(File root, JSONObject expected, int sourceVersion) throws Exception {
         if (!root.isDirectory() || Files.isSymbolicLink(root.toPath())) throw new IOException("Missing fixture root");
         JSONArray fixtures = expected.getJSONArray("fixtures");
-        if (expected.getInt("schemaVersion") != 1 || expected.getInt("sourceCurrent") != 21 || fixtures.length() < 2 || fixtures.length() > 16)
-            throw new IOException("Unexpected P146 fixture schema");
+        if (expected.getInt("schemaVersion") != 1 || expected.getInt("sourceCurrent") != sourceVersion || fixtures.length() < 2 || fixtures.length() > 16)
+            throw new IOException("Unexpected project fixture schema");
         JSONObject hashes = new JSONObject(); Set<String> packages = new HashSet<>(); long total = 0;
         for (int i = 0; i < fixtures.length(); ++i) {
             JSONObject fixture = fixtures.getJSONObject(i); String name = fixture.getString("package");
@@ -92,10 +92,12 @@ public final class V21ProjectProviderSessionActivity extends Activity {
             if ("cleanup".equals(action) && !session.exists()) {
                 result.putBoolean("removed", true); result.putBoolean("passed", true); code = 0; return;
             }
-            File input = new File(getFilesDir(), "p146-v21-fixtures");
+            int sourceVersion = getIntent().getIntExtra("sourceVersion", 21);
+            if (sourceVersion != 21 && sourceVersion != 22) throw new IOException("Unsupported project fixture version");
+            File input = new File(getFilesDir(), sourceVersion == 21 ? "p146-v21-fixtures" : "p165-v22-fixtures");
             File inputManifest = child(input, "expected.json");
             String raw = V21ProjectDocumentsProvider.readText(inputManifest); JSONObject expected = new JSONObject(raw);
-            JSONObject source = verify(input, expected);
+            JSONObject source = verify(input, expected, sourceVersion);
             result.putString("expected", raw); result.putString("inputSHA256", sha(inputManifest));
             result.putString("source", source.toString()); result.putString("sessionPath", session.getAbsolutePath());
             if ("prepare".equals(action)) {
@@ -112,11 +114,11 @@ public final class V21ProjectProviderSessionActivity extends Activity {
                         Files.copy(child(input, path).toPath(), target.toPath());
                     }
                 }
-                result.putString("session", verify(session, expected).toString());
+                result.putString("session", verify(session, expected, sourceVersion).toString());
                 Files.write(new File(session, "ready.json").toPath(), raw.getBytes(StandardCharsets.UTF_8));
             } else if ("verify".equals(action) || "cleanup".equals(action)) {
                 if (!session.isDirectory() || !V21ProjectDocumentsProvider.readText(new File(session, ".owner")).equals(token)) throw new IOException("Session ownership mismatch");
-                if (new File(session, "ready.json").isFile()) result.putString("session", verify(session, expected).toString());
+                if (new File(session, "ready.json").isFile()) result.putString("session", verify(session, expected, sourceVersion).toString());
                 if ("cleanup".equals(action)) {
                     JSONArray fixtures = expected.getJSONArray("fixtures");
                     for (int i = 0; i < fixtures.length(); ++i) revokeUriPermission(

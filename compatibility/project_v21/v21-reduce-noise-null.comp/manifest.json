@@ -1,0 +1,164 @@
+{
+  "activeLayerID": "B1460000-0000-4000-8000-000000000012",
+  "colorSpace": "sRGB",
+  "documentID": "B1460000-0000-4000-8000-000000000101",
+  "format": "com.compositor.project",
+  "height": 8,
+  "layers": [
+    {
+      "id": "B1460000-0000-4000-8000-000000000011",
+      "imageFile": "B1460000-0000-4000-8000-000000000011.png",
+      "isVisible": true,
+      "name": "底图",
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "sampling": "Nearest",
+        "size": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "adjustment": {
+        "colorize": false,
+        "curves": {
+          "channel": "RGB",
+          "channels": [
+            [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 255,
+                "y": 255
+              }
+            ],
+            [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 255,
+                "y": 255
+              }
+            ],
+            [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 255,
+                "y": 255
+              }
+            ],
+            [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 255,
+                "y": 255
+              }
+            ]
+          ]
+        },
+        "filterLayerSettings": {
+          "bloomAmount": 40,
+          "bloomRadius": 24,
+          "progressiveFrom": 0,
+          "progressiveInverted": false,
+          "progressiveRadial": false,
+          "progressiveTo": 20,
+          "rgbSplitAngle": 0,
+          "rgbSplitBlur": 0,
+          "rgbSplitDistance": 10,
+          "rgbSplitRadial": false,
+          "rgbSplitReach": 1000,
+          "vignette": {
+            "amount": 47,
+            "color": {
+              "blue": 0,
+              "green": 0,
+              "red": 0
+            },
+            "feather": 60,
+            "highlights": 17,
+            "midpoint": 43,
+            "roundness": 100
+          },
+          "reduceNoise": null
+        },
+        "hue": 0,
+        "kind": "Vignette",
+        "levels": {
+          "channel": "RGB",
+          "ranges": [
+            {
+              "black": 0,
+              "gamma": 1,
+              "outputBlack": 0,
+              "outputWhite": 255,
+              "white": 255
+            },
+            {
+              "black": 0,
+              "gamma": 1,
+              "outputBlack": 0,
+              "outputWhite": 255,
+              "white": 255
+            },
+            {
+              "black": 0,
+              "gamma": 1,
+              "outputBlack": 0,
+              "outputWhite": 255,
+              "white": 255
+            },
+            {
+              "black": 0,
+              "gamma": 1,
+              "outputBlack": 0,
+              "outputWhite": 255,
+              "white": 255
+            }
+          ]
+        },
+        "lightness": 0,
+        "saturation": 0
+      },
+      "blendMode": "Normal",
+      "id": "B1460000-0000-4000-8000-000000000012",
+      "isVisible": true,
+      "name": "暗角调整",
+      "opacity": 1,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "sampling": "Nearest",
+        "size": [
+          8,
+          8
+        ]
+      }
+    }
+  ],
+  "resolution": 144,
+  "version": 21,
+  "width": 8
+}

@@ -26,7 +26,7 @@ internal fun localizationUiSmoke(instrumentation: Instrumentation, selectedTool:
     check(selectedTool == EditorTool.BRUSH || selectedTool == EditorTool.HEALING)
     check(retainedNoticeKey in setOf(UiNoticeKey.EDITOR_COMMAND_FAILED, UiNoticeKey.DOCUMENT_RESOLUTION_INVALID))
     val validationNotice = retainedNoticeKey == UiNoticeKey.DOCUMENT_RESOLUTION_INVALID
-    val automation = instrumentation.uiAutomation
+    val automation = editorUiAutomation(instrumentation)
     val application = instrumentation.targetContext.applicationContext as Application
     val resumed = AtomicReference<MainActivity?>()
     val resumeCount = AtomicInteger()
@@ -142,8 +142,9 @@ internal fun localizationUiSmoke(instrumentation: Instrumentation, selectedTool:
     }
     fun openLanguage() {
         val activity = ready()
-        if (!has(activity.getString(R.string.language_settings))) click(activity.getString(R.string.ui_file))
-        click(activity.getString(R.string.language_settings))
+        val label = activity.getString(R.string.language_settings)
+        revealEditorControl(instrumentation, label)
+        click(label)
     }
     fun select(language: AppLanguage) {
         val previous = ready()

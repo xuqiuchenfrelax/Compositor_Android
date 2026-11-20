@@ -54,6 +54,7 @@
     <string name="notice_image_closed_committing">The document closed after image insertion started. The final workspace save will preserve the committed edit.</string>
     <string name="notice_memory_limit">The operation exceeds the available memory budget. Reduce the image size or layer count and try again.</string>
     <string name="notice_unsupported_project">This project uses a format or feature that this version does not support.</string>
+    <string name="notice_unsupported_project_render">This project uses layer rendering settings that this version cannot display. The project was not changed.</string>
     <string name="notice_corrupt_project">The project contains damaged or incomplete data. Its source files have been kept.</string>
     <string name="notice_file_access_denied">The selected file or folder could not be accessed. Grant access or choose another location.</string>
     <string name="notice_file_io_failed">The file could not be read or written. Check the destination and available storage.</string>

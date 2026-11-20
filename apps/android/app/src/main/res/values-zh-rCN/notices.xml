@@ -54,6 +54,7 @@
     <string name="notice_image_closed_committing">文档已在图像插入开始后关闭，最终工作区保存将保留已提交的编辑。</string>
     <string name="notice_memory_limit">此操作超出可用内存预算，请减小图像尺寸或减少图层后重试。</string>
     <string name="notice_unsupported_project">此工程使用了当前版本尚不支持的格式或功能。</string>
+    <string name="notice_unsupported_project_render">当前版本无法显示此工程的图层渲染设置。原工程未修改。</string>
     <string name="notice_corrupt_project">工程包含损坏或不完整的数据，源文件已保留。</string>
     <string name="notice_file_access_denied">无法访问所选文件或文件夹，请授予权限或选择其他位置。</string>
     <string name="notice_file_io_failed">无法读取或写入文件，请检查目标位置和可用存储空间。</string>

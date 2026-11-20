@@ -20,6 +20,10 @@ internal fun localizationNoticeSmoke(instrumentation: Instrumentation): String {
     for ((status, expected) in nativeCases) {
         check(uiFailure(ProjectImportException(status), UiNoticeKey.PROJECT_OPEN_FAILED).key == expected)
     }
+    val renderNotice = uiFailure(ProjectImportException(5, renderUnsupported = true), UiNoticeKey.PROJECT_OPEN_FAILED)
+    check(renderNotice.key == UiNoticeKey.UNSUPPORTED_PROJECT_RENDER)
+    check(renderNotice.text(english) == "This project uses layer rendering settings that this version cannot display. The project was not changed.")
+    check(renderNotice.text(chinese) == "当前版本无法显示此工程的图层渲染设置。原工程未修改。")
     val transportCases = mapOf(
         ProjectTransportFailure.INVALID to UiNoticeKey.INVALID_PROJECT,
         ProjectTransportFailure.UNSUPPORTED to UiNoticeKey.UNSUPPORTED_PROJECT,

@@ -113,6 +113,7 @@ internal enum class UiNoticeKey(val resource: Int) {
     INVALID_PROJECT(R.string.notice_invalid_project),
     MEMORY_LIMIT(R.string.notice_memory_limit),
     UNSUPPORTED_PROJECT(R.string.notice_unsupported_project),
+    UNSUPPORTED_PROJECT_RENDER(R.string.notice_unsupported_project_render),
     CORRUPT_PROJECT(R.string.notice_corrupt_project),
     FILE_ACCESS_DENIED(R.string.notice_file_access_denied),
     FILE_IO_FAILED(R.string.notice_file_io_failed),
@@ -139,6 +140,7 @@ internal fun uiFailure(error: Throwable?, fallback: UiNoticeKey): UiNotice {
         error is CheckpointException && error.write?.destinationPublished == true && !error.write.durabilityConfirmed -> UiNoticeKey.RECOVERY_DURABILITY
         status == 4 && error is CheckpointException -> UiNoticeKey.PENDING_EDIT
         status == 3 || error is OutOfMemoryError || error is ResourceBudgetExceededException -> UiNoticeKey.MEMORY_LIMIT
+        error is ProjectImportException && error.renderUnsupported -> UiNoticeKey.UNSUPPORTED_PROJECT_RENDER
         status == 5 -> UiNoticeKey.UNSUPPORTED_PROJECT
         status == 7 -> UiNoticeKey.FILE_IO_FAILED
         status == 8 -> UiNoticeKey.CORRUPT_PROJECT

@@ -83,7 +83,7 @@ internal fun saveAndOpenSmoke(instrumentation: Instrumentation): String {
             check(workspace.snapshot().sourceIdentity == source && File(target, "manifest.json").readBytes().contentEquals(targetManifest))
             main { controller.testHooks = null; controller.clearError() }
         }
-        val broken = File(context.filesDir, "saved-projects/broken.comp").apply { check(mkdir()) }
+        val broken = File(target.parentFile, "broken.comp").apply { check(mkdir()) }
         select(broken)
         main {
             controller.chooseSaveCopyAndOpen()

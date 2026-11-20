@@ -1,0 +1,201 @@
+{
+  "activeLayerID" : "B1040000-0000-4000-8000-000000000020",
+  "colorSpace" : "sRGB",
+  "documentID" : "B1040000-0000-4000-8000-000000000120",
+  "format" : "com.compositor.project",
+  "height" : 64,
+  "layers" : [
+    {
+      "id" : "B1040000-0000-4000-8000-000000000040",
+      "imageFile" : "B1040000-0000-4000-8000-000000000040.png",
+      "isVisible" : true,
+      "name" : "Base",
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4.125,
+          8.75
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "adjustment" : {
+        "colorize" : false,
+        "curves" : {
+          "channel" : "RGB",
+          "channels" : [
+            [
+              {
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "x" : 255,
+                "y" : 255
+              }
+            ],
+            [
+              {
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "x" : 255,
+                "y" : 255
+              }
+            ],
+            [
+              {
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "x" : 255,
+                "y" : 255
+              }
+            ],
+            [
+              {
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "x" : 255,
+                "y" : 255
+              }
+            ]
+          ]
+        },
+        "hsvSettings" : {
+          "adjustments" : [
+            "Reds",
+            {
+              "hue" : 22,
+              "lightness" : -8,
+              "saturation" : 18
+            }
+          ],
+          "bands" : [
+            "Reds",
+            {
+              "falloffEnd" : 45,
+              "falloffStart" : 315,
+              "rangeEnd" : 15,
+              "rangeStart" : 345
+            },
+            "Cyans",
+            {
+              "falloffEnd" : 225,
+              "falloffStart" : 135,
+              "rangeEnd" : 195,
+              "rangeStart" : 165
+            },
+            "Blues",
+            {
+              "falloffEnd" : 285,
+              "falloffStart" : 195,
+              "rangeEnd" : 255,
+              "rangeStart" : 225
+            },
+            "Magentas",
+            {
+              "falloffEnd" : 345,
+              "falloffStart" : 255,
+              "rangeEnd" : 315,
+              "rangeStart" : 285
+            },
+            "Greens",
+            {
+              "falloffEnd" : 165,
+              "falloffStart" : 75,
+              "rangeEnd" : 135,
+              "rangeStart" : 105
+            },
+            "Master",
+            {
+              "falloffEnd" : 360,
+              "falloffStart" : 0,
+              "rangeEnd" : 360,
+              "rangeStart" : 0
+            },
+            "Yellows",
+            {
+              "falloffEnd" : 105,
+              "falloffStart" : 15,
+              "rangeEnd" : 75,
+              "rangeStart" : 45
+            }
+          ],
+          "colorize" : false,
+          "invertRange" : true,
+          "range" : "Reds"
+        },
+        "hue" : 0,
+        "kind" : "Hue\/Saturation",
+        "levels" : {
+          "channel" : "RGB",
+          "ranges" : [
+            {
+              "black" : 0,
+              "gamma" : 1,
+              "outputBlack" : 0,
+              "outputWhite" : 255,
+              "white" : 255
+            },
+            {
+              "black" : 0,
+              "gamma" : 1,
+              "outputBlack" : 0,
+              "outputWhite" : 255,
+              "white" : 255
+            },
+            {
+              "black" : 0,
+              "gamma" : 1,
+              "outputBlack" : 0,
+              "outputWhite" : 255,
+              "white" : 255
+            },
+            {
+              "black" : 0,
+              "gamma" : 1,
+              "outputBlack" : 0,
+              "outputWhite" : 255,
+              "white" : 255
+            }
+          ]
+        },
+        "lightness" : 0,
+        "saturation" : 0
+      },
+      "blendMode" : "Normal",
+      "id" : "B1040000-0000-4000-8000-000000000020",
+      "isVisible" : true,
+      "name" : "调整 Hue\/Saturation",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4.125,
+          8.75
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          64,
+          64
+        ]
+      }
+    }
+  ],
+  "version" : 22,
+  "width" : 64
+}

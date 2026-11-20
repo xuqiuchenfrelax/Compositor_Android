@@ -1,0 +1,2169 @@
+{
+  "passed": true,
+  "schemaVersion": 1,
+  "sourceCurrent": 22,
+  "commit": "cc99ba3322c807aacb1a8716e0be7e8f7fd86f2a",
+  "fixtures": [
+    {
+      "assets": [
+        {
+          "bytes": 4096,
+          "height": 64,
+          "layerID": "B1040000-0000-4000-8000-000000000001",
+          "mask": true,
+          "sha256": "f95329e76b5550805e36a772152fbe903705ae7cf8b614a6e9c6205cb6053fa7",
+          "width": 64
+        },
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000002",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        },
+        {
+          "bytes": 256,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000002",
+          "mask": true,
+          "sha256": "1d50fa2f7fda481f7989f7778ec88bc7063624daee7c1774cd7923273ddedf4c",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "eec854770398dd443a384ff8cb624df9dd697d291ab82f940f549c0c25bab85d",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000002",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000100",
+        "format": "com.compositor.project",
+        "guides": [
+          {
+            "axis": "vertical",
+            "id": "B1040000-0000-4000-8000-000000000101",
+            "position": 20.5
+          }
+        ],
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000001",
+            "isGroup": true,
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1040000-0000-4000-8000-000000000001.mask.png",
+            "name": "静态组",
+            "opacity": 0.75,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "B1040000-0000-4000-8000-000000000002",
+            "imageFile": "B1040000-0000-4000-8000-000000000002.png",
+            "isVisible": true,
+            "maskEnabled": true,
+            "maskFile": "B1040000-0000-4000-8000-000000000002.mask.png",
+            "maskLinked": false,
+            "maskPlacement": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                6.5,
+                7.25
+              ],
+              "rotation": 12,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            },
+            "name": "像素与独立蒙版",
+            "parentID": "B1040000-0000-4000-8000-000000000001",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          }
+        ],
+        "resolution": 144,
+        "version": 22,
+        "width": 64
+      },
+      "name": "static-group-mask",
+      "package": "static-group-mask.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000001.mask.png",
+          "bytes": 214,
+          "sha256": "55bbbed9ca6fb126a33f1461e16611178de44c93fdeb83171882d9917e8d74aa"
+        },
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000002.mask.png",
+          "bytes": 164,
+          "sha256": "aac8176a355a3f6ee54ae7a29af9156ef84c66ed0ca0308a92f5a15ac176cb65"
+        },
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000002.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 1826,
+          "sha256": "7032ef853cdb69fcfc78b765ceafb9cf8fd5a524b335d98467dc4709a9a9ae43"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000001",
+        "before": "静态组",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 8192,
+          "height": 32,
+          "layerID": "B1040000-0000-4000-8000-000000000003",
+          "mask": false,
+          "sha256": "68b9e15a9c60969d7ae5ac4d29bdfb5f1af5325fad07be0ef6a93fe5548d36b2",
+          "width": 64
+        }
+      ],
+      "canonicalMetadataSHA256": "25fdea0a06a56ca0c9db5b680784070cea118ae5bdb17601138b9f46503cc441",
+      "layers": 1,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000003",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000102",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000003",
+            "imageFile": "B1040000-0000-4000-8000-000000000003.png",
+            "isVisible": true,
+            "name": "原生线条",
+            "shape": {
+              "blue": 0.4,
+              "cornerRadius": 0,
+              "end": [
+                0.9,
+                0.8
+              ],
+              "green": 0.2,
+              "kind": "Line",
+              "lineCap": "Square",
+              "lineStyle": "Dashed",
+              "lineWidth": 3.5,
+              "red": 0.8,
+              "smoothing": false,
+              "start": [
+                0.1,
+                0.2
+              ]
+            },
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                32
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 80
+      },
+      "name": "line-dashed-square",
+      "package": "line-dashed-square.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000003.png",
+          "bytes": 857,
+          "sha256": "1d0c2f77e4652aaa8f65f05327016637d280644979c54ab02c8218b1db803b4f"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 1077,
+          "sha256": "80c08e75b902b2d72238d5e6d55a0ff7055132dd694513df4677f12450e2b960"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000003",
+        "before": "原生线条",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 2880,
+          "height": 24,
+          "layerID": "B1040000-0000-4000-8000-000000000085",
+          "mask": false,
+          "sha256": "a5b2e03b2b8f6eb41efb09d5d95f0cfceaf704afbd91d04a38ef1da308ea7a1a",
+          "width": 30
+        }
+      ],
+      "canonicalMetadataSHA256": "4f1b0d355da64fa352a3139094f7d2621205c5e4bd31570e81d0b69417a27a79",
+      "layers": 1,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000085",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000105",
+        "format": "com.compositor.project",
+        "height": 32,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000085",
+            "imageFile": "B1040000-0000-4000-8000-000000000085.png",
+            "isVisible": true,
+            "name": "inside-stroke-rectangle",
+            "shape": {
+              "blue": 0.4,
+              "cornerRadius": 4,
+              "green": 0.2,
+              "kind": "Rectangle",
+              "red": 0.8,
+              "strokeBlue": 0.8,
+              "strokeGreen": 0.5,
+              "strokeRed": 0.2,
+              "strokeWidth": 2.5
+            },
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                30,
+                24
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 32
+      },
+      "name": "inside-stroke-rectangle",
+      "package": "inside-stroke-rectangle.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000085.png",
+          "bytes": 384,
+          "sha256": "c791e6f7b6008dc8c702147cffe7ab816ef5444304b112ddde4d59b4d9cff2aa"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 970,
+          "sha256": "18d5ce7f2b93981de2df4e12840244cec5e1442b02e860e8938ad9505d0e520d"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "reject",
+      "outputVersion": null,
+      "allowedEdit": null
+    },
+    {
+      "assets": [
+        {
+          "bytes": 2880,
+          "height": 24,
+          "layerID": "B1040000-0000-4000-8000-000000000086",
+          "mask": false,
+          "sha256": "21e7bd7f911cc8c3a8e0c7d8ef8b84b05a88c0d0f3ee2ab544d85cb466f1a4a7",
+          "width": 30
+        }
+      ],
+      "canonicalMetadataSHA256": "e45fe991faebb83c139f03ee060c4fdd6f04def8f17641d66b17f0c333660fa4",
+      "layers": 1,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000086",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000106",
+        "format": "com.compositor.project",
+        "height": 32,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000086",
+            "imageFile": "B1040000-0000-4000-8000-000000000086.png",
+            "isVisible": true,
+            "name": "inside-stroke-ellipse",
+            "shape": {
+              "blue": 0.4,
+              "cornerRadius": 0,
+              "green": 0.2,
+              "kind": "Ellipse",
+              "red": 0.8,
+              "strokeBlue": 0.8,
+              "strokeGreen": 0.5,
+              "strokeRed": 0.2,
+              "strokeWidth": 2.5
+            },
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                30,
+                24
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 32
+      },
+      "name": "inside-stroke-ellipse",
+      "package": "inside-stroke-ellipse.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000086.png",
+          "bytes": 1026,
+          "sha256": "a80fcc880d5ecf6a40a06c0cabf141c786bf27ba9ef879b733f326593ee84c6a"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 966,
+          "sha256": "b990b2e00c21e06d73c28f0c0557d72ff948562a1f989a27d4e0b1ab5b4ac7b1"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "reject",
+      "outputVersion": null,
+      "allowedEdit": null
+    },
+    {
+      "assets": [
+        {
+          "bytes": 64800,
+          "height": 90,
+          "layerID": "B1040000-0000-4000-8000-000000000004",
+          "mask": false,
+          "sha256": "b13b2ea0cae960a3dc8687058fd64f3c35d541e00b16145dbb267c232d4a6e84",
+          "width": 180
+        }
+      ],
+      "canonicalMetadataSHA256": "db8ab6ea2c6e719eb985e0f72e0d39eca76f31615f9909a3a1b368340dad0a0b",
+      "layers": 1,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000004",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000103",
+        "format": "com.compositor.project",
+        "height": 120,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000004",
+            "imageFile": "B1040000-0000-4000-8000-000000000004.png",
+            "isVisible": true,
+            "name": "中文 Text",
+            "text": {
+              "alignment": "Center",
+              "blue": 0,
+              "boxSize": [
+                180,
+                90
+              ],
+              "colorRuns": [
+                {
+                  "blue": 0.3,
+                  "green": 0.1,
+                  "length": 2,
+                  "location": 0,
+                  "red": 0.8
+                }
+              ],
+              "content": "中文🚀 v17\n可编辑文本",
+              "fontName": "Helvetica",
+              "fontRuns": [
+                {
+                  "fontName": "Helvetica-Bold",
+                  "length": 3,
+                  "location": 5
+                }
+              ],
+              "fontSize": 18,
+              "green": 0,
+              "leading": 23,
+              "red": 0,
+              "tracking": 0.5
+            },
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                180,
+                90
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 200
+      },
+      "name": "typed-text-chinese",
+      "package": "typed-text-chinese.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000004.png",
+          "bytes": 4801,
+          "sha256": "554bde7c1d6853c218718904e64aafb7208e1b037cba4a78064f6e9b6e2fb042"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 1384,
+          "sha256": "0d429ad608de9918a6585792ac26a10902062c95d1ffa3879e96a9cc4f2beeb7"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000004",
+        "before": "中文 Text",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000040",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "e68c2b40c144491b459b195776a651179847bc797acfb01370cd0a9a58f806d1",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000020",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000120",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000040",
+            "imageFile": "B1040000-0000-4000-8000-000000000040.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "hsvSettings": {
+                "adjustments": [
+                  "Reds",
+                  {
+                    "hue": 22,
+                    "lightness": -8,
+                    "saturation": 18
+                  }
+                ],
+                "bands": [
+                  "Reds",
+                  {
+                    "falloffEnd": 45,
+                    "falloffStart": 315,
+                    "rangeEnd": 15,
+                    "rangeStart": 345
+                  },
+                  "Cyans",
+                  {
+                    "falloffEnd": 225,
+                    "falloffStart": 135,
+                    "rangeEnd": 195,
+                    "rangeStart": 165
+                  },
+                  "Blues",
+                  {
+                    "falloffEnd": 285,
+                    "falloffStart": 195,
+                    "rangeEnd": 255,
+                    "rangeStart": 225
+                  },
+                  "Magentas",
+                  {
+                    "falloffEnd": 345,
+                    "falloffStart": 255,
+                    "rangeEnd": 315,
+                    "rangeStart": 285
+                  },
+                  "Greens",
+                  {
+                    "falloffEnd": 165,
+                    "falloffStart": 75,
+                    "rangeEnd": 135,
+                    "rangeStart": 105
+                  },
+                  "Master",
+                  {
+                    "falloffEnd": 360,
+                    "falloffStart": 0,
+                    "rangeEnd": 360,
+                    "rangeStart": 0
+                  },
+                  "Yellows",
+                  {
+                    "falloffEnd": 105,
+                    "falloffStart": 15,
+                    "rangeEnd": 75,
+                    "rangeStart": 45
+                  }
+                ],
+                "colorize": false,
+                "invertRange": true,
+                "range": "Reds"
+              },
+              "hue": 0,
+              "kind": "Hue/Saturation",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000020",
+            "isVisible": true,
+            "name": "调整 Hue/Saturation",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-hsv",
+      "package": "adjustment-hsv.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000040.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 4615,
+          "sha256": "c72fe5cd032aa63550598e6dc444c9fadf7e44620085e337dadc98a4730eee61"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000040",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000041",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "cbc0d49fd44aa74a3d8ff0f16bed003b184277644fb9f7bcea61baa2cd0eb845",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000021",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000121",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000041",
+            "imageFile": "B1040000-0000-4000-8000-000000000041.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "hue": 0,
+              "kind": "Levels",
+              "levels": {
+                "channel": "Red",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 12,
+                    "gamma": 1.15,
+                    "outputBlack": 4,
+                    "outputWhite": 245,
+                    "white": 234
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000021",
+            "isVisible": true,
+            "name": "调整 Levels",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-levels",
+      "package": "adjustment-levels.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000041.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 2971,
+          "sha256": "c39eca1f1d40b7b898cc2cc10cc9b5c65e4c9def56968f16d017d8ece9035b0e"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000041",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000042",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "77cd872a651290621168983e59f4dfb8b6b7883f959f6e24ba9014229dc988a3",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000022",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000122",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000042",
+            "imageFile": "B1040000-0000-4000-8000-000000000042.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 128,
+                      "y": 160
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "hue": 0,
+              "kind": "Curves",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000022",
+            "isVisible": true,
+            "name": "调整 Curves",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-curves",
+      "package": "adjustment-curves.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000042.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3053,
+          "sha256": "61749185601fc8207dad8ce6f35c79b5a3dfd4ada22887a4c78dd370993cea52"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000042",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000043",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "23f3e037dd6d3651b9cae316ec863d842f2b4b9cb6cd948326bfaae76edea55d",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000023",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000123",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000043",
+            "imageFile": "B1040000-0000-4000-8000-000000000043.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "exposureSettings": {
+                "exposure": 1.25,
+                "gamma": 1.2,
+                "offset": 0.1
+              },
+              "hue": 0,
+              "kind": "Exposure",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000023",
+            "isVisible": true,
+            "name": "调整 Exposure",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-exposure",
+      "package": "adjustment-exposure.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000043.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3092,
+          "sha256": "2afbddf5418e050be564843f87d55b758b54f0cae7b5c8f80f790e936972306c"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000043",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000044",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "4399c33705534fbd211dcbffd52f89f2ce0c74b69cf844a9858ab9e3a0c48347",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000024",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000124",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000044",
+            "imageFile": "B1040000-0000-4000-8000-000000000044.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "gradientMapSettings": {
+                "highlights": {
+                  "blue": 0.6,
+                  "green": 0.8,
+                  "red": 0.9
+                },
+                "reversed": true,
+                "shadows": {
+                  "blue": 0.3,
+                  "green": 0.2,
+                  "red": 0.1
+                }
+              },
+              "hue": 0,
+              "kind": "Gradient Map",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000024",
+            "isVisible": true,
+            "name": "调整 Gradient Map",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-gradient-map",
+      "package": "adjustment-gradient-map.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000044.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3283,
+          "sha256": "cb5107a282f97e0b203a6c9ba3acf0e374fef55421d6e115efb4dd847d194abc"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000044",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000045",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "44925c059fbecca26ff849747b7119496daab81f29cf25e18ef083526e579b25",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000025",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000125",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000045",
+            "imageFile": "B1040000-0000-4000-8000-000000000045.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "grainSettings": {
+                "amount": 31.125,
+                "roughness": 44,
+                "seed": 104,
+                "size": 2.5
+              },
+              "hue": 0,
+              "kind": "Grain",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000025",
+            "isVisible": true,
+            "name": "调整 Grain",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-grain",
+      "package": "adjustment-grain.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000045.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3108,
+          "sha256": "79ad56783e0921fdff98dfcde95e21ea63b3d55f7d2bc3619907439d42721c39"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000045",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000046",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "47b115c1eeb24c9618df3ffba9bc32507e1d832e23e1165ace971b1d49fc9bcf",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000026",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000126",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000046",
+            "imageFile": "B1040000-0000-4000-8000-000000000046.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "hue": 0,
+              "kind": "Invert",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000026",
+            "isVisible": true,
+            "name": "调整 Invert",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-invert",
+      "package": "adjustment-invert.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000046.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 2967,
+          "sha256": "e49ec6ee57f58f44c7a0e8d16a8cb532b9d76ee85ccb802f9ac16360a66cb8a6"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000046",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000047",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "6850b75ac0b8abc39434b555c27327728e435d890573e452e33533984a854cc5",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000027",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000127",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000047",
+            "imageFile": "B1040000-0000-4000-8000-000000000047.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "blackWhiteSettings": {
+                "blues": 20,
+                "cyans": 60,
+                "greens": 40,
+                "magentas": 80,
+                "reds": 55,
+                "tint": true,
+                "tintHue": 40,
+                "tintSaturation": 20,
+                "yellows": 60
+              },
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "hue": 0,
+              "kind": "Black & White",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000027",
+            "isVisible": true,
+            "name": "调整 Black & White",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-black-white",
+      "package": "adjustment-black-white.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000047.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3257,
+          "sha256": "1f88e1ff82d0218a9266a7353ebe9e0894652112f7bda5e7d83125fbccc26077"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000047",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1024,
+          "height": 16,
+          "layerID": "B1040000-0000-4000-8000-000000000048",
+          "mask": false,
+          "sha256": "beede5659ca5b255809ce2e4d27d873ee5a2f2e778e92b00a090eb16e471a0e5",
+          "width": 16
+        }
+      ],
+      "canonicalMetadataSHA256": "9931814f590dbe1314b9e4d5c7e692ee3ee9938bf96482b2a839231eb8857076",
+      "layers": 2,
+      "manifest": {
+        "activeLayerID": "B1040000-0000-4000-8000-000000000028",
+        "colorSpace": "sRGB",
+        "documentID": "B1040000-0000-4000-8000-000000000128",
+        "format": "com.compositor.project",
+        "height": 64,
+        "layers": [
+          {
+            "id": "B1040000-0000-4000-8000-000000000048",
+            "imageFile": "B1040000-0000-4000-8000-000000000048.png",
+            "isVisible": true,
+            "name": "Base",
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                16,
+                16
+              ]
+            }
+          },
+          {
+            "adjustment": {
+              "colorBalanceSettings": {
+                "highlightCyanRed": 0,
+                "highlightMagentaGreen": 0,
+                "highlightYellowBlue": 0,
+                "midCyanRed": 12,
+                "midMagentaGreen": 0,
+                "midYellowBlue": 0,
+                "preserveLuminosity": false,
+                "shadowCyanRed": 0,
+                "shadowMagentaGreen": 0,
+                "shadowYellowBlue": 0
+              },
+              "colorize": false,
+              "curves": {
+                "channel": "RGB",
+                "channels": [
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ],
+                  [
+                    {
+                      "x": 0,
+                      "y": 0
+                    },
+                    {
+                      "x": 255,
+                      "y": 255
+                    }
+                  ]
+                ]
+              },
+              "hue": 0,
+              "kind": "Color Balance",
+              "levels": {
+                "channel": "RGB",
+                "ranges": [
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  },
+                  {
+                    "black": 0,
+                    "gamma": 1,
+                    "outputBlack": 0,
+                    "outputWhite": 255,
+                    "white": 255
+                  }
+                ]
+              },
+              "lightness": 0,
+              "saturation": 0
+            },
+            "blendMode": "Normal",
+            "id": "B1040000-0000-4000-8000-000000000028",
+            "isVisible": true,
+            "name": "调整 Color Balance",
+            "opacity": 1,
+            "transform": {
+              "flipX": false,
+              "flipY": false,
+              "origin": [
+                4.125,
+                8.75
+              ],
+              "rotation": 0,
+              "sampling": "Nearest",
+              "size": [
+                64,
+                64
+              ]
+            }
+          }
+        ],
+        "version": 22,
+        "width": 64
+      },
+      "name": "adjustment-color-balance",
+      "package": "adjustment-color-balance.comp",
+      "version": 22,
+      "files": [
+        {
+          "path": "images/B1040000-0000-4000-8000-000000000048.png",
+          "bytes": 208,
+          "sha256": "af768620a0b2f7a20a8150193eb90fb75aa9a4f283ef08d3f23a549fa157bfa9"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 3370,
+          "sha256": "a9f42661ae05db17e69e29ac4b6037a4fc1ec672420d11360f0300a33e63c245"
+        }
+      ],
+      "origin": "Mac ProjectStore",
+      "expectedMobile": "accept",
+      "outputVersion": 17,
+      "allowedEdit": {
+        "layerID": "B1040000-0000-4000-8000-000000000048",
+        "before": "Base",
+        "after": "v22 mobile edit"
+      }
+    }
+  ],
+  "pixelEncoding": "Mac source RGBA8 premultiplied sRGB or raw gray8 mask"
+}

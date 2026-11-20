@@ -1,0 +1,42 @@
+{
+  "activeLayerID" : "B1040000-0000-4000-8000-000000000086",
+  "colorSpace" : "sRGB",
+  "documentID" : "B1040000-0000-4000-8000-000000000106",
+  "format" : "com.compositor.project",
+  "height" : 32,
+  "layers" : [
+    {
+      "id" : "B1040000-0000-4000-8000-000000000086",
+      "imageFile" : "B1040000-0000-4000-8000-000000000086.png",
+      "isVisible" : true,
+      "name" : "inside-stroke-ellipse",
+      "shape" : {
+        "blue" : 0.4,
+        "cornerRadius" : 0,
+        "green" : 0.2,
+        "kind" : "Ellipse",
+        "red" : 0.8,
+        "strokeBlue" : 0.8,
+        "strokeGreen" : 0.5,
+        "strokeRed" : 0.2,
+        "strokeWidth" : 2.5
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4.125,
+          8.75
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          30,
+          24
+        ]
+      }
+    }
+  ],
+  "version" : 22,
+  "width" : 32
+}

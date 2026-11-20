@@ -79,6 +79,20 @@ internal fun clickEditorUiNode(node: AccessibilityNodeInfo?, trace: EditorUiTrac
     return accepted
 }
 
+/** The open file panel repeats the toolbar label as a non-clickable heading. */
+private fun editorFilePanel(node: AccessibilityNodeInfo?, label: String): AccessibilityNodeInfo? {
+    if (node == null) return null
+    if (node.text?.toString() == label && clickableEditorUiNode(node) == null) {
+        var parent = node.parent
+        while (parent != null) {
+            if (parent.isScrollable) return parent
+            parent = parent.parent
+        }
+    }
+    for (index in 0 until node.childCount) editorFilePanel(node.getChild(index), label)?.let { return it }
+    return null
+}
+
 /** The Inspector uses a fixed current-panel selector, rather than horizontally hidden tab buttons. */
 internal fun revealInspectorPanel(instrumentation: Instrumentation, panel: InspectorPanel) {
     val context = editorUiContext(instrumentation)
@@ -152,10 +166,11 @@ internal fun revealEditorControl(instrumentation: Instrumentation, label: String
     val initialRoot = editorPhysicalDisplayRoot(instrumentation)
     val initialLookup = findEditorUiNode(initialRoot, label)
     trace?.observe("initial", initialRoot, initialLookup, findEditorUiNode(initialRoot, fileLabel))
-    if (initialLookup != null) return
+    if (clickableEditorUiNode(initialLookup) != null) return
     val fileActions = listOf(R.string.ui_document, R.string.ui_import_image, R.string.ui_import_image_file,
-        R.string.ui_export_png, R.string.ui_export_jpeg, R.string.ui_open_project_copy, R.string.ui_save_project_copy,
-        R.string.ui_saved_projects, R.string.ui_export_project_copy, R.string.ui_export_records).map { context.getString(it) }
+        R.string.ui_export_png, R.string.ui_export_jpeg, R.string.ui_open_project_copy, R.string.ui_save_project, R.string.ui_save_project_copy,
+        R.string.ui_saved_projects, R.string.ui_export_project_copy, R.string.ui_export_records,
+        R.string.language_settings).map { context.getString(it) }
     val menu = when {
         label in setOf("Brush", "Eraser", context.getString(R.string.ui_brush), context.getString(R.string.ui_eraser)) ->
             context.getString(R.string.ui_tool_shortcut, context.toolTitle(EditorTool.BRUSH), "B")
@@ -170,14 +185,21 @@ internal fun revealEditorControl(instrumentation: Instrumentation, label: String
     }
     val deadline = System.nanoTime() + TimeUnit.SECONDS.toNanos(20)
     var opened = false
+    var scroll = AccessibilityNodeInfo.ACTION_SCROLL_FORWARD
     while (System.nanoTime() < deadline) {
         // Selecting a tool replaces the header semantics. Do not keep looking at
         // the accessibility snapshot from before the accepted tool action.
         editorUiAutomation(instrumentation).clearCache()
         val root = editorPhysicalDisplayRoot(instrumentation)
         trace?.observe("loop", root, findEditorUiNode(root, label), findEditorUiNode(root, menu))
-        if (findEditorUiNode(root, label) != null) return
-        if (!opened && clickEditorUiNode(findEditorUiNode(root, menu), trace)) {
+        if (clickableEditorUiNode(findEditorUiNode(root, label)) != null) return
+        val panel = if (menu == fileLabel) editorFilePanel(root, fileLabel) else null
+        if (panel != null) {
+            if (!panel.performAction(scroll)) {
+                scroll = if (scroll == AccessibilityNodeInfo.ACTION_SCROLL_FORWARD)
+                    AccessibilityNodeInfo.ACTION_SCROLL_BACKWARD else AccessibilityNodeInfo.ACTION_SCROLL_FORWARD
+            } else instrumentation.waitForIdleSync()
+        } else if (!opened && clickEditorUiNode(findEditorUiNode(root, menu), trace)) {
             opened = true
             File(context.cacheDir, "p19-menu-navigation.txt")
                 .appendText("${System.nanoTime()} display=0 request=$label menu=$menu clickAccepted=true\n")
@@ -189,5 +211,5 @@ internal fun revealEditorControl(instrumentation: Instrumentation, label: String
     val finalRoot = editorPhysicalDisplayRoot(instrumentation)
     val finalLookup = findEditorUiNode(finalRoot, label)
     trace?.observe("timeout", finalRoot, finalLookup, findEditorUiNode(finalRoot, menu))
-    check(finalLookup != null) { "Editor menu unavailable on display 0: $menu for $label" }
+    check(clickableEditorUiNode(finalLookup) != null) { "Editor menu unavailable on display 0: $menu for $label" }
 }

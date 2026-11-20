@@ -30,8 +30,9 @@ import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicReference
 
 /** Public OpenDocumentTree import and real editor controls, using source-pinned PC packages. */
-internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, languageArgument: String): String {
+internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, languageArgument: String, sourceVersion: Int = 21): String {
     check(BuildConfig.DEBUG)
+    check(sourceVersion == 21 || sourceVersion == 22)
     val languages = when (languageArgument) {
         "all" -> listOf(AppLanguage.ENGLISH, AppLanguage.SIMPLIFIED_CHINESE)
         "en" -> listOf(AppLanguage.ENGLISH)
@@ -43,11 +44,11 @@ internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, la
     val previousFlags = automation.serviceInfo.flags
     val previousLanguage = AppLanguages.current(context)
     val token = "p146-${System.nanoTime()}"
-    val evidence = File(context.filesDir, "$token-v21-evidence").apply { check(!exists() && mkdir()) }
+    val evidence = File(context.filesDir, "$token-v$sourceVersion-evidence").apply { check(!exists() && mkdir()) }
     val records = JSONArray()
     val workspaces = JSONArray()
     val cleanupErrors = JSONArray()
-    val report = JSONObject().put("passed", false).put("cleanupPassed", false).put("token", token)
+    val report = JSONObject().put("passed", false).put("cleanupPassed", false).put("token", token).put("sourceVersion", sourceVersion)
         .put("inputMethod", "product Open project copy / actual DocumentsUI directory selection")
         .put("editMethod", "actual localized Rename / Undo / Redo controls; AX text input, not IME candidates")
         .put("saveReopenMethod", "product Save project copy / Saved projects")
@@ -110,6 +111,7 @@ internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, la
             component = ComponentName(instrumentation.context.packageName, V21ProjectProviderSessionActivity::class.java.name)
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             putExtra("token", token); putExtra("action", action); putExtra("receiver", receiver)
+            putExtra("sourceVersion", sourceVersion)
         }) }
         check(latch.await(30, TimeUnit.SECONDS)) { "Provider $action did not return" }
         val result = checkNotNull(received.get())
@@ -156,7 +158,7 @@ internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, la
     fun ui(id: Int) = checkNotNull(activity).getString(id)
     fun openFileAction(id: Int) {
         val text = ui(id)
-        if (actionable(label(appRoot(), text)) == null) click(ui(R.string.ui_file))
+        revealEditorControl(instrumentation, text)
         click(text)
     }
     fun systemRoot(): AccessibilityNodeInfo? {
@@ -362,7 +364,7 @@ internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, la
     fun checkImported(fixture: JSONObject, editor: NativeEditor) {
         val expected = fixture.getJSONObject("manifest"); val state = editor.state(); val layers = expected.getJSONArray("layers")
         check(editor.canvasWidth == expected.getInt("width") && editor.canvasHeight == expected.getInt("height"))
-        check(state.document.uuid.equals(expected.getString("documentID"), true) && state.document.resolution == expected.getDouble("resolution"))
+        check(state.document.uuid.equals(expected.getString("documentID"), true) && state.document.resolution == expected.optDouble("resolution", 72.0))
         check(state.layers.size == layers.length())
         val guides = expected.optJSONArray("guides") ?: JSONArray()
         check(state.document.guides.size == guides.length())
@@ -544,7 +546,7 @@ internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, la
         providerAttempted = true
         val prepared = session("prepare")
         val expectedText = checkNotNull(prepared.getString("expected")); val expected = JSONObject(expectedText)
-        check(expected.getBoolean("passed") && expected.getInt("sourceCurrent") == 21 && expected.getString("commit").matches(Regex("[0-9a-f]{40}")))
+        check(expected.getBoolean("passed") && expected.getInt("sourceCurrent") == sourceVersion && expected.getString("commit").matches(Regex("[0-9a-f]{40}")))
         File(evidence, "fixture-expected.json").writeText(expectedText)
         report.put("expectedSHA256", sha(expectedText.toByteArray())).put("pcCommit", expected.getString("commit"))
         val fixtures = expected.getJSONArray("fixtures"); val positive = (0 until fixtures.length()).map(fixtures::getJSONObject).filter { it.getString("expectedMobile") == "accept" }
@@ -613,7 +615,7 @@ internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, la
                 val before = protectedState()
                 openPublic(fixture, false)
                 val notice = ui(R.string.notice_unsupported_project)
-                waitFor("Localized unsupported notice was not actually visible") { label(appRoot(), notice) != null }
+                waitFor("Localized unsupported notice was not actually visible") { actionable(label(appRoot(), notice)) != null }
                 val after = protectedState()
                 check(canonical(before) == canonical(after)) { "Rejected ${fixture.getString("package")} changed the original workspace" }
                 capture("${language.tag}-$name-rejected")
@@ -703,5 +705,5 @@ internal fun projectV21CompatibilityUiSmoke(instrumentation: Instrumentation, la
             primaryFailure?.addSuppressed(error) ?: throw error
         }
     }
-    return "P146 public v21 compatibility passed: languages=${languages.joinToString { it.tag }}; actual SAF import, UI rename/Undo/Redo, saved copy/reopen, localized atomic rejection; evidence=files/${evidence.name}/report.json"
+    return "Public v$sourceVersion compatibility passed: languages=${languages.joinToString { it.tag }}; actual SAF import, UI rename/Undo/Redo, saved copy/reopen, localized atomic rejection; evidence=files/${evidence.name}/report.json"
 }

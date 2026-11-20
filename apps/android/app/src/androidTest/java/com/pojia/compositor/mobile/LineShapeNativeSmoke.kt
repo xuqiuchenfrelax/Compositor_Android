@@ -89,11 +89,30 @@ internal fun lineShapeNativeSmoke(instrumentation: Instrumentation): String {
             val assets = instrumentation.context.assets.list("$root/images").orEmpty().associateWith { name ->
                 instrumentation.context.assets.open("$root/images/$name").use { it.readBytes() }
             }
-            val source = MutableProjectTransportSource(manifest, assets)
+            val original = MutableProjectTransportSource(manifest, assets)
+            ProjectTransport(original, File(scratch, "staging"), ProjectTransportPolicy()) { Long.MAX_VALUE }
+                .stage(original.tree, ProjectTransportCancellation()).use { staged ->
+                    val failure = runCatching {
+                        NativeEditor.loadProjectCandidate(context, staged.directory, 256L * 1024 * 1024, 0).close()
+                    }.exceptionOrNull()
+                    check(failure is ProjectImportException && failure.status == 5 && failure.renderUnsupported) {
+                        "Original High quality fixture did not fail at render admission: $root ($failure)"
+                    }
+                    check(uiFailure(failure, UiNoticeKey.PROJECT_OPEN_FAILED).key == UiNoticeKey.UNSUPPORTED_PROJECT_RENDER)
+                    check(File(staged.directory, "manifest.json").readBytes().contentEquals(manifest))
+                }
+            // Derive a separate supported test input. Never alter the frozen originals or convert on import.
+            val nearest = JSONObject(manifest.toString(Charsets.UTF_8))
+            val transform = nearest.getJSONArray("layers").getJSONObject(0).getJSONObject("transform")
+            check(transform.getString("sampling") == "High quality")
+            transform.put("sampling", "Nearest")
+            val source = MutableProjectTransportSource(nearest.toString().toByteArray(Charsets.UTF_8), assets)
             ProjectTransport(source, File(scratch, "staging"), ProjectTransportPolicy()) { Long.MAX_VALUE }
                 .stage(source.tree, ProjectTransportCancellation()).use { staged ->
                     NativeEditor.loadProjectCandidate(context, staged.directory, 256L * 1024 * 1024, 0).use { loaded ->
-                        val id = loaded.state().layers.single().id
+                        val layer = loaded.state().layers.single()
+                        check(layer.sampling == 0)
+                        val id = layer.id
                         val expectedShape = fixture.getJSONObject("metadata").getJSONArray("layers").getJSONObject(0).getJSONObject("shape")
                         val typed = checkNotNull(loaded.lineShape(id))
                         check(typed.red == expectedShape.getDouble("red") && typed.green == expectedShape.getDouble("green") &&
@@ -127,9 +146,10 @@ internal fun lineShapeNativeSmoke(instrumentation: Instrumentation): String {
                 }
         }
         val result = JSONObject().put("passed", true).put("styleCapCases", cases).put("desktopFixtures", fixtures.length())
+            .put("originalHighQualityRejected", fixtures.length()).put("nearestDerivedRoundtrips", fixtures.length())
             .put("coverage", "JNI, fractional reverse geometry, double RGB, flags, undo/redo, checkpoint, PNG project roundtrip, transform invalidation, mask retention, pixel invalidation, alpha rejection")
         File(context.filesDir, "p77-line-native.json").writeText(result.toString(2))
-        return "Line v15 native passed: $cases style/cap cases and ${fixtures.length()} desktop fixtures, exact project/checkpoint pixel and metadata roundtrip, history and invalidation."
+        return "Line v15 native passed: $cases style/cap cases, ${fixtures.length()} original High quality rejections and ${fixtures.length()} separate Nearest derivatives with exact source pixels and shape metadata."
     } finally {
         scratch.deleteRecursively()
         check(ImageIoAdmission.ledger.snapshot().reservedBytes == ledgerBefore) { "Line test leaked a resource claim" }

@@ -48,6 +48,32 @@ internal fun layerAlignmentUiSmoke(instrumentation: Instrumentation): String {
                 waitFor("Alignment control did not become clickable: $label") { clickEditorUiNode(node(label)) }
                 instrumentation.waitForIdleSync()
             }
+            fun moveHeaderScroll(anchor: String, action: Int) {
+                var target = node(anchor)
+                while (target != null && target.actionList.none { it.id == action }) target = target.parent
+                check(target?.performAction(action) == true) { "Move header could not scroll from $anchor" }
+                instrumentation.waitForIdleSync()
+            }
+            fun includeLayer(label: String) {
+                var direction = AccessibilityNodeInfo.ACTION_SCROLL_FORWARD
+                var lastScroll = 0L
+                waitFor("Alignment selection is not reachable: $label") {
+                    if (clickEditorUiNode(node(label))) true
+                    else {
+                        val now = android.os.SystemClock.uptimeMillis()
+                        if (now - lastScroll >= 100) {
+                            val list = node(activity.getString(R.string.ui_layer_list))
+                            if (list != null && !list.performAction(direction)) {
+                                direction = if (direction == AccessibilityNodeInfo.ACTION_SCROLL_FORWARD)
+                                    AccessibilityNodeInfo.ACTION_SCROLL_BACKWARD else AccessibilityNodeInfo.ACTION_SCROLL_FORWARD
+                            }
+                            lastScroll = now
+                        }
+                        false
+                    }
+                }
+                instrumentation.waitForIdleSync()
+            }
             try {
                 check(workspace.recoveryDirectoryForTest().canonicalFile == directory.canonicalFile)
                 waitFor("Alignment fixture did not restore") { activity.retainedEditorForTest()?.state()?.layers?.size == 3 }
@@ -55,12 +81,25 @@ internal fun layerAlignmentUiSmoke(instrumentation: Instrumentation): String {
                 revealInspectorPanel(instrumentation, InspectorPanel.LAYERS)
                 val ids = editor.state().layers.map { it.id }
                 fun selectAll() {
+                    val selected = editor.selection().roots.toMutableSet()
+                    fun waitForSelectionFrame() {
+                        val frame = java.util.concurrent.CountDownLatch(1)
+                        instrumentation.runOnMainSync {
+                            val view = activity.window.decorView
+                            view.postOnAnimation { view.postOnAnimation { frame.countDown() } }
+                        }
+                        check(frame.await(3, TimeUnit.SECONDS)) { "Selection frame did not settle" }
+                        instrumentation.waitForIdleSync()
+                    }
+                    waitForSelectionFrame()
                     for ((index, id) in ids.withIndex()) {
-                        if (id !in editor.selection().roots) {
-                            click(context.getString(R.string.ui_include_layer, "Align ${index + 1}"))
-                            waitFor("Multi-selection did not publish") { id in editor.selection().roots }
+                        if (selected.add(id)) {
+                            includeLayer(activity.getString(R.string.ui_include_layer, "Align ${index + 1}"))
+                            waitFor("Multi-selection did not publish $selected") { editor.selection().roots.toSet() == selected }
+                            waitForSelectionFrame()
                         }
                     }
+                    check(editor.selection().roots.toSet() == ids.toSet())
                 }
                 selectAll()
                 val before = editor.state().layers
@@ -101,6 +140,7 @@ internal fun layerAlignmentUiSmoke(instrumentation: Instrumentation): String {
                 revealEditorControl(instrumentation, moveTool)
                 click(moveTool)
                 click(context.getString(R.string.ui_align_layers))
+                check(editor.selection().roots.toSet() == ids.toSet()) { "Switching to Move changed the selected layers" }
                 click(context.layerAlignmentTitle(LayerAlignment.BOTTOM))
                 waitFor("Move header alignment did not move all selected layers") {
                     editor.state().layers.all { it.transform.y == 32.0 }
@@ -109,7 +149,11 @@ internal fun layerAlignmentUiSmoke(instrumentation: Instrumentation): String {
                 waitFor("One UI Undo did not restore Move header alignment") { editor.state().layers == before }
                 selectAll()
                 val xLabel = context.getString(R.string.ui_move_field_value, "X")
-                revealEditorControl(instrumentation, xLabel)
+                val align = context.getString(R.string.ui_align_layers)
+                val root = { editorPhysicalDisplayRoot(instrumentation) }
+                if (findEditorEditableUiNode(root(), xLabel)?.isVisibleToUser != true) {
+                    moveHeaderScroll(align, AccessibilityNodeInfo.AccessibilityAction.ACTION_SCROLL_RIGHT.id)
+                }
                 click(xLabel)
                 waitFor("Move X field did not focus") { findEditorEditableUiNode(editorPhysicalDisplayRoot(instrumentation), xLabel)?.isFocused == true }
                 val xField = checkNotNull(findEditorEditableUiNode(editorPhysicalDisplayRoot(instrumentation), xLabel))
@@ -117,7 +161,10 @@ internal fun layerAlignmentUiSmoke(instrumentation: Instrumentation): String {
                     putCharSequence(AccessibilityNodeInfo.ACTION_ARGUMENT_SET_TEXT_CHARSEQUENCE, "20.5")
                 }))
                 waitFor("Move field did not begin a pending transform") { editor.activeTransformCompletion() != null }
-                click(context.getString(R.string.ui_align_layers))
+                if (node(align)?.isVisibleToUser != true) {
+                    moveHeaderScroll(xLabel, AccessibilityNodeInfo.AccessibilityAction.ACTION_SCROLL_LEFT.id)
+                }
+                click(align)
                 click(context.layerAlignmentTitle(LayerAlignment.LEFT))
                 waitFor("Align lost the pending Move field edit") { editor.state().layers.all { it.transform.x == 20.5 } }
                 click(context.getString(R.string.ui_undo))

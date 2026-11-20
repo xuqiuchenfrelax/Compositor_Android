@@ -1,0 +1,80 @@
+{
+  "activeLayerID" : "B1040000-0000-4000-8000-000000000002",
+  "colorSpace" : "sRGB",
+  "documentID" : "B1040000-0000-4000-8000-000000000100",
+  "format" : "com.compositor.project",
+  "guides" : [
+    {
+      "axis" : "vertical",
+      "id" : "B1040000-0000-4000-8000-000000000101",
+      "position" : 20.5
+    }
+  ],
+  "height" : 64,
+  "layers" : [
+    {
+      "id" : "B1040000-0000-4000-8000-000000000001",
+      "isGroup" : true,
+      "isVisible" : true,
+      "maskEnabled" : true,
+      "maskFile" : "B1040000-0000-4000-8000-000000000001.mask.png",
+      "name" : "静态组",
+      "opacity" : 0.75,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4.125,
+          8.75
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "id" : "B1040000-0000-4000-8000-000000000002",
+      "imageFile" : "B1040000-0000-4000-8000-000000000002.png",
+      "isVisible" : true,
+      "maskEnabled" : true,
+      "maskFile" : "B1040000-0000-4000-8000-000000000002.mask.png",
+      "maskLinked" : false,
+      "maskPlacement" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          6.5,
+          7.25
+        ],
+        "rotation" : 12,
+        "sampling" : "Nearest",
+        "size" : [
+          16,
+          16
+        ]
+      },
+      "name" : "像素与独立蒙版",
+      "parentID" : "B1040000-0000-4000-8000-000000000001",
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4.125,
+          8.75
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          16,
+          16
+        ]
+      }
+    }
+  ],
+  "resolution" : 144,
+  "version" : 22,
+  "width" : 64
+}

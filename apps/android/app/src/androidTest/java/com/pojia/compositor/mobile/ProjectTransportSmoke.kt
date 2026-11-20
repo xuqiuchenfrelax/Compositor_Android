@@ -99,19 +99,19 @@ internal fun projectTransportSmoke(instrumentation: Instrumentation): String {
         rejected(ProjectTransportFailure.INVALID, MutableProjectTransportSource(byteArrayOf(123, -64, -81, 125)))
         rejected(ProjectTransportFailure.INVALID, alteredManifest { it.replace(".png", "/../bad.png") })
         rejected(ProjectTransportFailure.UNSUPPORTED, alteredManifest { it.replace(".png", ".exr") })
-        for (version in listOf(15, 16, 17, 18, 19, 20, 21, 27)) {
+        for (version in listOf(15, 16, 17, 18, 19, 20, 21, 22, 27)) {
             val supported = alteredManifest { it.replace("\"version\":13", "\"version\":$version") }
             transport(supported).stage(supported.tree, ProjectTransportCancellation()).use { staged ->
                 check(JSONObject(File(staged.directory, "manifest.json").readText()).getInt("version") == version)
                 ++checks
             }
         }
-        for (version in (22..26) + listOf(0, 28, Int.MAX_VALUE)) {
+        for (version in (23..26) + listOf(0, 28, Int.MAX_VALUE)) {
             val unsupported = alteredManifest { it.replace("\"version\":13", "\"version\":$version") }
             rejected(ProjectTransportFailure.UNSUPPORTED, unsupported)
             check(unsupported.openCounts["${FakeProjectDocumentsProvider.LAYER_ID}.png"] == null)
         }
-        for (version in listOf(16, 17, 18, 19, 20, 21, 27)) {
+        for (version in listOf(16, 17, 18, 19, 20, 21, 22, 27)) {
             val animated = JSONObject(String(FakeProjectDocumentsProvider.manifest, Charsets.UTF_8))
                 .put("version", version)
             animated.getJSONArray("layers").getJSONObject(0).put("gif", JSONObject()

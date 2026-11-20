@@ -1,0 +1,102 @@
+{
+  "activeLayerID" : "B1460000-0000-4000-8000-000000000021",
+  "colorSpace" : "sRGB",
+  "documentID" : "B1460000-0000-4000-8000-000000000103",
+  "format" : "com.compositor.project",
+  "height" : 96,
+  "layers" : [
+    {
+      "id" : "B1460000-0000-4000-8000-000000000020",
+      "imageFile" : "B1460000-0000-4000-8000-000000000020.png",
+      "isVisible" : true,
+      "name" : "虚线",
+      "shape" : {
+        "blue" : 0.4,
+        "cornerRadius" : 0,
+        "end" : [
+          0.9,
+          0.8
+        ],
+        "green" : 0.2,
+        "kind" : "Line",
+        "lineCap" : "Square",
+        "lineStyle" : "Dashed",
+        "lineWidth" : 3.5,
+        "red" : 0.8,
+        "smoothing" : false,
+        "start" : [
+          0.1,
+          0.2
+        ]
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          0
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          64,
+          32
+        ]
+      }
+    },
+    {
+      "id" : "B1460000-0000-4000-8000-000000000021",
+      "imageFile" : "B1460000-0000-4000-8000-000000000021.png",
+      "isVisible" : true,
+      "name" : "中文文本",
+      "text" : {
+        "alignment" : "Center",
+        "blue" : 0,
+        "boxSize" : [
+          150,
+          70
+        ],
+        "colorRuns" : [
+          {
+            "blue" : 0.3,
+            "green" : 0.1,
+            "length" : 2,
+            "location" : 0,
+            "red" : 0.8
+          }
+        ],
+        "content" : "中文🚀 v21\n保留文字",
+        "fontName" : "Helvetica",
+        "fontRuns" : [
+          {
+            "fontName" : "Helvetica-Bold",
+            "length" : 3,
+            "location" : 5
+          }
+        ],
+        "fontSize" : 18,
+        "green" : 0,
+        "leading" : 23,
+        "red" : 0,
+        "tracking" : 0.5
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          4,
+          20
+        ],
+        "rotation" : 0,
+        "sampling" : "Nearest",
+        "size" : [
+          150,
+          70
+        ]
+      }
+    }
+  ],
+  "resolution" : 144,
+  "version" : 21,
+  "width" : 160
+}

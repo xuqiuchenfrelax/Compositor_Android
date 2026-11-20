@@ -1,0 +1,115 @@
+{
+  "format": "com.compositor.project",
+  "version": 13,
+  "documentID": "19300000-0000-4000-8000-000000000000",
+  "activeLayerID": "19300000-0000-4000-8000-000000000003",
+  "width": 8,
+  "height": 8,
+  "colorSpace": "sRGB",
+  "resolution": 72,
+  "guides": [],
+  "layers": [
+    {
+      "id": "19300000-0000-4000-8000-000000000001",
+      "name": "Outer folder",
+      "isVisible": true,
+      "opacity": 1,
+      "blendMode": "Normal",
+      "transform": {
+        "origin": [
+          -12,
+          -12
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "rotation": 19,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Nearest"
+      },
+      "isGroup": true,
+      "maskFile": "19300000-0000-4000-8000-000000000001.mask.png",
+      "maskEnabled": true,
+      "maskLinked": false,
+      "maskPlacement": {
+        "origin": [
+          5,
+          0
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "High quality"
+      }
+    },
+    {
+      "id": "19300000-0000-4000-8000-000000000002",
+      "name": "Inner folder",
+      "isVisible": true,
+      "opacity": 1,
+      "blendMode": "Normal",
+      "transform": {
+        "origin": [
+          -12,
+          -12
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "rotation": -43,
+        "flipX": true,
+        "flipY": false,
+        "sampling": "Nearest"
+      },
+      "parentID": "19300000-0000-4000-8000-000000000001",
+      "isGroup": true,
+      "maskFile": "19300000-0000-4000-8000-000000000002.mask.png",
+      "maskEnabled": true,
+      "maskLinked": false,
+      "maskPlacement": {
+        "origin": [
+          5,
+          0
+        ],
+        "size": [
+          2,
+          2
+        ],
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Smooth"
+      }
+    },
+    {
+      "id": "19300000-0000-4000-8000-000000000003",
+      "name": "White",
+      "isVisible": true,
+      "opacity": 1,
+      "blendMode": "Normal",
+      "transform": {
+        "origin": [
+          2,
+          2
+        ],
+        "size": [
+          4,
+          4
+        ],
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "sampling": "Nearest"
+      },
+      "parentID": "19300000-0000-4000-8000-000000000002",
+      "imageFile": "19300000-0000-4000-8000-000000000003.png"
+    }
+  ]
+}

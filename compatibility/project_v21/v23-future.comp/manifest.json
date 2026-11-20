@@ -1,0 +1,58 @@
+{
+  "activeLayerID": "B1460000-0000-4000-8000-000000000002",
+  "colorSpace": "sRGB",
+  "documentID": "B1460000-0000-4000-8000-000000000100",
+  "format": "com.compositor.project",
+  "height": 8,
+  "layers": [
+    {
+      "id": "B1460000-0000-4000-8000-000000000001",
+      "isGroup": true,
+      "isVisible": true,
+      "maskEnabled": true,
+      "maskFile": "B1460000-0000-4000-8000-000000000001.mask.png",
+      "name": "图层组",
+      "opacity": 0.75,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "sampling": "Nearest",
+        "size": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "B1460000-0000-4000-8000-000000000002",
+      "imageFile": "B1460000-0000-4000-8000-000000000002.png",
+      "isVisible": true,
+      "maskEnabled": true,
+      "maskFile": "B1460000-0000-4000-8000-000000000002.mask.png",
+      "name": "原始像素",
+      "parentID": "B1460000-0000-4000-8000-000000000001",
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "sampling": "Nearest",
+        "size": [
+          8,
+          8
+        ]
+      }
+    }
+  ],
+  "resolution": 144,
+  "version": 23,
+  "width": 8
+}

@@ -2,7 +2,7 @@
 
 **在 Android 上做图层合成、蒙版、选区和修图。** 本项目移植自 [Compositor for macOS](https://github.com/robbietilton/Compositor)，保留桌面版按图层组织和编辑的工作流，并为手机和平板提供原生触摸界面。编辑和保存均可在本地完成，无需登录。
 
-**开发预览 P164 · Android 12+ · 简体中文 / English。** 桌面对照基线为 macOS 版 **1.6.12**（`cc99ba3`）。当前可进行基础编辑并保存工程，桌面功能覆盖、像素一致性和正式发布仍在推进。
+**开发预览 P210 · Android 12+ · 简体中文 / English。** 蒙版对照基线为 macOS 版 **1.6.13**（`1910aea`）。本次更新接入 `.comp` v22 的兼容子集、Alt＋方向键复制并移动图层，并改进独立栅格蒙版的像素对齐。
 
 [快速上手](#快速上手) · [格式支持](#格式支持) · [构建与验证](#构建与验证) · [桌面对齐路线](docs/ROADMAP.md)
 
@@ -21,7 +21,7 @@
 | --- | --- |
 | [![真机上的色阶面板和直方图](docs/screenshots/levels-workspace.png)](docs/screenshots/levels-workspace.png) | [![真机上的中文输入和文字参数面板](docs/screenshots/type-workspace.png)](docs/screenshots/type-workspace.png) |
 
-展示图取自以往的真机验证，使用测试素材，仅裁去系统栏并统一排版。它们记录了实际应用画面；P164 当前包的真机回归另行验收。见[截图说明](docs/screenshots/README.md)。
+展示图取自以往的真机验证，使用测试素材，仅裁去系统栏并统一排版。当前包的真机回归另行验收。见[截图说明](docs/screenshots/README.md)。
 
 ## 已实现
 
@@ -42,7 +42,7 @@
 | PNG / JPEG | 常规 sRGB 图像。PNG 16 位有受支持的导入子集。 | 合成图可按尺寸输出。需要透明背景选 PNG；输出 JPEG 时可选背景色。 |
 | WebP / HEIC / HEIF | 通过 Android 解码器读取受支持的 sRGB 图像；能力受系统解码器、色彩空间和内存限制。 | 当前无对应导出选项。 |
 | TIFF | 支持部分 TIFF 和高位深素材，受压缩、色彩和资源预算限制。 | 可导出合成 TIFF 或源图层 TIFF。源图层 TIFF 不包含合成效果。 |
-| `.comp` 工程 | 可读取 v1–v21 和历史 v27 的受支持子集；桌面 v22 尚未接入。 | 当前按内容写 v17 或 v18。桌面互操作还取决于工程实际使用的能力。 |
+| `.comp` 工程 | 可读取 v1–v22 和历史 v27 的受支持子集。对于会改变渲染结果的未支持设置（如 v22 形状描边），会提示并保留当前工作区。 | 当前按内容写 v17 或 v18。桌面互操作还取决于工程实际使用的能力。 |
 | GIF / PSD / PDF / EXR / HDR | 尚未形成完整跨端工作流。 | 见[格式与导出路线](docs/ROADMAP.md#p1功能与工作流)。 |
 
 图像尺寸、内存、编码和颜色配置都会影响文件是否能打开。导入部分 16 位素材并不代表整条编辑、合成和导出链路都按 16 位工作。
@@ -67,16 +67,16 @@
 ```sh
 ./apps/android/gradlew -p apps/android :app:assembleDebug :app:assembleDebugAndroidTest :app:lintDebug
 python3 scripts/android-localization-check.py
-python3 scripts/android-native-check.py apps/android/app/build/outputs/apk/debug/app-debug.apk
+python3 scripts/android-native-check.py --prebuilt apps/android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
 调试 APK 位于 `apps/android/app/build/outputs/apk/debug/app-debug.apk`。测试 APK 位于 `apps/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk`。在已连接且专用于本项目测试的真机或模拟器上，运行 `./apps/android/gradlew -p apps/android :app:connectedDebugAndroidTest` 执行设备测试。
 
-P164 的主机 TIFF 测试通过，覆盖缩放尺寸、像素与透明度、DPI、资源预算和取消。公开检出已验证调试 APK 和测试 APK 构建、Lint、本地化及原生打包；测试 APK 已编译，当前公开包尚未执行真机端到端回归。
+公开检出已验证调试 APK 和测试 APK 构建、Lint、本地化及两种 ABI 的原生打包。蒙版的公开回归覆盖画布、工程保存重开和 PNG 导出；具体命令、样本和剩余差异见 [P210 验证说明](docs/P210_VERIFICATION.md)。当前包尚未执行真机端到端回归。
 
 ## 相对桌面版的差距
 
-- **优先验收：** `.comp` v22 跨端回读、蒙版与选区变换的像素一致性，以及当前 APK 的真机完整流程。
+- **优先验收：** 扩大 `.comp` v22 跨端回读覆盖，继续对齐蒙版与选区变换的像素，并验收当前 APK 的真机完整流程。
 - **功能缺口：** 调整层已接入 11/20 种，仍缺部分滤镜、图层效果、高级形状样式和字体段落控制。导出预览、GIF、完整高位深及更多格式也未闭环。
 - **产品化：** 多文档、文件原位保存、完整 Inspector、快捷键和无障碍仍需补齐。大图长测、正式签名和商店发布需要独立验收。
 
